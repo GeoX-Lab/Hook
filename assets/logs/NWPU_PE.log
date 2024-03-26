@@ -1,0 +1,1212 @@
+2023-11-24 22:53:36,526 - pe_classification.py - line:45 - INFO - Namespace(backbone_depth=12, batch_size=32, dataset='NWPU_RESISC45', eval_epochs=20, exp_name='PatchEmbed_NWPU_cls_100e_b32', lr=0.0001, max_epochs=100, num_workers=8, output_dir='./workdirs/PatchEmbed_NWPU_cls_100e_b32/2023-11-24 22:53:36', print_freq=20, seed=0, warmup_epochs=10)
+2023-11-24 22:53:36,527 - pe_classification.py - line:48 - INFO - set seed: 0
+2023-11-24 22:53:37,951 - pe_classification.py - line:95 - INFO - ----------------------------------------
+2023-11-24 22:53:37,952 - pe_classification.py - line:96 - INFO - ### Total Params: 85.68M
+2023-11-24 22:53:37,952 - pe_classification.py - line:97 - INFO - ### Freeze Params: 0.00M
+2023-11-24 22:53:37,952 - pe_classification.py - line:98 - INFO - ### Trainable Params: 85.68M
+2023-11-24 22:53:37,952 - pe_classification.py - line:99 - INFO - ----------------------------------------
+2023-11-24 22:53:42,302 - pe_classification.py - line:135 - INFO - epoch:1 cur_iter:20/197 total_iters:20 lr:1.015228e-06 loss:3.954214 eta:0:40:41.717280
+2023-11-24 22:53:44,353 - pe_classification.py - line:135 - INFO - epoch:1 cur_iter:40/197 total_iters:40 lr:2.030457e-06 loss:3.733191 eta:0:35:44.670080
+2023-11-24 22:53:46,720 - pe_classification.py - line:135 - INFO - epoch:1 cur_iter:60/197 total_iters:60 lr:3.045685e-06 loss:3.553962 eta:0:34:12.222880
+2023-11-24 22:53:49,254 - pe_classification.py - line:135 - INFO - epoch:1 cur_iter:80/197 total_iters:80 lr:4.060914e-06 loss:3.397406 eta:0:33:20.043180
+2023-11-24 22:53:51,826 - pe_classification.py - line:135 - INFO - epoch:1 cur_iter:100/197 total_iters:100 lr:5.076142e-06 loss:3.309999 eta:0:32:51.799200
+2023-11-24 22:53:54,261 - pe_classification.py - line:135 - INFO - epoch:1 cur_iter:120/197 total_iters:120 lr:6.091371e-06 loss:3.199493 eta:0:32:34.808460
+2023-11-24 22:53:56,853 - pe_classification.py - line:135 - INFO - epoch:1 cur_iter:140/197 total_iters:140 lr:7.106599e-06 loss:3.142571 eta:0:32:21.819000
+2023-11-24 22:53:59,272 - pe_classification.py - line:135 - INFO - epoch:1 cur_iter:160/197 total_iters:160 lr:8.121827e-06 loss:3.108641 eta:0:32:11.548540
+2023-11-24 22:54:01,829 - pe_classification.py - line:135 - INFO - epoch:1 cur_iter:180/197 total_iters:180 lr:9.137056e-06 loss:3.031901 eta:0:32:08.166080
+2023-11-24 22:54:06,136 - pe_classification.py - line:135 - INFO - epoch:2 cur_iter:3/197 total_iters:200 lr:1.015228e-05 loss:2.919715 eta:0:32:15.960000
+2023-11-24 22:54:08,593 - pe_classification.py - line:135 - INFO - epoch:2 cur_iter:23/197 total_iters:220 lr:1.116751e-05 loss:2.916076 eta:0:32:06.104480
+2023-11-24 22:54:11,340 - pe_classification.py - line:135 - INFO - epoch:2 cur_iter:43/197 total_iters:240 lr:1.218274e-05 loss:2.863747 eta:0:31:58.522480
+2023-11-24 22:54:16,205 - pe_classification.py - line:135 - INFO - epoch:2 cur_iter:63/197 total_iters:260 lr:1.319797e-05 loss:2.859088 eta:0:31:51.574080
+2023-11-24 22:54:21,740 - pe_classification.py - line:135 - INFO - epoch:2 cur_iter:83/197 total_iters:280 lr:1.421320e-05 loss:2.761975 eta:0:31:45.956480
+2023-11-24 22:54:26,136 - pe_classification.py - line:135 - INFO - epoch:2 cur_iter:103/197 total_iters:300 lr:1.522843e-05 loss:2.932540 eta:0:31:40.462800
+2023-11-24 22:54:31,733 - pe_classification.py - line:135 - INFO - epoch:2 cur_iter:123/197 total_iters:320 lr:1.624365e-05 loss:2.868963 eta:0:31:35.480280
+2023-11-24 22:54:36,062 - pe_classification.py - line:135 - INFO - epoch:2 cur_iter:143/197 total_iters:340 lr:1.725888e-05 loss:2.838619 eta:0:31:31.917280
+2023-11-24 22:54:41,446 - pe_classification.py - line:135 - INFO - epoch:2 cur_iter:163/197 total_iters:360 lr:1.827411e-05 loss:2.702867 eta:0:31:25.417920
+2023-11-24 22:54:45,816 - pe_classification.py - line:135 - INFO - epoch:2 cur_iter:183/197 total_iters:380 lr:1.928934e-05 loss:2.776793 eta:0:31:21.690720
+2023-11-24 22:54:52,348 - pe_classification.py - line:135 - INFO - epoch:3 cur_iter:6/197 total_iters:400 lr:2.030457e-05 loss:2.888863 eta:0:31:16.732000
+2023-11-24 22:54:57,049 - pe_classification.py - line:135 - INFO - epoch:3 cur_iter:26/197 total_iters:420 lr:2.131980e-05 loss:2.672636 eta:0:31:09.909360
+2023-11-24 22:55:00,866 - pe_classification.py - line:135 - INFO - epoch:3 cur_iter:46/197 total_iters:440 lr:2.233503e-05 loss:2.629243 eta:0:31:03.539820
+2023-11-24 22:55:05,772 - pe_classification.py - line:135 - INFO - epoch:3 cur_iter:66/197 total_iters:460 lr:2.335025e-05 loss:2.609312 eta:0:30:57.506560
+2023-11-24 22:55:09,721 - pe_classification.py - line:135 - INFO - epoch:3 cur_iter:86/197 total_iters:480 lr:2.436548e-05 loss:2.676020 eta:0:30:51.827780
+2023-11-24 22:55:14,617 - pe_classification.py - line:135 - INFO - epoch:3 cur_iter:106/197 total_iters:500 lr:2.538071e-05 loss:2.719601 eta:0:30:46.406400
+2023-11-24 22:55:18,504 - pe_classification.py - line:135 - INFO - epoch:3 cur_iter:126/197 total_iters:520 lr:2.639594e-05 loss:2.547594 eta:0:30:41.318360
+2023-11-24 22:55:23,362 - pe_classification.py - line:135 - INFO - epoch:3 cur_iter:146/197 total_iters:540 lr:2.741117e-05 loss:2.620830 eta:0:30:36.505160
+2023-11-24 22:55:27,155 - pe_classification.py - line:135 - INFO - epoch:3 cur_iter:166/197 total_iters:560 lr:2.842640e-05 loss:2.627796 eta:0:30:31.889400
+2023-11-24 22:55:32,056 - pe_classification.py - line:135 - INFO - epoch:3 cur_iter:186/197 total_iters:580 lr:2.944162e-05 loss:2.748094 eta:0:30:27.489600
+2023-11-24 22:55:38,097 - pe_classification.py - line:135 - INFO - epoch:4 cur_iter:9/197 total_iters:600 lr:3.045685e-05 loss:2.543471 eta:0:30:23.362400
+2023-11-24 22:55:42,021 - pe_classification.py - line:135 - INFO - epoch:4 cur_iter:29/197 total_iters:620 lr:3.147208e-05 loss:2.515037 eta:0:30:19.220760
+2023-11-24 22:55:46,888 - pe_classification.py - line:135 - INFO - epoch:4 cur_iter:49/197 total_iters:640 lr:3.248731e-05 loss:2.556311 eta:0:30:15.255340
+2023-11-24 22:55:50,756 - pe_classification.py - line:135 - INFO - epoch:4 cur_iter:69/197 total_iters:660 lr:3.350254e-05 loss:2.419181 eta:0:30:11.351360
+2023-11-24 22:55:55,618 - pe_classification.py - line:135 - INFO - epoch:4 cur_iter:89/197 total_iters:680 lr:3.451777e-05 loss:2.551593 eta:0:30:07.679820
+2023-11-24 22:55:59,498 - pe_classification.py - line:135 - INFO - epoch:4 cur_iter:109/197 total_iters:700 lr:3.553299e-05 loss:2.407928 eta:0:30:04.069000
+2023-11-24 22:56:04,291 - pe_classification.py - line:135 - INFO - epoch:4 cur_iter:129/197 total_iters:720 lr:3.654822e-05 loss:2.381229 eta:0:30:00.594640
+2023-11-24 22:56:08,187 - pe_classification.py - line:135 - INFO - epoch:4 cur_iter:149/197 total_iters:740 lr:3.756345e-05 loss:2.298828 eta:0:29:57.199440
+2023-11-24 22:56:12,990 - pe_classification.py - line:135 - INFO - epoch:4 cur_iter:169/197 total_iters:760 lr:3.857868e-05 loss:2.381626 eta:0:29:53.921040
+2023-11-24 22:56:16,885 - pe_classification.py - line:135 - INFO - epoch:4 cur_iter:189/197 total_iters:780 lr:3.959391e-05 loss:2.300341 eta:0:29:50.683400
+2023-11-24 22:56:22,987 - pe_classification.py - line:135 - INFO - epoch:5 cur_iter:12/197 total_iters:800 lr:4.060914e-05 loss:2.391320 eta:0:29:47.656500
+2023-11-24 22:56:26,766 - pe_classification.py - line:135 - INFO - epoch:5 cur_iter:32/197 total_iters:820 lr:4.162437e-05 loss:2.276601 eta:0:29:44.632000
+2023-11-24 22:56:31,620 - pe_classification.py - line:135 - INFO - epoch:5 cur_iter:52/197 total_iters:840 lr:4.263959e-05 loss:2.197096 eta:0:29:41.515600
+2023-11-24 22:56:35,471 - pe_classification.py - line:135 - INFO - epoch:5 cur_iter:72/197 total_iters:860 lr:4.365482e-05 loss:2.289394 eta:0:29:38.627880
+2023-11-24 22:56:40,314 - pe_classification.py - line:135 - INFO - epoch:5 cur_iter:92/197 total_iters:880 lr:4.467005e-05 loss:2.321964 eta:0:29:35.685820
+2023-11-24 22:56:44,135 - pe_classification.py - line:135 - INFO - epoch:5 cur_iter:112/197 total_iters:900 lr:4.568528e-05 loss:2.256501 eta:0:29:33.046800
+2023-11-24 22:56:48,917 - pe_classification.py - line:135 - INFO - epoch:5 cur_iter:132/197 total_iters:920 lr:4.670051e-05 loss:2.137885 eta:0:29:30.090120
+2023-11-24 22:56:52,794 - pe_classification.py - line:135 - INFO - epoch:5 cur_iter:152/197 total_iters:940 lr:4.771574e-05 loss:2.227830 eta:0:29:27.398360
+2023-11-24 22:56:57,552 - pe_classification.py - line:135 - INFO - epoch:5 cur_iter:172/197 total_iters:960 lr:4.873096e-05 loss:2.357028 eta:0:29:24.708320
+2023-11-24 22:57:01,882 - pe_classification.py - line:135 - INFO - epoch:5 cur_iter:192/197 total_iters:980 lr:4.974619e-05 loss:2.220723 eta:0:29:22.731360
+2023-11-24 22:57:08,888 - pe_classification.py - line:135 - INFO - epoch:6 cur_iter:15/197 total_iters:1000 lr:5.076142e-05 loss:2.156668 eta:0:29:20.754600
+2023-11-24 22:57:13,207 - pe_classification.py - line:135 - INFO - epoch:6 cur_iter:35/197 total_iters:1020 lr:5.177665e-05 loss:2.215786 eta:0:29:18.703320
+2023-11-24 22:57:16,196 - pe_classification.py - line:135 - INFO - epoch:6 cur_iter:55/197 total_iters:1040 lr:5.279188e-05 loss:2.122794 eta:0:29:16.671060
+2023-11-24 22:57:21,827 - pe_classification.py - line:135 - INFO - epoch:6 cur_iter:75/197 total_iters:1060 lr:5.380711e-05 loss:2.118983 eta:0:29:14.490000
+2023-11-24 22:57:25,813 - pe_classification.py - line:135 - INFO - epoch:6 cur_iter:95/197 total_iters:1080 lr:5.482234e-05 loss:2.048116 eta:0:29:12.011660
+2023-11-24 22:57:30,656 - pe_classification.py - line:135 - INFO - epoch:6 cur_iter:115/197 total_iters:1100 lr:5.583756e-05 loss:2.320821 eta:0:29:09.534600
+2023-11-24 22:57:34,553 - pe_classification.py - line:135 - INFO - epoch:6 cur_iter:135/197 total_iters:1120 lr:5.685279e-05 loss:2.181227 eta:0:29:07.095980
+2023-11-24 22:57:39,400 - pe_classification.py - line:135 - INFO - epoch:6 cur_iter:155/197 total_iters:1140 lr:5.786802e-05 loss:2.040485 eta:0:29:04.528640
+2023-11-24 22:57:43,257 - pe_classification.py - line:135 - INFO - epoch:6 cur_iter:175/197 total_iters:1160 lr:5.888325e-05 loss:2.137942 eta:0:29:02.129640
+2023-11-24 22:57:47,776 - pe_classification.py - line:135 - INFO - epoch:6 cur_iter:195/197 total_iters:1180 lr:5.989848e-05 loss:1.958150 eta:0:28:59.731760
+2023-11-24 22:57:54,194 - pe_classification.py - line:135 - INFO - epoch:7 cur_iter:18/197 total_iters:1200 lr:6.091371e-05 loss:1.877388 eta:0:28:57.335000
+2023-11-24 22:57:58,151 - pe_classification.py - line:135 - INFO - epoch:7 cur_iter:38/197 total_iters:1220 lr:6.192893e-05 loss:1.961477 eta:0:28:55.105680
+2023-11-24 22:58:02,988 - pe_classification.py - line:135 - INFO - epoch:7 cur_iter:58/197 total_iters:1240 lr:6.294416e-05 loss:1.920740 eta:0:28:52.784820
+2023-11-24 22:58:06,936 - pe_classification.py - line:135 - INFO - epoch:7 cur_iter:78/197 total_iters:1260 lr:6.395939e-05 loss:1.946621 eta:0:28:50.483360
+2023-11-24 22:58:11,801 - pe_classification.py - line:135 - INFO - epoch:7 cur_iter:98/197 total_iters:1280 lr:6.497462e-05 loss:2.016238 eta:0:28:48.238080
+2023-11-24 22:58:15,625 - pe_classification.py - line:135 - INFO - epoch:7 cur_iter:118/197 total_iters:1300 lr:6.598985e-05 loss:2.060647 eta:0:28:46.012000
+2023-11-24 22:58:20,450 - pe_classification.py - line:135 - INFO - epoch:7 cur_iter:138/197 total_iters:1320 lr:6.700508e-05 loss:2.084842 eta:0:28:43.841820
+2023-11-24 22:58:24,448 - pe_classification.py - line:135 - INFO - epoch:7 cur_iter:158/197 total_iters:1340 lr:6.802030e-05 loss:1.972037 eta:0:28:41.525400
+2023-11-24 22:58:29,101 - pe_classification.py - line:135 - INFO - epoch:7 cur_iter:178/197 total_iters:1360 lr:6.903553e-05 loss:2.084978 eta:0:28:39.356660
+2023-11-24 22:58:35,472 - pe_classification.py - line:135 - INFO - epoch:8 cur_iter:1/197 total_iters:1380 lr:7.005076e-05 loss:1.927537 eta:0:28:37.170240
+2023-11-24 22:58:39,779 - pe_classification.py - line:135 - INFO - epoch:8 cur_iter:21/197 total_iters:1400 lr:7.106599e-05 loss:1.851189 eta:0:28:35.313900
+2023-11-24 22:58:44,766 - pe_classification.py - line:135 - INFO - epoch:8 cur_iter:41/197 total_iters:1420 lr:7.208122e-05 loss:1.806889 eta:0:28:33.311280
+2023-11-24 22:58:48,614 - pe_classification.py - line:135 - INFO - epoch:8 cur_iter:61/197 total_iters:1440 lr:7.309645e-05 loss:1.889207 eta:0:28:31.162860
+2023-11-24 22:58:53,483 - pe_classification.py - line:135 - INFO - epoch:8 cur_iter:81/197 total_iters:1460 lr:7.411168e-05 loss:1.855159 eta:0:28:28.960320
+2023-11-24 22:58:57,345 - pe_classification.py - line:135 - INFO - epoch:8 cur_iter:101/197 total_iters:1480 lr:7.512690e-05 loss:1.875238 eta:0:28:26.740280
+2023-11-24 22:59:02,095 - pe_classification.py - line:135 - INFO - epoch:8 cur_iter:121/197 total_iters:1500 lr:7.614213e-05 loss:1.838025 eta:0:28:24.612000
+2023-11-24 22:59:05,944 - pe_classification.py - line:135 - INFO - epoch:8 cur_iter:141/197 total_iters:1520 lr:7.715736e-05 loss:1.892493 eta:0:28:22.429740
+2023-11-24 22:59:10,694 - pe_classification.py - line:135 - INFO - epoch:8 cur_iter:161/197 total_iters:1540 lr:7.817259e-05 loss:1.933940 eta:0:28:20.302640
+2023-11-24 22:59:14,577 - pe_classification.py - line:135 - INFO - epoch:8 cur_iter:181/197 total_iters:1560 lr:7.918782e-05 loss:1.845641 eta:0:28:18.157960
+2023-11-24 22:59:20,733 - pe_classification.py - line:135 - INFO - epoch:9 cur_iter:4/197 total_iters:1580 lr:8.020305e-05 loss:1.823833 eta:0:28:16.086360
+2023-11-24 22:59:24,532 - pe_classification.py - line:135 - INFO - epoch:9 cur_iter:24/197 total_iters:1600 lr:8.121827e-05 loss:1.623462 eta:0:28:13.942800
+2023-11-24 22:59:29,373 - pe_classification.py - line:135 - INFO - epoch:9 cur_iter:44/197 total_iters:1620 lr:8.223350e-05 loss:1.767405 eta:0:28:11.872160
+2023-11-24 22:59:33,297 - pe_classification.py - line:135 - INFO - epoch:9 cur_iter:64/197 total_iters:1640 lr:8.324873e-05 loss:1.784841 eta:0:28:09.801960
+2023-11-24 22:59:38,077 - pe_classification.py - line:135 - INFO - epoch:9 cur_iter:84/197 total_iters:1660 lr:8.426396e-05 loss:1.602543 eta:0:28:07.696120
+2023-11-24 22:59:41,989 - pe_classification.py - line:135 - INFO - epoch:9 cur_iter:104/197 total_iters:1680 lr:8.527919e-05 loss:1.693712 eta:0:28:05.644860
+2023-11-24 22:59:46,776 - pe_classification.py - line:135 - INFO - epoch:9 cur_iter:124/197 total_iters:1700 lr:8.629442e-05 loss:1.875252 eta:0:28:03.540000
+2023-11-24 22:59:50,593 - pe_classification.py - line:135 - INFO - epoch:9 cur_iter:144/197 total_iters:1720 lr:8.730964e-05 loss:1.761245 eta:0:28:01.453640
+2023-11-24 22:59:55,435 - pe_classification.py - line:135 - INFO - epoch:9 cur_iter:164/197 total_iters:1740 lr:8.832487e-05 loss:1.739382 eta:0:27:59.403680
+2023-11-24 22:59:59,408 - pe_classification.py - line:135 - INFO - epoch:9 cur_iter:184/197 total_iters:1760 lr:8.934010e-05 loss:1.738380 eta:0:27:57.282360
+2023-11-24 23:00:05,472 - pe_classification.py - line:135 - INFO - epoch:10 cur_iter:7/197 total_iters:1780 lr:9.035533e-05 loss:1.828846 eta:0:27:55.251200
+2023-11-24 23:00:10,196 - pe_classification.py - line:135 - INFO - epoch:10 cur_iter:27/197 total_iters:1800 lr:9.137056e-05 loss:1.601425 eta:0:27:53.202500
+2023-11-24 23:00:13,088 - pe_classification.py - line:135 - INFO - epoch:10 cur_iter:47/197 total_iters:1820 lr:9.238579e-05 loss:1.630483 eta:0:27:51.207840
+2023-11-24 23:00:16,873 - pe_classification.py - line:135 - INFO - epoch:10 cur_iter:67/197 total_iters:1840 lr:9.340102e-05 loss:1.771931 eta:0:27:49.177740
+2023-11-24 23:00:20,763 - pe_classification.py - line:135 - INFO - epoch:10 cur_iter:87/197 total_iters:1860 lr:9.441624e-05 loss:1.575302 eta:0:27:47.094480
+2023-11-24 23:00:25,591 - pe_classification.py - line:135 - INFO - epoch:10 cur_iter:107/197 total_iters:1880 lr:9.543147e-05 loss:1.844953 eta:0:27:45.118620
+2023-11-24 23:00:29,436 - pe_classification.py - line:135 - INFO - epoch:10 cur_iter:127/197 total_iters:1900 lr:9.644670e-05 loss:1.580555 eta:0:27:43.143000
+2023-11-24 23:00:34,236 - pe_classification.py - line:135 - INFO - epoch:10 cur_iter:147/197 total_iters:1920 lr:9.746193e-05 loss:1.661410 eta:0:27:41.149840
+2023-11-24 23:00:38,131 - pe_classification.py - line:135 - INFO - epoch:10 cur_iter:167/197 total_iters:1940 lr:9.847716e-05 loss:1.735463 eta:0:27:39.174720
+2023-11-24 23:00:42,928 - pe_classification.py - line:135 - INFO - epoch:10 cur_iter:187/197 total_iters:1960 lr:9.949239e-05 loss:1.714951 eta:0:27:37.217580
+2023-11-24 23:00:49,015 - pe_classification.py - line:135 - INFO - epoch:11 cur_iter:10/197 total_iters:1980 lr:9.999992e-05 loss:1.909738 eta:0:27:35.242920
+2023-11-24 23:00:52,884 - pe_classification.py - line:135 - INFO - epoch:11 cur_iter:30/197 total_iters:2000 lr:9.999929e-05 loss:1.593406 eta:0:27:33.180000
+2023-11-24 23:00:57,677 - pe_classification.py - line:135 - INFO - epoch:11 cur_iter:50/197 total_iters:2020 lr:9.999804e-05 loss:1.754542 eta:0:27:31.117520
+2023-11-24 23:01:01,620 - pe_classification.py - line:135 - INFO - epoch:11 cur_iter:70/197 total_iters:2040 lr:9.999615e-05 loss:1.483560 eta:0:27:29.108460
+2023-11-24 23:01:06,394 - pe_classification.py - line:135 - INFO - epoch:11 cur_iter:90/197 total_iters:2060 lr:9.999364e-05 loss:1.645725 eta:0:27:27.099720
+2023-11-24 23:01:10,392 - pe_classification.py - line:135 - INFO - epoch:11 cur_iter:110/197 total_iters:2080 lr:9.999050e-05 loss:1.769779 eta:0:27:25.108920
+2023-11-24 23:01:15,203 - pe_classification.py - line:135 - INFO - epoch:11 cur_iter:130/197 total_iters:2100 lr:9.998674e-05 loss:1.765239 eta:0:27:23.136000
+2023-11-24 23:01:19,057 - pe_classification.py - line:135 - INFO - epoch:11 cur_iter:150/197 total_iters:2120 lr:9.998234e-05 loss:1.640094 eta:0:27:21.163320
+2023-11-24 23:01:23,851 - pe_classification.py - line:135 - INFO - epoch:11 cur_iter:170/197 total_iters:2140 lr:9.997732e-05 loss:1.563004 eta:0:27:19.173320
+2023-11-24 23:01:27,741 - pe_classification.py - line:135 - INFO - epoch:11 cur_iter:190/197 total_iters:2160 lr:9.997167e-05 loss:1.471090 eta:0:27:17.148520
+2023-11-24 23:01:33,745 - pe_classification.py - line:135 - INFO - epoch:12 cur_iter:13/197 total_iters:2180 lr:9.996539e-05 loss:1.544258 eta:0:27:15.246720
+2023-11-24 23:01:38,388 - pe_classification.py - line:135 - INFO - epoch:12 cur_iter:33/197 total_iters:2200 lr:9.995848e-05 loss:1.483768 eta:0:27:13.222500
+2023-11-24 23:01:42,331 - pe_classification.py - line:135 - INFO - epoch:12 cur_iter:53/197 total_iters:2220 lr:9.995095e-05 loss:1.650608 eta:0:27:11.233600
+2023-11-24 23:01:47,038 - pe_classification.py - line:135 - INFO - epoch:12 cur_iter:73/197 total_iters:2240 lr:9.994279e-05 loss:1.484711 eta:0:27:09.297360
+2023-11-24 23:01:51,026 - pe_classification.py - line:135 - INFO - epoch:12 cur_iter:93/197 total_iters:2260 lr:9.993400e-05 loss:1.501000 eta:0:27:07.326400
+2023-11-24 23:01:55,695 - pe_classification.py - line:135 - INFO - epoch:12 cur_iter:113/197 total_iters:2280 lr:9.992459e-05 loss:1.405103 eta:0:27:05.390520
+2023-11-24 23:01:59,651 - pe_classification.py - line:135 - INFO - epoch:12 cur_iter:133/197 total_iters:2300 lr:9.991455e-05 loss:1.431534 eta:0:27:03.367800
+2023-11-24 23:02:04,417 - pe_classification.py - line:135 - INFO - epoch:12 cur_iter:153/197 total_iters:2320 lr:9.990388e-05 loss:1.595336 eta:0:27:01.414960
+2023-11-24 23:02:08,344 - pe_classification.py - line:135 - INFO - epoch:12 cur_iter:173/197 total_iters:2340 lr:9.989258e-05 loss:1.500171 eta:0:26:59.410240
+2023-11-24 23:02:12,735 - pe_classification.py - line:135 - INFO - epoch:12 cur_iter:193/197 total_iters:2360 lr:9.988066e-05 loss:1.451089 eta:0:26:57.475200
+2023-11-24 23:02:18,230 - pe_classification.py - line:135 - INFO - epoch:13 cur_iter:16/197 total_iters:2380 lr:9.986811e-05 loss:1.332014 eta:0:26:55.488360
+2023-11-24 23:02:22,975 - pe_classification.py - line:135 - INFO - epoch:13 cur_iter:36/197 total_iters:2400 lr:9.985494e-05 loss:1.317846 eta:0:26:53.484500
+2023-11-24 23:02:26,881 - pe_classification.py - line:135 - INFO - epoch:13 cur_iter:56/197 total_iters:2420 lr:9.984114e-05 loss:1.495191 eta:0:26:51.498240
+2023-11-24 23:02:31,656 - pe_classification.py - line:135 - INFO - epoch:13 cur_iter:76/197 total_iters:2440 lr:9.982671e-05 loss:1.458224 eta:0:26:49.529520
+2023-11-24 23:02:35,454 - pe_classification.py - line:135 - INFO - epoch:13 cur_iter:96/197 total_iters:2460 lr:9.981166e-05 loss:1.355847 eta:0:26:47.612760
+2023-11-24 23:02:40,277 - pe_classification.py - line:135 - INFO - epoch:13 cur_iter:116/197 total_iters:2480 lr:9.979598e-05 loss:1.431615 eta:0:26:45.644460
+2023-11-24 23:02:44,212 - pe_classification.py - line:135 - INFO - epoch:13 cur_iter:136/197 total_iters:2500 lr:9.977968e-05 loss:1.449850 eta:0:26:43.745200
+2023-11-24 23:02:49,011 - pe_classification.py - line:135 - INFO - epoch:13 cur_iter:156/197 total_iters:2520 lr:9.976275e-05 loss:1.446002 eta:0:26:41.794480
+2023-11-24 23:02:53,026 - pe_classification.py - line:135 - INFO - epoch:13 cur_iter:176/197 total_iters:2540 lr:9.974520e-05 loss:1.450746 eta:0:26:39.878280
+2023-11-24 23:02:57,497 - pe_classification.py - line:135 - INFO - epoch:13 cur_iter:196/197 total_iters:2560 lr:9.972702e-05 loss:1.420528 eta:0:26:37.825080
+2023-11-24 23:03:03,817 - pe_classification.py - line:135 - INFO - epoch:14 cur_iter:19/197 total_iters:2580 lr:9.970822e-05 loss:1.359320 eta:0:26:35.892160
+2023-11-24 23:03:07,351 - pe_classification.py - line:135 - INFO - epoch:14 cur_iter:39/197 total_iters:2600 lr:9.968879e-05 loss:1.346601 eta:0:26:33.959400
+2023-11-24 23:03:10,470 - pe_classification.py - line:135 - INFO - epoch:14 cur_iter:59/197 total_iters:2620 lr:9.966874e-05 loss:1.300639 eta:0:26:32.026800
+2023-11-24 23:03:14,267 - pe_classification.py - line:135 - INFO - epoch:14 cur_iter:79/197 total_iters:2640 lr:9.964807e-05 loss:1.150221 eta:0:26:30.111420
+2023-11-24 23:03:19,058 - pe_classification.py - line:135 - INFO - epoch:14 cur_iter:99/197 total_iters:2660 lr:9.962677e-05 loss:1.377378 eta:0:26:28.179120
+2023-11-24 23:03:22,958 - pe_classification.py - line:135 - INFO - epoch:14 cur_iter:119/197 total_iters:2680 lr:9.960485e-05 loss:1.386606 eta:0:26:26.281020
+2023-11-24 23:03:27,765 - pe_classification.py - line:135 - INFO - epoch:14 cur_iter:139/197 total_iters:2700 lr:9.958230e-05 loss:1.285089 eta:0:26:24.383000
+2023-11-24 23:03:31,617 - pe_classification.py - line:135 - INFO - epoch:14 cur_iter:159/197 total_iters:2720 lr:9.955914e-05 loss:1.282087 eta:0:26:22.468080
+2023-11-24 23:03:36,419 - pe_classification.py - line:135 - INFO - epoch:14 cur_iter:179/197 total_iters:2740 lr:9.953535e-05 loss:1.383894 eta:0:26:20.553280
+2023-11-24 23:03:42,393 - pe_classification.py - line:135 - INFO - epoch:15 cur_iter:2/197 total_iters:2760 lr:9.951093e-05 loss:1.484503 eta:0:26:18.689420
+2023-11-24 23:03:46,312 - pe_classification.py - line:135 - INFO - epoch:15 cur_iter:22/197 total_iters:2780 lr:9.948590e-05 loss:1.272330 eta:0:26:16.724040
+2023-11-24 23:03:51,160 - pe_classification.py - line:135 - INFO - epoch:15 cur_iter:42/197 total_iters:2800 lr:9.946025e-05 loss:1.223157 eta:0:26:14.792700
+2023-11-24 23:03:54,978 - pe_classification.py - line:135 - INFO - epoch:15 cur_iter:62/197 total_iters:2820 lr:9.943397e-05 loss:1.195153 eta:0:26:12.861520
+2023-11-24 23:03:59,831 - pe_classification.py - line:135 - INFO - epoch:15 cur_iter:82/197 total_iters:2840 lr:9.940707e-05 loss:1.379537 eta:0:26:10.981080
+2023-11-24 23:04:03,746 - pe_classification.py - line:135 - INFO - epoch:15 cur_iter:102/197 total_iters:2860 lr:9.937956e-05 loss:1.283909 eta:0:26:09.067000
+2023-11-24 23:04:08,577 - pe_classification.py - line:135 - INFO - epoch:15 cur_iter:122/197 total_iters:2880 lr:9.935142e-05 loss:1.250660 eta:0:26:07.169860
+2023-11-24 23:04:12,521 - pe_classification.py - line:135 - INFO - epoch:15 cur_iter:142/197 total_iters:2900 lr:9.932266e-05 loss:1.280395 eta:0:26:05.239200
+2023-11-24 23:04:17,331 - pe_classification.py - line:135 - INFO - epoch:15 cur_iter:162/197 total_iters:2920 lr:9.929329e-05 loss:1.223097 eta:0:26:03.308700
+2023-11-24 23:04:21,232 - pe_classification.py - line:135 - INFO - epoch:15 cur_iter:182/197 total_iters:2940 lr:9.926329e-05 loss:1.283342 eta:0:26:01.378360
+2023-11-24 23:04:27,251 - pe_classification.py - line:135 - INFO - epoch:16 cur_iter:5/197 total_iters:2960 lr:9.923268e-05 loss:1.196548 eta:0:25:59.498400
+2023-11-24 23:04:32,062 - pe_classification.py - line:135 - INFO - epoch:16 cur_iter:25/197 total_iters:2980 lr:9.920144e-05 loss:1.077527 eta:0:25:57.585040
+2023-11-24 23:04:36,025 - pe_classification.py - line:135 - INFO - epoch:16 cur_iter:45/197 total_iters:3000 lr:9.916959e-05 loss:1.234075 eta:0:25:55.688500
+2023-11-24 23:04:40,784 - pe_classification.py - line:135 - INFO - epoch:16 cur_iter:65/197 total_iters:3020 lr:9.913713e-05 loss:1.191323 eta:0:25:53.758680
+2023-11-24 23:04:44,644 - pe_classification.py - line:135 - INFO - epoch:16 cur_iter:85/197 total_iters:3040 lr:9.910404e-05 loss:1.296273 eta:0:25:51.845680
+2023-11-24 23:04:49,434 - pe_classification.py - line:135 - INFO - epoch:16 cur_iter:105/197 total_iters:3060 lr:9.907034e-05 loss:1.208148 eta:0:25:49.932800
+2023-11-24 23:04:53,256 - pe_classification.py - line:135 - INFO - epoch:16 cur_iter:125/197 total_iters:3080 lr:9.903602e-05 loss:1.200178 eta:0:25:47.986800
+2023-11-24 23:04:58,009 - pe_classification.py - line:135 - INFO - epoch:16 cur_iter:145/197 total_iters:3100 lr:9.900109e-05 loss:1.268410 eta:0:25:46.074200
+2023-11-24 23:05:01,943 - pe_classification.py - line:135 - INFO - epoch:16 cur_iter:165/197 total_iters:3120 lr:9.896554e-05 loss:1.251758 eta:0:25:44.145140
+2023-11-24 23:05:06,703 - pe_classification.py - line:135 - INFO - epoch:16 cur_iter:185/197 total_iters:3140 lr:9.892937e-05 loss:1.174747 eta:0:25:42.216240
+2023-11-24 23:05:12,035 - pe_classification.py - line:135 - INFO - epoch:17 cur_iter:8/197 total_iters:3160 lr:9.889259e-05 loss:1.208707 eta:0:25:40.304040
+2023-11-24 23:05:16,761 - pe_classification.py - line:135 - INFO - epoch:17 cur_iter:28/197 total_iters:3180 lr:9.885520e-05 loss:1.151777 eta:0:25:38.375440
+2023-11-24 23:05:20,674 - pe_classification.py - line:135 - INFO - epoch:17 cur_iter:48/197 total_iters:3200 lr:9.881720e-05 loss:0.974115 eta:0:25:36.480000
+2023-11-24 23:05:25,415 - pe_classification.py - line:135 - INFO - epoch:17 cur_iter:68/197 total_iters:3220 lr:9.877858e-05 loss:1.143027 eta:0:25:34.551680
+2023-11-24 23:05:29,319 - pe_classification.py - line:135 - INFO - epoch:17 cur_iter:88/197 total_iters:3240 lr:9.873935e-05 loss:1.138316 eta:0:25:32.656440
+2023-11-24 23:05:34,257 - pe_classification.py - line:135 - INFO - epoch:17 cur_iter:108/197 total_iters:3260 lr:9.869950e-05 loss:1.181262 eta:0:25:30.744840
+2023-11-24 23:05:38,030 - pe_classification.py - line:135 - INFO - epoch:17 cur_iter:128/197 total_iters:3280 lr:9.865905e-05 loss:1.243979 eta:0:25:28.866200
+2023-11-24 23:05:42,919 - pe_classification.py - line:135 - INFO - epoch:17 cur_iter:148/197 total_iters:3300 lr:9.861798e-05 loss:1.138031 eta:0:25:26.971200
+2023-11-24 23:05:46,773 - pe_classification.py - line:135 - INFO - epoch:17 cur_iter:168/197 total_iters:3320 lr:9.857630e-05 loss:1.174775 eta:0:25:25.076280
+2023-11-24 23:05:51,661 - pe_classification.py - line:135 - INFO - epoch:17 cur_iter:188/197 total_iters:3340 lr:9.853401e-05 loss:1.243662 eta:0:25:23.148720
+2023-11-24 23:05:57,787 - pe_classification.py - line:135 - INFO - epoch:18 cur_iter:11/197 total_iters:3360 lr:9.849112e-05 loss:1.074326 eta:0:25:21.254000
+2023-11-24 23:06:01,648 - pe_classification.py - line:135 - INFO - epoch:18 cur_iter:31/197 total_iters:3380 lr:9.844761e-05 loss:0.958352 eta:0:25:19.326720
+2023-11-24 23:06:05,325 - pe_classification.py - line:135 - INFO - epoch:18 cur_iter:51/197 total_iters:3400 lr:9.840350e-05 loss:1.010107 eta:0:25:17.432200
+2023-11-24 23:06:07,728 - pe_classification.py - line:135 - INFO - epoch:18 cur_iter:71/197 total_iters:3420 lr:9.835878e-05 loss:1.074835 eta:0:25:15.521480
+2023-11-24 23:06:12,344 - pe_classification.py - line:135 - INFO - epoch:18 cur_iter:91/197 total_iters:3440 lr:9.831345e-05 loss:1.112856 eta:0:25:13.627140
+2023-11-24 23:06:16,274 - pe_classification.py - line:135 - INFO - epoch:18 cur_iter:111/197 total_iters:3460 lr:9.826751e-05 loss:1.134241 eta:0:25:11.749120
+2023-11-24 23:06:21,057 - pe_classification.py - line:135 - INFO - epoch:18 cur_iter:131/197 total_iters:3480 lr:9.822097e-05 loss:1.137731 eta:0:25:09.854920
+2023-11-24 23:06:25,003 - pe_classification.py - line:135 - INFO - epoch:18 cur_iter:151/197 total_iters:3500 lr:9.817382e-05 loss:1.138688 eta:0:25:07.977000
+2023-11-24 23:06:29,881 - pe_classification.py - line:135 - INFO - epoch:18 cur_iter:171/197 total_iters:3520 lr:9.812607e-05 loss:1.139296 eta:0:25:06.082940
+2023-11-24 23:06:33,762 - pe_classification.py - line:135 - INFO - epoch:18 cur_iter:191/197 total_iters:3540 lr:9.807771e-05 loss:1.329171 eta:0:25:04.205120
+2023-11-24 23:06:39,825 - pe_classification.py - line:135 - INFO - epoch:19 cur_iter:14/197 total_iters:3560 lr:9.802875e-05 loss:1.057899 eta:0:25:02.311200
+2023-11-24 23:06:44,593 - pe_classification.py - line:135 - INFO - epoch:19 cur_iter:34/197 total_iters:3580 lr:9.797918e-05 loss:0.943947 eta:0:25:00.385120
+2023-11-24 23:06:48,489 - pe_classification.py - line:135 - INFO - epoch:19 cur_iter:54/197 total_iters:3600 lr:9.792902e-05 loss:1.130297 eta:0:24:58.475300
+2023-11-24 23:06:53,311 - pe_classification.py - line:135 - INFO - epoch:19 cur_iter:74/197 total_iters:3620 lr:9.787825e-05 loss:0.988109 eta:0:24:56.565600
+2023-11-24 23:06:57,165 - pe_classification.py - line:135 - INFO - epoch:19 cur_iter:94/197 total_iters:3640 lr:9.782688e-05 loss:1.108973 eta:0:24:54.672080
+2023-11-24 23:07:01,950 - pe_classification.py - line:135 - INFO - epoch:19 cur_iter:114/197 total_iters:3660 lr:9.777491e-05 loss:0.986185 eta:0:24:52.762600
+2023-11-24 23:07:05,824 - pe_classification.py - line:135 - INFO - epoch:19 cur_iter:134/197 total_iters:3680 lr:9.772234e-05 loss:1.077631 eta:0:24:50.869260
+2023-11-24 23:07:10,751 - pe_classification.py - line:135 - INFO - epoch:19 cur_iter:154/197 total_iters:3700 lr:9.766917e-05 loss:1.259183 eta:0:24:48.992000
+2023-11-24 23:07:14,682 - pe_classification.py - line:135 - INFO - epoch:19 cur_iter:174/197 total_iters:3720 lr:9.761540e-05 loss:1.037568 eta:0:24:47.098800
+2023-11-24 23:07:19,181 - pe_classification.py - line:135 - INFO - epoch:19 cur_iter:194/197 total_iters:3740 lr:9.756103e-05 loss:1.095253 eta:0:24:45.173760
+2023-11-24 23:07:25,502 - pe_classification.py - line:135 - INFO - epoch:20 cur_iter:17/197 total_iters:3760 lr:9.750607e-05 loss:1.140419 eta:0:24:43.296700
+2023-11-24 23:07:29,352 - pe_classification.py - line:135 - INFO - epoch:20 cur_iter:37/197 total_iters:3780 lr:9.745051e-05 loss:0.931815 eta:0:24:41.387840
+2023-11-24 23:07:34,190 - pe_classification.py - line:135 - INFO - epoch:20 cur_iter:57/197 total_iters:3800 lr:9.739435e-05 loss:1.094258 eta:0:24:39.463200
+2023-11-24 23:07:38,071 - pe_classification.py - line:135 - INFO - epoch:20 cur_iter:77/197 total_iters:3820 lr:9.733760e-05 loss:0.945332 eta:0:24:37.570480
+2023-11-24 23:07:42,860 - pe_classification.py - line:135 - INFO - epoch:20 cur_iter:97/197 total_iters:3840 lr:9.728025e-05 loss:0.905277 eta:0:24:35.677840
+2023-11-24 23:07:46,750 - pe_classification.py - line:135 - INFO - epoch:20 cur_iter:117/197 total_iters:3860 lr:9.722231e-05 loss:0.934068 eta:0:24:33.769440
+2023-11-24 23:07:51,527 - pe_classification.py - line:135 - INFO - epoch:20 cur_iter:137/197 total_iters:3880 lr:9.716378e-05 loss:0.985708 eta:0:24:31.861160
+2023-11-24 23:07:55,441 - pe_classification.py - line:135 - INFO - epoch:20 cur_iter:157/197 total_iters:3900 lr:9.710466e-05 loss:1.049019 eta:0:24:29.968800
+2023-11-24 23:08:00,134 - pe_classification.py - line:135 - INFO - epoch:20 cur_iter:177/197 total_iters:3920 lr:9.704494e-05 loss:1.123566 eta:0:24:28.076520
+2023-11-24 23:08:03,741 - pe_classification.py - line:135 - INFO - epoch:20 cur_iter:197/197 total_iters:3940 lr:9.698463e-05 loss:0.975633 eta:0:24:26.121280
+2023-11-24 23:08:06,594 - pe_classification.py - line:164 - INFO - [val] cur_iters:0/788 eta:0:03:01.619138
+2023-11-24 23:08:10,371 - pe_classification.py - line:164 - INFO - [val] cur_iters:20/788 eta:0:01:06.075516
+2023-11-24 23:08:15,481 - pe_classification.py - line:164 - INFO - [val] cur_iters:40/788 eta:0:01:01.810515
+2023-11-24 23:08:19,475 - pe_classification.py - line:164 - INFO - [val] cur_iters:60/788 eta:0:00:59.192340
+2023-11-24 23:08:24,567 - pe_classification.py - line:164 - INFO - [val] cur_iters:80/788 eta:0:00:57.110046
+2023-11-24 23:08:28,514 - pe_classification.py - line:164 - INFO - [val] cur_iters:100/788 eta:0:00:55.212129
+2023-11-24 23:08:33,623 - pe_classification.py - line:164 - INFO - [val] cur_iters:120/788 eta:0:00:53.450712
+2023-11-24 23:08:37,844 - pe_classification.py - line:164 - INFO - [val] cur_iters:140/788 eta:0:00:51.730238
+2023-11-24 23:08:42,733 - pe_classification.py - line:164 - INFO - [val] cur_iters:160/788 eta:0:00:50.030838
+2023-11-24 23:08:46,869 - pe_classification.py - line:164 - INFO - [val] cur_iters:180/788 eta:0:00:48.350585
+2023-11-24 23:08:52,019 - pe_classification.py - line:164 - INFO - [val] cur_iters:200/788 eta:0:00:46.715808
+2023-11-24 23:08:56,168 - pe_classification.py - line:164 - INFO - [val] cur_iters:220/788 eta:0:00:45.060624
+2023-11-24 23:09:00,653 - pe_classification.py - line:164 - INFO - [val] cur_iters:240/788 eta:0:00:43.425783
+2023-11-24 23:09:03,427 - pe_classification.py - line:164 - INFO - [val] cur_iters:260/788 eta:0:00:41.790046
+2023-11-24 23:09:06,431 - pe_classification.py - line:164 - INFO - [val] cur_iters:280/788 eta:0:00:40.190397
+2023-11-24 23:09:10,457 - pe_classification.py - line:164 - INFO - [val] cur_iters:300/788 eta:0:00:38.600107
+2023-11-24 23:09:15,631 - pe_classification.py - line:164 - INFO - [val] cur_iters:320/788 eta:0:00:37.002745
+2023-11-24 23:09:19,576 - pe_classification.py - line:164 - INFO - [val] cur_iters:340/788 eta:0:00:35.406870
+2023-11-24 23:09:24,596 - pe_classification.py - line:164 - INFO - [val] cur_iters:360/788 eta:0:00:33.811141
+2023-11-24 23:09:28,580 - pe_classification.py - line:164 - INFO - [val] cur_iters:380/788 eta:0:00:32.214864
+2023-11-24 23:09:33,652 - pe_classification.py - line:164 - INFO - [val] cur_iters:400/788 eta:0:00:30.617892
+2023-11-24 23:09:37,683 - pe_classification.py - line:164 - INFO - [val] cur_iters:420/788 eta:0:00:29.021626
+2023-11-24 23:09:42,815 - pe_classification.py - line:164 - INFO - [val] cur_iters:440/788 eta:0:00:27.433820
+2023-11-24 23:09:46,894 - pe_classification.py - line:164 - INFO - [val] cur_iters:460/788 eta:0:00:25.845753
+2023-11-24 23:09:52,010 - pe_classification.py - line:164 - INFO - [val] cur_iters:480/788 eta:0:00:24.260368
+2023-11-24 23:09:56,040 - pe_classification.py - line:164 - INFO - [val] cur_iters:500/788 eta:0:00:22.678740
+2023-11-24 23:10:01,202 - pe_classification.py - line:164 - INFO - [val] cur_iters:520/788 eta:0:00:21.097539
+2023-11-24 23:10:05,123 - pe_classification.py - line:164 - INFO - [val] cur_iters:540/788 eta:0:00:19.514482
+2023-11-24 23:10:10,106 - pe_classification.py - line:164 - INFO - [val] cur_iters:560/788 eta:0:00:17.932092
+2023-11-24 23:10:14,125 - pe_classification.py - line:164 - INFO - [val] cur_iters:580/788 eta:0:00:16.348032
+2023-11-24 23:10:19,186 - pe_classification.py - line:164 - INFO - [val] cur_iters:600/788 eta:0:00:14.766829
+2023-11-24 23:10:23,140 - pe_classification.py - line:164 - INFO - [val] cur_iters:620/788 eta:0:00:13.187823
+2023-11-24 23:10:28,146 - pe_classification.py - line:164 - INFO - [val] cur_iters:640/788 eta:0:00:11.608149
+2023-11-24 23:10:32,237 - pe_classification.py - line:164 - INFO - [val] cur_iters:660/788 eta:0:00:10.028174
+2023-11-24 23:10:37,398 - pe_classification.py - line:164 - INFO - [val] cur_iters:680/788 eta:0:00:08.448506
+2023-11-24 23:10:41,423 - pe_classification.py - line:164 - INFO - [val] cur_iters:700/788 eta:0:00:06.869868
+2023-11-24 23:10:46,631 - pe_classification.py - line:164 - INFO - [val] cur_iters:720/788 eta:0:00:05.291191
+2023-11-24 23:10:50,599 - pe_classification.py - line:164 - INFO - [val] cur_iters:740/788 eta:0:00:03.711731
+2023-11-24 23:10:55,685 - pe_classification.py - line:164 - INFO - [val] cur_iters:760/788 eta:0:00:02.131974
+2023-11-24 23:10:59,707 - pe_classification.py - line:164 - INFO - [val] cur_iters:780/788 eta:0:00:00.552699
+2023-11-24 23:11:01,172 - pe_classification.py - line:167 - INFO - ----------------------------------------
+2023-11-24 23:11:01,172 - pe_classification.py - line:169 - INFO - ### top1: 60.226190476190474
+2023-11-24 23:11:01,172 - pe_classification.py - line:169 - INFO - ### top5: 88.43253968253968
+2023-11-24 23:11:01,172 - pe_classification.py - line:170 - INFO - ----------------------------------------
+2023-11-24 23:11:07,523 - pe_classification.py - line:135 - INFO - epoch:21 cur_iter:20/197 total_iters:3960 lr:9.692373e-05 loss:0.816252 eta:0:24:24.307940
+2023-11-24 23:11:11,414 - pe_classification.py - line:135 - INFO - epoch:21 cur_iter:40/197 total_iters:3980 lr:9.686225e-05 loss:0.897992 eta:0:24:22.415880
+2023-11-24 23:11:16,226 - pe_classification.py - line:135 - INFO - epoch:21 cur_iter:60/197 total_iters:4000 lr:9.680017e-05 loss:0.905908 eta:0:24:20.492500
+2023-11-24 23:11:20,150 - pe_classification.py - line:135 - INFO - epoch:21 cur_iter:80/197 total_iters:4020 lr:9.673751e-05 loss:1.058698 eta:0:24:18.600640
+2023-11-24 23:11:24,930 - pe_classification.py - line:135 - INFO - epoch:21 cur_iter:100/197 total_iters:4040 lr:9.667426e-05 loss:1.098715 eta:0:24:16.677540
+2023-11-24 23:11:28,758 - pe_classification.py - line:135 - INFO - epoch:21 cur_iter:120/197 total_iters:4060 lr:9.661042e-05 loss:0.909155 eta:0:24:14.770240
+2023-11-24 23:11:33,571 - pe_classification.py - line:135 - INFO - epoch:21 cur_iter:140/197 total_iters:4080 lr:9.654600e-05 loss:0.948219 eta:0:24:12.878680
+2023-11-24 23:11:37,545 - pe_classification.py - line:135 - INFO - epoch:21 cur_iter:160/197 total_iters:4100 lr:9.648099e-05 loss:0.998820 eta:0:24:10.956000
+2023-11-24 23:11:42,387 - pe_classification.py - line:135 - INFO - epoch:21 cur_iter:180/197 total_iters:4120 lr:9.641540e-05 loss:0.995883 eta:0:24:09.064640
+2023-11-24 23:11:48,402 - pe_classification.py - line:135 - INFO - epoch:22 cur_iter:3/197 total_iters:4140 lr:9.634923e-05 loss:0.931765 eta:0:24:07.173360
+2023-11-24 23:11:52,186 - pe_classification.py - line:135 - INFO - epoch:22 cur_iter:23/197 total_iters:4160 lr:9.628247e-05 loss:0.902461 eta:0:24:05.297700
+2023-11-24 23:11:57,047 - pe_classification.py - line:135 - INFO - epoch:22 cur_iter:43/197 total_iters:4180 lr:9.621514e-05 loss:0.899915 eta:0:24:03.422080
+2023-11-24 23:12:00,425 - pe_classification.py - line:135 - INFO - epoch:22 cur_iter:63/197 total_iters:4200 lr:9.614722e-05 loss:0.903999 eta:0:24:01.531000
+2023-11-24 23:12:03,271 - pe_classification.py - line:135 - INFO - epoch:22 cur_iter:83/197 total_iters:4220 lr:9.607873e-05 loss:1.082754 eta:0:23:59.655480
+2023-11-24 23:12:06,667 - pe_classification.py - line:135 - INFO - epoch:22 cur_iter:103/197 total_iters:4240 lr:9.600965e-05 loss:0.950779 eta:0:23:57.780000
+2023-11-24 23:12:11,404 - pe_classification.py - line:135 - INFO - epoch:22 cur_iter:123/197 total_iters:4260 lr:9.594000e-05 loss:0.955381 eta:0:23:55.920000
+2023-11-24 23:12:15,302 - pe_classification.py - line:135 - INFO - epoch:22 cur_iter:143/197 total_iters:4280 lr:9.586977e-05 loss:0.975043 eta:0:23:54.060000
+2023-11-24 23:12:20,126 - pe_classification.py - line:135 - INFO - epoch:22 cur_iter:163/197 total_iters:4300 lr:9.579896e-05 loss:0.876166 eta:0:23:52.169200
+2023-11-24 23:12:24,044 - pe_classification.py - line:135 - INFO - epoch:22 cur_iter:183/197 total_iters:4320 lr:9.572758e-05 loss:0.919104 eta:0:23:50.309240
+2023-11-24 23:12:30,160 - pe_classification.py - line:135 - INFO - epoch:23 cur_iter:6/197 total_iters:4340 lr:9.565563e-05 loss:0.832596 eta:0:23:48.433920
+2023-11-24 23:12:34,979 - pe_classification.py - line:135 - INFO - epoch:23 cur_iter:26/197 total_iters:4360 lr:9.558310e-05 loss:0.739816 eta:0:23:46.543300
+2023-11-24 23:12:38,835 - pe_classification.py - line:135 - INFO - epoch:23 cur_iter:46/197 total_iters:4380 lr:9.551000e-05 loss:0.804245 eta:0:23:44.668080
+2023-11-24 23:12:43,633 - pe_classification.py - line:135 - INFO - epoch:23 cur_iter:66/197 total_iters:4400 lr:9.543632e-05 loss:0.891832 eta:0:23:42.808200
+2023-11-24 23:12:47,522 - pe_classification.py - line:135 - INFO - epoch:23 cur_iter:86/197 total_iters:4420 lr:9.536208e-05 loss:0.923385 eta:0:23:40.917760
+2023-11-24 23:12:52,379 - pe_classification.py - line:135 - INFO - epoch:23 cur_iter:106/197 total_iters:4440 lr:9.528727e-05 loss:0.904514 eta:0:23:39.027400
+2023-11-24 23:12:56,240 - pe_classification.py - line:135 - INFO - epoch:23 cur_iter:126/197 total_iters:4460 lr:9.521189e-05 loss:0.881058 eta:0:23:37.137120
+2023-11-24 23:13:01,002 - pe_classification.py - line:135 - INFO - epoch:23 cur_iter:146/197 total_iters:4480 lr:9.513594e-05 loss:0.935844 eta:0:23:35.231700
+2023-11-24 23:13:04,892 - pe_classification.py - line:135 - INFO - epoch:23 cur_iter:166/197 total_iters:4500 lr:9.505942e-05 loss:0.999805 eta:0:23:33.356800
+2023-11-24 23:13:09,705 - pe_classification.py - line:135 - INFO - epoch:23 cur_iter:186/197 total_iters:4520 lr:9.498234e-05 loss:0.978905 eta:0:23:31.466760
+2023-11-24 23:13:15,750 - pe_classification.py - line:135 - INFO - epoch:24 cur_iter:9/197 total_iters:4540 lr:9.490469e-05 loss:0.856373 eta:0:23:29.591960
+2023-11-24 23:13:19,632 - pe_classification.py - line:135 - INFO - epoch:24 cur_iter:29/197 total_iters:4560 lr:9.482648e-05 loss:0.854340 eta:0:23:27.702060
+2023-11-24 23:13:24,465 - pe_classification.py - line:135 - INFO - epoch:24 cur_iter:49/197 total_iters:4580 lr:9.474771e-05 loss:0.813301 eta:0:23:25.827360
+2023-11-24 23:13:28,415 - pe_classification.py - line:135 - INFO - epoch:24 cur_iter:69/197 total_iters:4600 lr:9.466837e-05 loss:0.832110 eta:0:23:23.937600
+2023-11-24 23:13:33,190 - pe_classification.py - line:135 - INFO - epoch:24 cur_iter:89/197 total_iters:4620 lr:9.458847e-05 loss:0.928053 eta:0:23:22.047920
+2023-11-24 23:13:37,021 - pe_classification.py - line:135 - INFO - epoch:24 cur_iter:109/197 total_iters:4640 lr:9.450802e-05 loss:0.848742 eta:0:23:20.158320
+2023-11-24 23:13:41,818 - pe_classification.py - line:135 - INFO - epoch:24 cur_iter:129/197 total_iters:4660 lr:9.442700e-05 loss:0.828513 eta:0:23:18.298880
+2023-11-24 23:13:45,649 - pe_classification.py - line:135 - INFO - epoch:24 cur_iter:149/197 total_iters:4680 lr:9.434543e-05 loss:0.879128 eta:0:23:16.424420
+2023-11-24 23:13:50,426 - pe_classification.py - line:135 - INFO - epoch:24 cur_iter:169/197 total_iters:4700 lr:9.426330e-05 loss:0.807381 eta:0:23:14.550000
+2023-11-24 23:13:54,261 - pe_classification.py - line:135 - INFO - epoch:24 cur_iter:189/197 total_iters:4720 lr:9.418061e-05 loss:0.890777 eta:0:23:12.675620
+2023-11-24 23:14:00,336 - pe_classification.py - line:135 - INFO - epoch:25 cur_iter:12/197 total_iters:4740 lr:9.409737e-05 loss:0.762117 eta:0:23:10.801280
+2023-11-24 23:14:04,170 - pe_classification.py - line:135 - INFO - epoch:25 cur_iter:32/197 total_iters:4760 lr:9.401357e-05 loss:0.785113 eta:0:23:08.912040
+2023-11-24 23:14:08,993 - pe_classification.py - line:135 - INFO - epoch:25 cur_iter:52/197 total_iters:4780 lr:9.392923e-05 loss:0.805204 eta:0:23:07.007960
+2023-11-24 23:14:12,835 - pe_classification.py - line:135 - INFO - epoch:25 cur_iter:72/197 total_iters:4800 lr:9.384433e-05 loss:0.772233 eta:0:23:05.118900
+2023-11-24 23:14:17,664 - pe_classification.py - line:135 - INFO - epoch:25 cur_iter:92/197 total_iters:4820 lr:9.375888e-05 loss:0.790329 eta:0:23:03.244800
+2023-11-24 23:14:21,597 - pe_classification.py - line:135 - INFO - epoch:25 cur_iter:112/197 total_iters:4840 lr:9.367288e-05 loss:0.833755 eta:0:23:01.385600
+2023-11-24 23:14:26,507 - pe_classification.py - line:135 - INFO - epoch:25 cur_iter:132/197 total_iters:4860 lr:9.358633e-05 loss:0.717119 eta:0:22:59.481880
+2023-11-24 23:14:30,515 - pe_classification.py - line:135 - INFO - epoch:25 cur_iter:152/197 total_iters:4880 lr:9.349923e-05 loss:0.867824 eta:0:22:57.607920
+2023-11-24 23:14:35,531 - pe_classification.py - line:135 - INFO - epoch:25 cur_iter:172/197 total_iters:4900 lr:9.341159e-05 loss:0.825931 eta:0:22:55.704400
+2023-11-24 23:14:39,300 - pe_classification.py - line:135 - INFO - epoch:25 cur_iter:192/197 total_iters:4920 lr:9.332340e-05 loss:0.849939 eta:0:22:53.815780
+2023-11-24 23:14:45,293 - pe_classification.py - line:135 - INFO - epoch:26 cur_iter:15/197 total_iters:4940 lr:9.323467e-05 loss:0.700160 eta:0:22:51.942000
+2023-11-24 23:14:50,133 - pe_classification.py - line:135 - INFO - epoch:26 cur_iter:35/197 total_iters:4960 lr:9.314540e-05 loss:0.757496 eta:0:22:50.038780
+2023-11-24 23:14:54,012 - pe_classification.py - line:135 - INFO - epoch:26 cur_iter:55/197 total_iters:4980 lr:9.305558e-05 loss:0.757340 eta:0:22:48.179840
+2023-11-24 23:14:57,800 - pe_classification.py - line:135 - INFO - epoch:26 cur_iter:75/197 total_iters:5000 lr:9.296522e-05 loss:0.771797 eta:0:22:46.291500
+2023-11-24 23:15:00,265 - pe_classification.py - line:135 - INFO - epoch:26 cur_iter:95/197 total_iters:5020 lr:9.287433e-05 loss:0.809171 eta:0:22:44.417920
+2023-11-24 23:15:04,969 - pe_classification.py - line:135 - INFO - epoch:26 cur_iter:115/197 total_iters:5040 lr:9.278289e-05 loss:0.744651 eta:0:22:42.544380
+2023-11-24 23:15:08,910 - pe_classification.py - line:135 - INFO - epoch:26 cur_iter:135/197 total_iters:5060 lr:9.269092e-05 loss:0.858263 eta:0:22:40.685520
+2023-11-24 23:15:13,720 - pe_classification.py - line:135 - INFO - epoch:26 cur_iter:155/197 total_iters:5080 lr:9.259841e-05 loss:0.813878 eta:0:22:38.797420
+2023-11-24 23:15:17,632 - pe_classification.py - line:135 - INFO - epoch:26 cur_iter:175/197 total_iters:5100 lr:9.250537e-05 loss:0.760777 eta:0:22:36.967800
+2023-11-24 23:15:22,100 - pe_classification.py - line:135 - INFO - epoch:26 cur_iter:195/197 total_iters:5120 lr:9.241179e-05 loss:0.854313 eta:0:22:35.094360
+2023-11-24 23:15:28,494 - pe_classification.py - line:135 - INFO - epoch:27 cur_iter:18/197 total_iters:5140 lr:9.231768e-05 loss:0.699302 eta:0:22:33.191840
+2023-11-24 23:15:32,386 - pe_classification.py - line:135 - INFO - epoch:27 cur_iter:38/197 total_iters:5160 lr:9.222304e-05 loss:0.629577 eta:0:22:31.303980
+2023-11-24 23:15:37,242 - pe_classification.py - line:135 - INFO - epoch:27 cur_iter:58/197 total_iters:5180 lr:9.212787e-05 loss:0.688737 eta:0:22:29.416200
+2023-11-24 23:15:41,125 - pe_classification.py - line:135 - INFO - epoch:27 cur_iter:78/197 total_iters:5200 lr:9.203217e-05 loss:0.642694 eta:0:22:27.557500
+2023-11-24 23:15:45,895 - pe_classification.py - line:135 - INFO - epoch:27 cur_iter:98/197 total_iters:5220 lr:9.193594e-05 loss:0.774924 eta:0:22:25.684320
+2023-11-24 23:15:49,742 - pe_classification.py - line:135 - INFO - epoch:27 cur_iter:118/197 total_iters:5240 lr:9.183919e-05 loss:0.701601 eta:0:22:23.840100
+2023-11-24 23:15:54,547 - pe_classification.py - line:135 - INFO - epoch:27 cur_iter:138/197 total_iters:5260 lr:9.174191e-05 loss:0.760064 eta:0:22:21.952520
+2023-11-24 23:15:58,440 - pe_classification.py - line:135 - INFO - epoch:27 cur_iter:158/197 total_iters:5280 lr:9.164410e-05 loss:0.774004 eta:0:22:20.065020
+2023-11-24 23:16:03,246 - pe_classification.py - line:135 - INFO - epoch:27 cur_iter:178/197 total_iters:5300 lr:9.154577e-05 loss:0.785721 eta:0:22:18.177600
+2023-11-24 23:16:09,455 - pe_classification.py - line:135 - INFO - epoch:28 cur_iter:1/197 total_iters:5320 lr:9.144692e-05 loss:0.802392 eta:0:22:16.304640
+2023-11-24 23:16:13,367 - pe_classification.py - line:135 - INFO - epoch:28 cur_iter:21/197 total_iters:5340 lr:9.134755e-05 loss:0.592828 eta:0:22:14.446080
+2023-11-24 23:16:18,070 - pe_classification.py - line:135 - INFO - epoch:28 cur_iter:41/197 total_iters:5360 lr:9.124766e-05 loss:0.680575 eta:0:22:12.558840
+2023-11-24 23:16:21,999 - pe_classification.py - line:135 - INFO - epoch:28 cur_iter:61/197 total_iters:5380 lr:9.114726e-05 loss:0.692553 eta:0:22:10.686000
+2023-11-24 23:16:26,816 - pe_classification.py - line:135 - INFO - epoch:28 cur_iter:81/197 total_iters:5400 lr:9.104633e-05 loss:0.644708 eta:0:22:08.813200
+2023-11-24 23:16:30,739 - pe_classification.py - line:135 - INFO - epoch:28 cur_iter:101/197 total_iters:5420 lr:9.094489e-05 loss:0.760052 eta:0:22:06.926160
+2023-11-24 23:16:35,499 - pe_classification.py - line:135 - INFO - epoch:28 cur_iter:121/197 total_iters:5440 lr:9.084294e-05 loss:0.681000 eta:0:22:05.053460
+2023-11-24 23:16:39,498 - pe_classification.py - line:135 - INFO - epoch:28 cur_iter:141/197 total_iters:5460 lr:9.074047e-05 loss:0.775041 eta:0:22:03.166560
+2023-11-24 23:16:44,187 - pe_classification.py - line:135 - INFO - epoch:28 cur_iter:161/197 total_iters:5480 lr:9.063750e-05 loss:0.740098 eta:0:22:01.293960
+2023-11-24 23:16:48,250 - pe_classification.py - line:135 - INFO - epoch:28 cur_iter:181/197 total_iters:5500 lr:9.053401e-05 loss:0.738777 eta:0:21:59.407200
+2023-11-24 23:16:54,357 - pe_classification.py - line:135 - INFO - epoch:29 cur_iter:4/197 total_iters:5520 lr:9.043001e-05 loss:0.670986 eta:0:21:57.520520
+2023-11-24 23:16:58,198 - pe_classification.py - line:135 - INFO - epoch:29 cur_iter:24/197 total_iters:5540 lr:9.032550e-05 loss:0.556113 eta:0:21:55.648080
+2023-11-24 23:17:02,992 - pe_classification.py - line:135 - INFO - epoch:29 cur_iter:44/197 total_iters:5560 lr:9.022049e-05 loss:0.651107 eta:0:21:53.747400
+2023-11-24 23:17:06,881 - pe_classification.py - line:135 - INFO - epoch:29 cur_iter:64/197 total_iters:5580 lr:9.011498e-05 loss:0.693757 eta:0:21:51.903320
+2023-11-24 23:17:11,694 - pe_classification.py - line:135 - INFO - epoch:29 cur_iter:84/197 total_iters:5600 lr:9.000895e-05 loss:0.633859 eta:0:21:50.016900
+2023-11-24 23:17:15,569 - pe_classification.py - line:135 - INFO - epoch:29 cur_iter:104/197 total_iters:5620 lr:8.990243e-05 loss:0.739522 eta:0:21:48.130560
+2023-11-24 23:17:20,406 - pe_classification.py - line:135 - INFO - epoch:29 cur_iter:124/197 total_iters:5640 lr:8.979541e-05 loss:0.788671 eta:0:21:46.230240
+2023-11-24 23:17:24,317 - pe_classification.py - line:135 - INFO - epoch:29 cur_iter:144/197 total_iters:5660 lr:8.968788e-05 loss:0.683561 eta:0:21:44.372160
+2023-11-24 23:17:29,200 - pe_classification.py - line:135 - INFO - epoch:29 cur_iter:164/197 total_iters:5680 lr:8.957986e-05 loss:0.698320 eta:0:21:42.486040
+2023-11-24 23:17:33,098 - pe_classification.py - line:135 - INFO - epoch:29 cur_iter:184/197 total_iters:5700 lr:8.947134e-05 loss:0.678041 eta:0:21:40.614000
+2023-11-24 23:17:39,002 - pe_classification.py - line:135 - INFO - epoch:30 cur_iter:7/197 total_iters:5720 lr:8.936233e-05 loss:0.690595 eta:0:21:38.728020
+2023-11-24 23:17:43,759 - pe_classification.py - line:135 - INFO - epoch:30 cur_iter:27/197 total_iters:5740 lr:8.925282e-05 loss:0.610478 eta:0:21:36.856080
+2023-11-24 23:17:47,647 - pe_classification.py - line:135 - INFO - epoch:30 cur_iter:47/197 total_iters:5760 lr:8.914281e-05 loss:0.604624 eta:0:21:34.984180
+2023-11-24 23:17:52,019 - pe_classification.py - line:135 - INFO - epoch:30 cur_iter:67/197 total_iters:5780 lr:8.903232e-05 loss:0.628057 eta:0:21:33.112320
+2023-11-24 23:17:54,810 - pe_classification.py - line:135 - INFO - epoch:30 cur_iter:87/197 total_iters:5800 lr:8.892134e-05 loss:0.701300 eta:0:21:31.240500
+2023-11-24 23:17:58,053 - pe_classification.py - line:135 - INFO - epoch:30 cur_iter:107/197 total_iters:5820 lr:8.880986e-05 loss:0.669081 eta:0:21:29.382600
+2023-11-24 23:18:01,888 - pe_classification.py - line:135 - INFO - epoch:30 cur_iter:127/197 total_iters:5840 lr:8.869790e-05 loss:0.697971 eta:0:21:27.524700
+2023-11-24 23:18:06,687 - pe_classification.py - line:135 - INFO - epoch:30 cur_iter:147/197 total_iters:5860 lr:8.858546e-05 loss:0.745043 eta:0:21:25.652960
+2023-11-24 23:18:10,526 - pe_classification.py - line:135 - INFO - epoch:30 cur_iter:167/197 total_iters:5880 lr:8.847252e-05 loss:0.710616 eta:0:21:23.795080
+2023-11-24 23:18:15,215 - pe_classification.py - line:135 - INFO - epoch:30 cur_iter:187/197 total_iters:5900 lr:8.835911e-05 loss:0.684515 eta:0:21:21.923400
+2023-11-24 23:18:21,289 - pe_classification.py - line:135 - INFO - epoch:31 cur_iter:10/197 total_iters:5920 lr:8.824521e-05 loss:0.654885 eta:0:21:20.051760
+2023-11-24 23:18:25,225 - pe_classification.py - line:135 - INFO - epoch:31 cur_iter:30/197 total_iters:5940 lr:8.813084e-05 loss:0.478540 eta:0:21:18.166400
+2023-11-24 23:18:30,044 - pe_classification.py - line:135 - INFO - epoch:31 cur_iter:50/197 total_iters:5960 lr:8.801598e-05 loss:0.536302 eta:0:21:16.308600
+2023-11-24 23:18:33,903 - pe_classification.py - line:135 - INFO - epoch:31 cur_iter:70/197 total_iters:5980 lr:8.790065e-05 loss:0.537319 eta:0:21:14.437080
+2023-11-24 23:18:38,740 - pe_classification.py - line:135 - INFO - epoch:31 cur_iter:90/197 total_iters:6000 lr:8.778484e-05 loss:0.510747 eta:0:21:12.565600
+2023-11-24 23:18:42,591 - pe_classification.py - line:135 - INFO - epoch:31 cur_iter:110/197 total_iters:6020 lr:8.766856e-05 loss:0.605992 eta:0:21:10.694160
+2023-11-24 23:18:47,354 - pe_classification.py - line:135 - INFO - epoch:31 cur_iter:130/197 total_iters:6040 lr:8.755180e-05 loss:0.617858 eta:0:21:08.836420
+2023-11-24 23:18:51,217 - pe_classification.py - line:135 - INFO - epoch:31 cur_iter:150/197 total_iters:6060 lr:8.743457e-05 loss:0.653192 eta:0:21:06.951400
+2023-11-24 23:18:55,989 - pe_classification.py - line:135 - INFO - epoch:31 cur_iter:170/197 total_iters:6080 lr:8.731688e-05 loss:0.598044 eta:0:21:05.066460
+2023-11-24 23:18:59,851 - pe_classification.py - line:135 - INFO - epoch:31 cur_iter:190/197 total_iters:6100 lr:8.719871e-05 loss:0.705722 eta:0:21:03.195200
+2023-11-24 23:19:05,804 - pe_classification.py - line:135 - INFO - epoch:32 cur_iter:13/197 total_iters:6120 lr:8.708008e-05 loss:0.600619 eta:0:21:01.337560
+2023-11-24 23:19:10,592 - pe_classification.py - line:135 - INFO - epoch:32 cur_iter:33/197 total_iters:6140 lr:8.696098e-05 loss:0.524852 eta:0:20:59.466360
+2023-11-24 23:19:14,479 - pe_classification.py - line:135 - INFO - epoch:32 cur_iter:53/197 total_iters:6160 lr:8.684141e-05 loss:0.565203 eta:0:20:57.595200
+2023-11-24 23:19:19,314 - pe_classification.py - line:135 - INFO - epoch:32 cur_iter:73/197 total_iters:6180 lr:8.672139e-05 loss:0.519256 eta:0:20:55.724080
+2023-11-24 23:19:23,230 - pe_classification.py - line:135 - INFO - epoch:32 cur_iter:93/197 total_iters:6200 lr:8.660090e-05 loss:0.568771 eta:0:20:53.853000
+2023-11-24 23:19:28,091 - pe_classification.py - line:135 - INFO - epoch:32 cur_iter:113/197 total_iters:6220 lr:8.647995e-05 loss:0.559485 eta:0:20:51.968480
+2023-11-24 23:19:31,985 - pe_classification.py - line:135 - INFO - epoch:32 cur_iter:133/197 total_iters:6240 lr:8.635855e-05 loss:0.563963 eta:0:20:50.097500
+2023-11-24 23:19:36,853 - pe_classification.py - line:135 - INFO - epoch:32 cur_iter:153/197 total_iters:6260 lr:8.623669e-05 loss:0.687963 eta:0:20:48.226560
+2023-11-24 23:19:40,725 - pe_classification.py - line:135 - INFO - epoch:32 cur_iter:173/197 total_iters:6280 lr:8.611437e-05 loss:0.568122 eta:0:20:46.355660
+2023-11-24 23:19:45,266 - pe_classification.py - line:135 - INFO - epoch:32 cur_iter:193/197 total_iters:6300 lr:8.599160e-05 loss:0.628969 eta:0:20:44.484800
+2023-11-24 23:19:50,706 - pe_classification.py - line:135 - INFO - epoch:33 cur_iter:16/197 total_iters:6320 lr:8.586838e-05 loss:0.507363 eta:0:20:42.627360
+2023-11-24 23:19:55,424 - pe_classification.py - line:135 - INFO - epoch:33 cur_iter:36/197 total_iters:6340 lr:8.574470e-05 loss:0.438798 eta:0:20:40.743200
+2023-11-24 23:19:59,303 - pe_classification.py - line:135 - INFO - epoch:33 cur_iter:56/197 total_iters:6360 lr:8.562058e-05 loss:0.534447 eta:0:20:38.859120
+2023-11-24 23:20:04,120 - pe_classification.py - line:135 - INFO - epoch:33 cur_iter:76/197 total_iters:6380 lr:8.549601e-05 loss:0.582579 eta:0:20:37.001760
+2023-11-24 23:20:08,093 - pe_classification.py - line:135 - INFO - epoch:33 cur_iter:96/197 total_iters:6400 lr:8.537100e-05 loss:0.550608 eta:0:20:35.131100
+2023-11-24 23:20:12,887 - pe_classification.py - line:135 - INFO - epoch:33 cur_iter:116/197 total_iters:6420 lr:8.524554e-05 loss:0.580590 eta:0:20:33.260480
+2023-11-24 23:20:16,776 - pe_classification.py - line:135 - INFO - epoch:33 cur_iter:136/197 total_iters:6440 lr:8.511964e-05 loss:0.555085 eta:0:20:31.403160
+2023-11-24 23:20:21,591 - pe_classification.py - line:135 - INFO - epoch:33 cur_iter:156/197 total_iters:6460 lr:8.499329e-05 loss:0.558527 eta:0:20:29.519360
+2023-11-24 23:20:25,384 - pe_classification.py - line:135 - INFO - epoch:33 cur_iter:176/197 total_iters:6480 lr:8.486651e-05 loss:0.646151 eta:0:20:27.648860
+2023-11-24 23:20:29,839 - pe_classification.py - line:135 - INFO - epoch:33 cur_iter:196/197 total_iters:6500 lr:8.473929e-05 loss:0.691110 eta:0:20:25.778400
+2023-11-24 23:20:36,205 - pe_classification.py - line:135 - INFO - epoch:34 cur_iter:19/197 total_iters:6520 lr:8.461163e-05 loss:0.486668 eta:0:20:23.894800
+2023-11-24 23:20:40,127 - pe_classification.py - line:135 - INFO - epoch:34 cur_iter:39/197 total_iters:6540 lr:8.448354e-05 loss:0.440435 eta:0:20:22.050760
+2023-11-24 23:20:44,975 - pe_classification.py - line:135 - INFO - epoch:34 cur_iter:59/197 total_iters:6560 lr:8.435502e-05 loss:0.496655 eta:0:20:20.193540
+2023-11-24 23:20:48,806 - pe_classification.py - line:135 - INFO - epoch:34 cur_iter:79/197 total_iters:6580 lr:8.422606e-05 loss:0.558579 eta:0:20:18.336320
+2023-11-24 23:20:52,009 - pe_classification.py - line:135 - INFO - epoch:34 cur_iter:99/197 total_iters:6600 lr:8.409668e-05 loss:0.538371 eta:0:20:16.466000
+2023-11-24 23:20:54,969 - pe_classification.py - line:135 - INFO - epoch:34 cur_iter:119/197 total_iters:6620 lr:8.396686e-05 loss:0.594311 eta:0:20:14.608800
+2023-11-24 23:20:59,834 - pe_classification.py - line:135 - INFO - epoch:34 cur_iter:139/197 total_iters:6640 lr:8.383662e-05 loss:0.448096 eta:0:20:12.738540
+2023-11-24 23:21:03,740 - pe_classification.py - line:135 - INFO - epoch:34 cur_iter:159/197 total_iters:6660 lr:8.370596e-05 loss:0.512331 eta:0:20:10.868320
+2023-11-24 23:21:08,932 - pe_classification.py - line:135 - INFO - epoch:34 cur_iter:179/197 total_iters:6680 lr:8.357487e-05 loss:0.497536 eta:0:20:08.998140
+2023-11-24 23:21:15,084 - pe_classification.py - line:135 - INFO - epoch:35 cur_iter:2/197 total_iters:6700 lr:8.344336e-05 loss:0.547764 eta:0:20:07.128000
+2023-11-24 23:21:18,899 - pe_classification.py - line:135 - INFO - epoch:35 cur_iter:22/197 total_iters:6720 lr:8.331143e-05 loss:0.472913 eta:0:20:05.244920
+2023-11-24 23:21:23,742 - pe_classification.py - line:135 - INFO - epoch:35 cur_iter:42/197 total_iters:6740 lr:8.317908e-05 loss:0.522534 eta:0:20:03.387840
+2023-11-24 23:21:27,562 - pe_classification.py - line:135 - INFO - epoch:35 cur_iter:62/197 total_iters:6760 lr:8.304632e-05 loss:0.602425 eta:0:20:01.517820
+2023-11-24 23:21:32,404 - pe_classification.py - line:135 - INFO - epoch:35 cur_iter:82/197 total_iters:6780 lr:8.291314e-05 loss:0.517920 eta:0:19:59.647840
+2023-11-24 23:21:36,286 - pe_classification.py - line:135 - INFO - epoch:35 cur_iter:102/197 total_iters:6800 lr:8.277954e-05 loss:0.458769 eta:0:19:57.777900
+2023-11-24 23:21:41,120 - pe_classification.py - line:135 - INFO - epoch:35 cur_iter:122/197 total_iters:6820 lr:8.264554e-05 loss:0.555182 eta:0:19:55.908000
+2023-11-24 23:21:44,984 - pe_classification.py - line:135 - INFO - epoch:35 cur_iter:142/197 total_iters:6840 lr:8.251112e-05 loss:0.544076 eta:0:19:54.038140
+2023-11-24 23:21:49,703 - pe_classification.py - line:135 - INFO - epoch:35 cur_iter:162/197 total_iters:6860 lr:8.237630e-05 loss:0.549803 eta:0:19:52.168320
+2023-11-24 23:21:53,634 - pe_classification.py - line:135 - INFO - epoch:35 cur_iter:182/197 total_iters:6880 lr:8.224107e-05 loss:0.666636 eta:0:19:50.311360
+2023-11-24 23:21:59,724 - pe_classification.py - line:135 - INFO - epoch:36 cur_iter:5/197 total_iters:6900 lr:8.210543e-05 loss:0.442747 eta:0:19:48.441600
+2023-11-24 23:22:04,465 - pe_classification.py - line:135 - INFO - epoch:36 cur_iter:25/197 total_iters:6920 lr:8.196940e-05 loss:0.509899 eta:0:19:46.571880
+2023-11-24 23:22:08,429 - pe_classification.py - line:135 - INFO - epoch:36 cur_iter:45/197 total_iters:6940 lr:8.183296e-05 loss:0.401863 eta:0:19:44.689440
+2023-11-24 23:22:13,243 - pe_classification.py - line:135 - INFO - epoch:36 cur_iter:65/197 total_iters:6960 lr:8.169612e-05 loss:0.423352 eta:0:19:42.819820
+2023-11-24 23:22:17,124 - pe_classification.py - line:135 - INFO - epoch:36 cur_iter:85/197 total_iters:6980 lr:8.155888e-05 loss:0.530825 eta:0:19:40.937520
+2023-11-24 23:22:21,970 - pe_classification.py - line:135 - INFO - epoch:36 cur_iter:105/197 total_iters:7000 lr:8.142125e-05 loss:0.474283 eta:0:19:39.068000
+2023-11-24 23:22:25,894 - pe_classification.py - line:135 - INFO - epoch:36 cur_iter:125/197 total_iters:7020 lr:8.128322e-05 loss:0.515981 eta:0:19:37.198520
+2023-11-24 23:22:30,616 - pe_classification.py - line:135 - INFO - epoch:36 cur_iter:145/197 total_iters:7040 lr:8.114480e-05 loss:0.440725 eta:0:19:35.329080
+2023-11-24 23:22:34,774 - pe_classification.py - line:135 - INFO - epoch:36 cur_iter:165/197 total_iters:7060 lr:8.100598e-05 loss:0.504461 eta:0:19:33.472320
+2023-11-24 23:22:39,386 - pe_classification.py - line:135 - INFO - epoch:36 cur_iter:185/197 total_iters:7080 lr:8.086678e-05 loss:0.514954 eta:0:19:31.602940
+2023-11-24 23:22:44,909 - pe_classification.py - line:135 - INFO - epoch:37 cur_iter:8/197 total_iters:7100 lr:8.072719e-05 loss:0.519345 eta:0:19:29.733600
+2023-11-24 23:22:49,678 - pe_classification.py - line:135 - INFO - epoch:37 cur_iter:28/197 total_iters:7120 lr:8.058722e-05 loss:0.461738 eta:0:19:27.851720
+2023-11-24 23:22:53,583 - pe_classification.py - line:135 - INFO - epoch:37 cur_iter:48/197 total_iters:7140 lr:8.044686e-05 loss:0.308379 eta:0:19:25.969920
+2023-11-24 23:22:58,433 - pe_classification.py - line:135 - INFO - epoch:37 cur_iter:68/197 total_iters:7160 lr:8.030611e-05 loss:0.414186 eta:0:19:24.100740
+2023-11-24 23:23:02,299 - pe_classification.py - line:135 - INFO - epoch:37 cur_iter:88/197 total_iters:7180 lr:8.016499e-05 loss:0.505053 eta:0:19:22.244120
+2023-11-24 23:23:07,084 - pe_classification.py - line:135 - INFO - epoch:37 cur_iter:108/197 total_iters:7200 lr:8.002349e-05 loss:0.459051 eta:0:19:20.375000
+2023-11-24 23:23:10,950 - pe_classification.py - line:135 - INFO - epoch:37 cur_iter:128/197 total_iters:7220 lr:7.988161e-05 loss:0.503962 eta:0:19:18.518400
+2023-11-24 23:23:15,829 - pe_classification.py - line:135 - INFO - epoch:37 cur_iter:148/197 total_iters:7240 lr:7.973936e-05 loss:0.425387 eta:0:19:16.636880
+2023-11-24 23:23:19,702 - pe_classification.py - line:135 - INFO - epoch:37 cur_iter:168/197 total_iters:7260 lr:7.959673e-05 loss:0.471788 eta:0:19:14.780320
+2023-11-24 23:23:24,499 - pe_classification.py - line:135 - INFO - epoch:37 cur_iter:188/197 total_iters:7280 lr:7.945373e-05 loss:0.506316 eta:0:19:12.911340
+2023-11-24 23:23:30,462 - pe_classification.py - line:135 - INFO - epoch:38 cur_iter:11/197 total_iters:7300 lr:7.931036e-05 loss:0.433132 eta:0:19:11.042400
+2023-11-24 23:23:34,359 - pe_classification.py - line:135 - INFO - epoch:38 cur_iter:31/197 total_iters:7320 lr:7.916663e-05 loss:0.420217 eta:0:19:09.173500
+2023-11-24 23:23:39,143 - pe_classification.py - line:135 - INFO - epoch:38 cur_iter:51/197 total_iters:7340 lr:7.902252e-05 loss:0.446928 eta:0:19:07.304640
+2023-11-24 23:23:43,004 - pe_classification.py - line:135 - INFO - epoch:38 cur_iter:71/197 total_iters:7360 lr:7.887806e-05 loss:0.481392 eta:0:19:05.435820
+2023-11-24 23:23:47,169 - pe_classification.py - line:135 - INFO - epoch:38 cur_iter:91/197 total_iters:7380 lr:7.873323e-05 loss:0.471699 eta:0:19:03.567040
+2023-11-24 23:23:50,014 - pe_classification.py - line:135 - INFO - epoch:38 cur_iter:111/197 total_iters:7400 lr:7.858804e-05 loss:0.434188 eta:0:19:01.722900
+2023-11-24 23:23:54,853 - pe_classification.py - line:135 - INFO - epoch:38 cur_iter:131/197 total_iters:7420 lr:7.844249e-05 loss:0.402619 eta:0:18:59.866440
+2023-11-24 23:23:58,715 - pe_classification.py - line:135 - INFO - epoch:38 cur_iter:151/197 total_iters:7440 lr:7.829658e-05 loss:0.469103 eta:0:18:57.997720
+2023-11-24 23:24:03,443 - pe_classification.py - line:135 - INFO - epoch:38 cur_iter:171/197 total_iters:7460 lr:7.815031e-05 loss:0.475804 eta:0:18:56.129040
+2023-11-24 23:24:07,391 - pe_classification.py - line:135 - INFO - epoch:38 cur_iter:191/197 total_iters:7480 lr:7.800370e-05 loss:0.457692 eta:0:18:54.260400
+2023-11-24 23:24:13,354 - pe_classification.py - line:135 - INFO - epoch:39 cur_iter:14/197 total_iters:7500 lr:7.785673e-05 loss:0.374229 eta:0:18:52.404000
+2023-11-24 23:24:18,175 - pe_classification.py - line:135 - INFO - epoch:39 cur_iter:34/197 total_iters:7520 lr:7.770941e-05 loss:0.422053 eta:0:18:50.535420
+2023-11-24 23:24:22,075 - pe_classification.py - line:135 - INFO - epoch:39 cur_iter:54/197 total_iters:7540 lr:7.756175e-05 loss:0.465791 eta:0:18:48.679040
+2023-11-24 23:24:26,943 - pe_classification.py - line:135 - INFO - epoch:39 cur_iter:74/197 total_iters:7560 lr:7.741374e-05 loss:0.383505 eta:0:18:46.810520
+2023-11-24 23:24:30,810 - pe_classification.py - line:135 - INFO - epoch:39 cur_iter:94/197 total_iters:7580 lr:7.726538e-05 loss:0.407912 eta:0:18:44.954160
+2023-11-24 23:24:35,585 - pe_classification.py - line:135 - INFO - epoch:39 cur_iter:114/197 total_iters:7600 lr:7.711668e-05 loss:0.504206 eta:0:18:43.073600
+2023-11-24 23:24:39,416 - pe_classification.py - line:135 - INFO - epoch:39 cur_iter:134/197 total_iters:7620 lr:7.696764e-05 loss:0.510884 eta:0:18:41.217280
+2023-11-24 23:24:44,235 - pe_classification.py - line:135 - INFO - epoch:39 cur_iter:154/197 total_iters:7640 lr:7.681826e-05 loss:0.369007 eta:0:18:39.348900
+2023-11-24 23:24:48,083 - pe_classification.py - line:135 - INFO - epoch:39 cur_iter:174/197 total_iters:7660 lr:7.666855e-05 loss:0.443420 eta:0:18:37.492600
+2023-11-24 23:24:52,495 - pe_classification.py - line:135 - INFO - epoch:39 cur_iter:194/197 total_iters:7680 lr:7.651850e-05 loss:0.454051 eta:0:18:35.624280
+2023-11-24 23:24:58,857 - pe_classification.py - line:135 - INFO - epoch:40 cur_iter:17/197 total_iters:7700 lr:7.636812e-05 loss:0.433530 eta:0:18:33.756000
+2023-11-24 23:25:02,715 - pe_classification.py - line:135 - INFO - epoch:40 cur_iter:37/197 total_iters:7720 lr:7.621740e-05 loss:0.425810 eta:0:18:31.875780
+2023-11-24 23:25:07,507 - pe_classification.py - line:135 - INFO - epoch:40 cur_iter:57/197 total_iters:7740 lr:7.606636e-05 loss:0.440610 eta:0:18:30.019560
+2023-11-24 23:25:11,386 - pe_classification.py - line:135 - INFO - epoch:40 cur_iter:77/197 total_iters:7760 lr:7.591499e-05 loss:0.401790 eta:0:18:28.151400
+2023-11-24 23:25:16,246 - pe_classification.py - line:135 - INFO - epoch:40 cur_iter:97/197 total_iters:7780 lr:7.576329e-05 loss:0.341323 eta:0:18:26.295200
+2023-11-24 23:25:20,182 - pe_classification.py - line:135 - INFO - epoch:40 cur_iter:117/197 total_iters:7800 lr:7.561127e-05 loss:0.424280 eta:0:18:24.439000
+2023-11-24 23:25:24,940 - pe_classification.py - line:135 - INFO - epoch:40 cur_iter:137/197 total_iters:7820 lr:7.545893e-05 loss:0.336829 eta:0:18:22.570920
+2023-11-24 23:25:28,782 - pe_classification.py - line:135 - INFO - epoch:40 cur_iter:157/197 total_iters:7840 lr:7.530627e-05 loss:0.455526 eta:0:18:20.714740
+2023-11-24 23:25:33,608 - pe_classification.py - line:135 - INFO - epoch:40 cur_iter:177/197 total_iters:7860 lr:7.515329e-05 loss:0.414252 eta:0:18:18.846720
+2023-11-24 23:25:37,108 - pe_classification.py - line:135 - INFO - epoch:40 cur_iter:197/197 total_iters:7880 lr:7.500000e-05 loss:0.416751 eta:0:18:16.966920
+2023-11-24 23:25:39,836 - pe_classification.py - line:164 - INFO - [val] cur_iters:0/788 eta:0:01:02.808896
+2023-11-24 23:25:43,689 - pe_classification.py - line:164 - INFO - [val] cur_iters:20/788 eta:0:01:00.592233
+2023-11-24 23:25:48,659 - pe_classification.py - line:164 - INFO - [val] cur_iters:40/788 eta:0:00:59.165388
+2023-11-24 23:25:52,771 - pe_classification.py - line:164 - INFO - [val] cur_iters:60/788 eta:0:00:57.464261
+2023-11-24 23:25:57,825 - pe_classification.py - line:164 - INFO - [val] cur_iters:80/788 eta:0:00:55.836739
+2023-11-24 23:26:01,768 - pe_classification.py - line:164 - INFO - [val] cur_iters:100/788 eta:0:00:54.231093
+2023-11-24 23:26:06,847 - pe_classification.py - line:164 - INFO - [val] cur_iters:120/788 eta:0:00:52.645643
+2023-11-24 23:26:11,025 - pe_classification.py - line:164 - INFO - [val] cur_iters:140/788 eta:0:00:51.047006
+2023-11-24 23:26:15,955 - pe_classification.py - line:164 - INFO - [val] cur_iters:160/788 eta:0:00:49.465911
+2023-11-24 23:26:20,091 - pe_classification.py - line:164 - INFO - [val] cur_iters:180/788 eta:0:00:47.871055
+2023-11-24 23:26:25,205 - pe_classification.py - line:164 - INFO - [val] cur_iters:200/788 eta:0:00:46.307843
+2023-11-24 23:26:29,320 - pe_classification.py - line:164 - INFO - [val] cur_iters:220/788 eta:0:00:44.711919
+2023-11-24 23:26:34,304 - pe_classification.py - line:164 - INFO - [val] cur_iters:240/788 eta:0:00:43.124933
+2023-11-24 23:26:38,496 - pe_classification.py - line:164 - INFO - [val] cur_iters:260/788 eta:0:00:41.539721
+2023-11-24 23:26:42,638 - pe_classification.py - line:164 - INFO - [val] cur_iters:280/788 eta:0:00:39.953628
+2023-11-24 23:26:45,490 - pe_classification.py - line:164 - INFO - [val] cur_iters:300/788 eta:0:00:38.388749
+2023-11-24 23:26:49,679 - pe_classification.py - line:164 - INFO - [val] cur_iters:320/788 eta:0:00:36.824818
+2023-11-24 23:26:54,019 - pe_classification.py - line:164 - INFO - [val] cur_iters:340/788 eta:0:00:35.253102
+2023-11-24 23:26:58,664 - pe_classification.py - line:164 - INFO - [val] cur_iters:360/788 eta:0:00:33.671085
+2023-11-24 23:27:03,099 - pe_classification.py - line:164 - INFO - [val] cur_iters:380/788 eta:0:00:32.088287
+2023-11-24 23:27:07,672 - pe_classification.py - line:164 - INFO - [val] cur_iters:400/788 eta:0:00:30.509145
+2023-11-24 23:27:12,195 - pe_classification.py - line:164 - INFO - [val] cur_iters:420/788 eta:0:00:28.928408
+2023-11-24 23:27:16,879 - pe_classification.py - line:164 - INFO - [val] cur_iters:440/788 eta:0:00:27.358174
+2023-11-24 23:27:21,413 - pe_classification.py - line:164 - INFO - [val] cur_iters:460/788 eta:0:00:25.782315
+2023-11-24 23:27:25,964 - pe_classification.py - line:164 - INFO - [val] cur_iters:480/788 eta:0:00:24.204494
+2023-11-24 23:27:30,612 - pe_classification.py - line:164 - INFO - [val] cur_iters:500/788 eta:0:00:22.623349
+2023-11-24 23:27:35,161 - pe_classification.py - line:164 - INFO - [val] cur_iters:520/788 eta:0:00:21.043872
+2023-11-24 23:27:39,851 - pe_classification.py - line:164 - INFO - [val] cur_iters:540/788 eta:0:00:19.463600
+2023-11-24 23:27:44,227 - pe_classification.py - line:164 - INFO - [val] cur_iters:560/788 eta:0:00:17.886919
+2023-11-24 23:27:48,891 - pe_classification.py - line:164 - INFO - [val] cur_iters:580/788 eta:0:00:16.309323
+2023-11-24 23:27:53,341 - pe_classification.py - line:164 - INFO - [val] cur_iters:600/788 eta:0:00:14.735413
+2023-11-24 23:27:57,916 - pe_classification.py - line:164 - INFO - [val] cur_iters:620/788 eta:0:00:13.157095
+2023-11-24 23:28:02,258 - pe_classification.py - line:164 - INFO - [val] cur_iters:640/788 eta:0:00:11.580219
+2023-11-24 23:28:06,977 - pe_classification.py - line:164 - INFO - [val] cur_iters:660/788 eta:0:00:10.002520
+2023-11-24 23:28:11,489 - pe_classification.py - line:164 - INFO - [val] cur_iters:680/788 eta:0:00:08.428069
+2023-11-24 23:28:16,191 - pe_classification.py - line:164 - INFO - [val] cur_iters:700/788 eta:0:00:06.852903
+2023-11-24 23:28:20,669 - pe_classification.py - line:164 - INFO - [val] cur_iters:720/788 eta:0:00:05.277925
+2023-11-24 23:28:25,241 - pe_classification.py - line:164 - INFO - [val] cur_iters:740/788 eta:0:00:03.701532
+2023-11-24 23:28:29,675 - pe_classification.py - line:164 - INFO - [val] cur_iters:760/788 eta:0:00:02.126250
+2023-11-24 23:28:34,211 - pe_classification.py - line:164 - INFO - [val] cur_iters:780/788 eta:0:00:00.551152
+2023-11-24 23:28:35,484 - pe_classification.py - line:167 - INFO - ----------------------------------------
+2023-11-24 23:28:35,485 - pe_classification.py - line:169 - INFO - ### top1: 63.91269841269841
+2023-11-24 23:28:35,485 - pe_classification.py - line:169 - INFO - ### top5: 89.64285714285714
+2023-11-24 23:28:35,485 - pe_classification.py - line:170 - INFO - ----------------------------------------
+2023-11-24 23:28:41,748 - pe_classification.py - line:135 - INFO - epoch:41 cur_iter:20/197 total_iters:7900 lr:7.484639e-05 loss:0.422604 eta:0:18:15.110800
+2023-11-24 23:28:45,646 - pe_classification.py - line:135 - INFO - epoch:41 cur_iter:40/197 total_iters:7920 lr:7.469247e-05 loss:0.353069 eta:0:18:13.254680
+2023-11-24 23:28:50,575 - pe_classification.py - line:135 - INFO - epoch:41 cur_iter:60/197 total_iters:7940 lr:7.453824e-05 loss:0.407715 eta:0:18:11.375040
+2023-11-24 23:28:54,492 - pe_classification.py - line:135 - INFO - epoch:41 cur_iter:80/197 total_iters:7960 lr:7.438370e-05 loss:0.339282 eta:0:18:09.518960
+2023-11-24 23:28:59,350 - pe_classification.py - line:135 - INFO - epoch:41 cur_iter:100/197 total_iters:7980 lr:7.422886e-05 loss:0.387965 eta:0:18:07.651160
+2023-11-24 23:29:03,288 - pe_classification.py - line:135 - INFO - epoch:41 cur_iter:120/197 total_iters:8000 lr:7.407371e-05 loss:0.427682 eta:0:18:05.783400
+2023-11-24 23:29:08,117 - pe_classification.py - line:135 - INFO - epoch:41 cur_iter:140/197 total_iters:8020 lr:7.391826e-05 loss:0.414384 eta:0:18:03.915680
+2023-11-24 23:29:11,991 - pe_classification.py - line:135 - INFO - epoch:41 cur_iter:160/197 total_iters:8040 lr:7.376250e-05 loss:0.451215 eta:0:18:02.059660
+2023-11-24 23:29:16,844 - pe_classification.py - line:135 - INFO - epoch:41 cur_iter:180/197 total_iters:8060 lr:7.360645e-05 loss:0.400687 eta:0:18:00.192000
+2023-11-24 23:29:22,923 - pe_classification.py - line:135 - INFO - epoch:42 cur_iter:3/197 total_iters:8080 lr:7.345011e-05 loss:0.455273 eta:0:17:58.347620
+2023-11-24 23:29:26,761 - pe_classification.py - line:135 - INFO - epoch:42 cur_iter:23/197 total_iters:8100 lr:7.329347e-05 loss:0.384232 eta:0:17:56.468400
+2023-11-24 23:29:31,558 - pe_classification.py - line:135 - INFO - epoch:42 cur_iter:43/197 total_iters:8120 lr:7.313653e-05 loss:0.332702 eta:0:17:54.600840
+2023-11-24 23:29:35,417 - pe_classification.py - line:135 - INFO - epoch:42 cur_iter:63/197 total_iters:8140 lr:7.297931e-05 loss:0.284952 eta:0:17:52.744880
+2023-11-24 23:29:39,798 - pe_classification.py - line:135 - INFO - epoch:42 cur_iter:83/197 total_iters:8160 lr:7.282179e-05 loss:0.351482 eta:0:17:50.877380
+2023-11-24 23:29:42,530 - pe_classification.py - line:135 - INFO - epoch:42 cur_iter:103/197 total_iters:8180 lr:7.266400e-05 loss:0.380810 eta:0:17:49.021440
+2023-11-24 23:29:45,943 - pe_classification.py - line:135 - INFO - epoch:42 cur_iter:123/197 total_iters:8200 lr:7.250591e-05 loss:0.403559 eta:0:17:47.165500
+2023-11-24 23:29:49,716 - pe_classification.py - line:135 - INFO - epoch:42 cur_iter:143/197 total_iters:8220 lr:7.234754e-05 loss:0.367031 eta:0:17:45.309560
+2023-11-24 23:29:54,605 - pe_classification.py - line:135 - INFO - epoch:42 cur_iter:163/197 total_iters:8240 lr:7.218890e-05 loss:0.374023 eta:0:17:43.453620
+2023-11-24 23:29:58,525 - pe_classification.py - line:135 - INFO - epoch:42 cur_iter:183/197 total_iters:8260 lr:7.202997e-05 loss:0.423876 eta:0:17:41.609120
+2023-11-24 23:30:04,584 - pe_classification.py - line:135 - INFO - epoch:43 cur_iter:6/197 total_iters:8280 lr:7.187077e-05 loss:0.363278 eta:0:17:39.776000
+2023-11-24 23:30:09,312 - pe_classification.py - line:135 - INFO - epoch:43 cur_iter:26/197 total_iters:8300 lr:7.171129e-05 loss:0.325800 eta:0:17:37.908600
+2023-11-24 23:30:13,181 - pe_classification.py - line:135 - INFO - epoch:43 cur_iter:46/197 total_iters:8320 lr:7.155154e-05 loss:0.375441 eta:0:17:36.052620
+2023-11-24 23:30:18,045 - pe_classification.py - line:135 - INFO - epoch:43 cur_iter:66/197 total_iters:8340 lr:7.139152e-05 loss:0.382927 eta:0:17:34.196640
+2023-11-24 23:30:21,940 - pe_classification.py - line:135 - INFO - epoch:43 cur_iter:86/197 total_iters:8360 lr:7.123123e-05 loss:0.391350 eta:0:17:32.340660
+2023-11-24 23:30:26,778 - pe_classification.py - line:135 - INFO - epoch:43 cur_iter:106/197 total_iters:8380 lr:7.107067e-05 loss:0.365079 eta:0:17:30.473360
+2023-11-24 23:30:30,616 - pe_classification.py - line:135 - INFO - epoch:43 cur_iter:126/197 total_iters:8400 lr:7.090985e-05 loss:0.272458 eta:0:17:28.617400
+2023-11-24 23:30:35,419 - pe_classification.py - line:135 - INFO - epoch:43 cur_iter:146/197 total_iters:8420 lr:7.074877e-05 loss:0.385907 eta:0:17:26.750160
+2023-11-24 23:30:39,627 - pe_classification.py - line:135 - INFO - epoch:43 cur_iter:166/197 total_iters:8440 lr:7.058743e-05 loss:0.412930 eta:0:17:24.882960
+2023-11-24 23:30:44,185 - pe_classification.py - line:135 - INFO - epoch:43 cur_iter:186/197 total_iters:8460 lr:7.042582e-05 loss:0.380841 eta:0:17:23.015800
+2023-11-24 23:30:50,385 - pe_classification.py - line:135 - INFO - epoch:44 cur_iter:9/197 total_iters:8480 lr:7.026396e-05 loss:0.447298 eta:0:17:21.159900
+2023-11-24 23:30:54,334 - pe_classification.py - line:135 - INFO - epoch:44 cur_iter:29/197 total_iters:8500 lr:7.010185e-05 loss:0.327924 eta:0:17:19.304000
+2023-11-24 23:30:59,055 - pe_classification.py - line:135 - INFO - epoch:44 cur_iter:49/197 total_iters:8520 lr:6.993948e-05 loss:0.287339 eta:0:17:17.436920
+2023-11-24 23:31:03,047 - pe_classification.py - line:135 - INFO - epoch:44 cur_iter:69/197 total_iters:8540 lr:6.977687e-05 loss:0.364366 eta:0:17:15.558720
+2023-11-24 23:31:07,684 - pe_classification.py - line:135 - INFO - epoch:44 cur_iter:89/197 total_iters:8560 lr:6.961400e-05 loss:0.330556 eta:0:17:13.691740
+2023-11-24 23:31:11,761 - pe_classification.py - line:135 - INFO - epoch:44 cur_iter:109/197 total_iters:8580 lr:6.945089e-05 loss:0.362709 eta:0:17:11.835920
+2023-11-24 23:31:16,510 - pe_classification.py - line:135 - INFO - epoch:44 cur_iter:129/197 total_iters:8600 lr:6.928754e-05 loss:0.345124 eta:0:17:09.969000
+2023-11-24 23:31:20,542 - pe_classification.py - line:135 - INFO - epoch:44 cur_iter:149/197 total_iters:8620 lr:6.912394e-05 loss:0.368956 eta:0:17:08.113200
+2023-11-24 23:31:25,120 - pe_classification.py - line:135 - INFO - epoch:44 cur_iter:169/197 total_iters:8640 lr:6.896010e-05 loss:0.384797 eta:0:17:06.257400
+2023-11-24 23:31:29,275 - pe_classification.py - line:135 - INFO - epoch:44 cur_iter:189/197 total_iters:8660 lr:6.879603e-05 loss:0.393191 eta:0:17:04.390560
+2023-11-24 23:31:35,342 - pe_classification.py - line:135 - INFO - epoch:45 cur_iter:12/197 total_iters:8680 lr:6.863171e-05 loss:0.353760 eta:0:17:02.523760
+2023-11-24 23:31:39,176 - pe_classification.py - line:135 - INFO - epoch:45 cur_iter:32/197 total_iters:8700 lr:6.846717e-05 loss:0.402540 eta:0:17:00.668000
+2023-11-24 23:31:44,180 - pe_classification.py - line:135 - INFO - epoch:45 cur_iter:52/197 total_iters:8720 lr:6.830239e-05 loss:0.345888 eta:0:16:58.801260
+2023-11-24 23:31:48,126 - pe_classification.py - line:135 - INFO - epoch:45 cur_iter:72/197 total_iters:8740 lr:6.813738e-05 loss:0.361793 eta:0:16:56.934560
+2023-11-24 23:31:52,993 - pe_classification.py - line:135 - INFO - epoch:45 cur_iter:92/197 total_iters:8760 lr:6.797215e-05 loss:0.377738 eta:0:16:55.078840
+2023-11-24 23:31:56,930 - pe_classification.py - line:135 - INFO - epoch:45 cur_iter:112/197 total_iters:8780 lr:6.780669e-05 loss:0.385736 eta:0:16:53.212200
+2023-11-24 23:32:01,799 - pe_classification.py - line:135 - INFO - epoch:45 cur_iter:132/197 total_iters:8800 lr:6.764100e-05 loss:0.342266 eta:0:16:51.356500
+2023-11-24 23:32:05,707 - pe_classification.py - line:135 - INFO - epoch:45 cur_iter:152/197 total_iters:8820 lr:6.747510e-05 loss:0.395679 eta:0:16:49.489920
+2023-11-24 23:32:10,560 - pe_classification.py - line:135 - INFO - epoch:45 cur_iter:172/197 total_iters:8840 lr:6.730897e-05 loss:0.373491 eta:0:16:47.623380
+2023-11-24 23:32:14,372 - pe_classification.py - line:135 - INFO - epoch:45 cur_iter:192/197 total_iters:8860 lr:6.714263e-05 loss:0.445583 eta:0:16:45.767720
+2023-11-24 23:32:20,432 - pe_classification.py - line:135 - INFO - epoch:46 cur_iter:15/197 total_iters:8880 lr:6.697607e-05 loss:0.287350 eta:0:16:43.912060
+2023-11-24 23:32:25,316 - pe_classification.py - line:135 - INFO - epoch:46 cur_iter:35/197 total_iters:8900 lr:6.680930e-05 loss:0.279210 eta:0:16:42.056400
+2023-11-24 23:32:29,168 - pe_classification.py - line:135 - INFO - epoch:46 cur_iter:55/197 total_iters:8920 lr:6.664231e-05 loss:0.355923 eta:0:16:40.200740
+2023-11-24 23:32:33,989 - pe_classification.py - line:135 - INFO - epoch:46 cur_iter:75/197 total_iters:8940 lr:6.647512e-05 loss:0.343564 eta:0:16:38.334320
+2023-11-24 23:32:37,485 - pe_classification.py - line:135 - INFO - epoch:46 cur_iter:95/197 total_iters:8960 lr:6.630772e-05 loss:0.279630 eta:0:16:36.467940
+2023-11-24 23:32:40,527 - pe_classification.py - line:135 - INFO - epoch:46 cur_iter:115/197 total_iters:8980 lr:6.614012e-05 loss:0.335465 eta:0:16:34.612320
+2023-11-24 23:32:44,041 - pe_classification.py - line:135 - INFO - epoch:46 cur_iter:135/197 total_iters:9000 lr:6.597231e-05 loss:0.318100 eta:0:16:32.756700
+2023-11-24 23:32:48,833 - pe_classification.py - line:135 - INFO - epoch:46 cur_iter:155/197 total_iters:9020 lr:6.580431e-05 loss:0.385522 eta:0:16:30.890400
+2023-11-24 23:32:52,632 - pe_classification.py - line:135 - INFO - epoch:46 cur_iter:175/197 total_iters:9040 lr:6.563610e-05 loss:0.327667 eta:0:16:29.034800
+2023-11-24 23:32:57,027 - pe_classification.py - line:135 - INFO - epoch:46 cur_iter:195/197 total_iters:9060 lr:6.546770e-05 loss:0.285462 eta:0:16:27.168560
+2023-11-24 23:33:03,406 - pe_classification.py - line:135 - INFO - epoch:47 cur_iter:18/197 total_iters:9080 lr:6.529910e-05 loss:0.306356 eta:0:16:25.312980
+2023-11-24 23:33:07,253 - pe_classification.py - line:135 - INFO - epoch:47 cur_iter:38/197 total_iters:9100 lr:6.513032e-05 loss:0.295236 eta:0:16:23.446800
+2023-11-24 23:33:12,029 - pe_classification.py - line:135 - INFO - epoch:47 cur_iter:58/197 total_iters:9120 lr:6.496134e-05 loss:0.343853 eta:0:16:21.580660
+2023-11-24 23:33:15,922 - pe_classification.py - line:135 - INFO - epoch:47 cur_iter:78/197 total_iters:9140 lr:6.479217e-05 loss:0.378287 eta:0:16:19.714560
+2023-11-24 23:33:20,767 - pe_classification.py - line:135 - INFO - epoch:47 cur_iter:98/197 total_iters:9160 lr:6.462282e-05 loss:0.310518 eta:0:16:17.848500
+2023-11-24 23:33:24,624 - pe_classification.py - line:135 - INFO - epoch:47 cur_iter:118/197 total_iters:9180 lr:6.445329e-05 loss:0.318481 eta:0:16:15.993000
+2023-11-24 23:33:29,475 - pe_classification.py - line:135 - INFO - epoch:47 cur_iter:138/197 total_iters:9200 lr:6.428357e-05 loss:0.338211 eta:0:16:14.137500
+2023-11-24 23:33:33,520 - pe_classification.py - line:135 - INFO - epoch:47 cur_iter:158/197 total_iters:9220 lr:6.411367e-05 loss:0.327933 eta:0:16:12.271520
+2023-11-24 23:33:38,562 - pe_classification.py - line:135 - INFO - epoch:47 cur_iter:178/197 total_iters:9240 lr:6.394360e-05 loss:0.290067 eta:0:16:10.405580
+2023-11-24 23:33:44,626 - pe_classification.py - line:135 - INFO - epoch:48 cur_iter:1/197 total_iters:9260 lr:6.377335e-05 loss:0.323260 eta:0:16:08.539680
+2023-11-24 23:33:48,432 - pe_classification.py - line:135 - INFO - epoch:48 cur_iter:21/197 total_iters:9280 lr:6.360293e-05 loss:0.305785 eta:0:16:06.684240
+2023-11-24 23:33:53,190 - pe_classification.py - line:135 - INFO - epoch:48 cur_iter:41/197 total_iters:9300 lr:6.343234e-05 loss:0.253914 eta:0:16:04.828800
+2023-11-24 23:33:57,081 - pe_classification.py - line:135 - INFO - epoch:48 cur_iter:61/197 total_iters:9320 lr:6.326158e-05 loss:0.247312 eta:0:16:02.962980
+2023-11-24 23:34:01,888 - pe_classification.py - line:135 - INFO - epoch:48 cur_iter:81/197 total_iters:9340 lr:6.309065e-05 loss:0.287859 eta:0:16:01.097200
+2023-11-24 23:34:05,793 - pe_classification.py - line:135 - INFO - epoch:48 cur_iter:101/197 total_iters:9360 lr:6.291956e-05 loss:0.326302 eta:0:15:59.231460
+2023-11-24 23:34:10,623 - pe_classification.py - line:135 - INFO - epoch:48 cur_iter:121/197 total_iters:9380 lr:6.274830e-05 loss:0.275989 eta:0:15:57.376080
+2023-11-24 23:34:14,416 - pe_classification.py - line:135 - INFO - epoch:48 cur_iter:141/197 total_iters:9400 lr:6.257689e-05 loss:0.293973 eta:0:15:55.500100
+2023-11-24 23:34:19,261 - pe_classification.py - line:135 - INFO - epoch:48 cur_iter:161/197 total_iters:9420 lr:6.240532e-05 loss:0.335500 eta:0:15:53.634480
+2023-11-24 23:34:23,084 - pe_classification.py - line:135 - INFO - epoch:48 cur_iter:181/197 total_iters:9440 lr:6.223359e-05 loss:0.292121 eta:0:15:51.768900
+2023-11-24 23:34:29,254 - pe_classification.py - line:135 - INFO - epoch:49 cur_iter:4/197 total_iters:9460 lr:6.206171e-05 loss:0.352075 eta:0:15:49.913600
+2023-11-24 23:34:33,058 - pe_classification.py - line:135 - INFO - epoch:49 cur_iter:24/197 total_iters:9480 lr:6.188967e-05 loss:0.306824 eta:0:15:48.048080
+2023-11-24 23:34:37,877 - pe_classification.py - line:135 - INFO - epoch:49 cur_iter:44/197 total_iters:9500 lr:6.171749e-05 loss:0.304467 eta:0:15:46.182600
+2023-11-24 23:34:41,683 - pe_classification.py - line:135 - INFO - epoch:49 cur_iter:64/197 total_iters:9520 lr:6.154516e-05 loss:0.298443 eta:0:15:44.317160
+2023-11-24 23:34:46,480 - pe_classification.py - line:135 - INFO - epoch:49 cur_iter:84/197 total_iters:9540 lr:6.137269e-05 loss:0.274188 eta:0:15:42.441600
+2023-11-24 23:34:50,380 - pe_classification.py - line:135 - INFO - epoch:49 cur_iter:104/197 total_iters:9560 lr:6.120007e-05 loss:0.268192 eta:0:15:40.586400
+2023-11-24 23:34:55,229 - pe_classification.py - line:135 - INFO - epoch:49 cur_iter:124/197 total_iters:9580 lr:6.102731e-05 loss:0.260706 eta:0:15:38.731200
+2023-11-24 23:34:59,090 - pe_classification.py - line:135 - INFO - epoch:49 cur_iter:144/197 total_iters:9600 lr:6.085441e-05 loss:0.239958 eta:0:15:36.865900
+2023-11-24 23:35:03,911 - pe_classification.py - line:135 - INFO - epoch:49 cur_iter:164/197 total_iters:9620 lr:6.068138e-05 loss:0.316316 eta:0:15:35.000640
+2023-11-24 23:35:07,700 - pe_classification.py - line:135 - INFO - epoch:49 cur_iter:184/197 total_iters:9640 lr:6.050821e-05 loss:0.363316 eta:0:15:33.145480
+2023-11-24 23:35:13,850 - pe_classification.py - line:135 - INFO - epoch:50 cur_iter:7/197 total_iters:9660 lr:6.033491e-05 loss:0.258414 eta:0:15:31.290320
+2023-11-24 23:35:18,631 - pe_classification.py - line:135 - INFO - epoch:50 cur_iter:27/197 total_iters:9680 lr:6.016149e-05 loss:0.248469 eta:0:15:29.425140
+2023-11-24 23:35:22,537 - pe_classification.py - line:135 - INFO - epoch:50 cur_iter:47/197 total_iters:9700 lr:5.998793e-05 loss:0.262439 eta:0:15:27.560000
+2023-11-24 23:35:27,301 - pe_classification.py - line:135 - INFO - epoch:50 cur_iter:67/197 total_iters:9720 lr:5.981425e-05 loss:0.267368 eta:0:15:25.704880
+2023-11-24 23:35:31,196 - pe_classification.py - line:135 - INFO - epoch:50 cur_iter:87/197 total_iters:9740 lr:5.964044e-05 loss:0.295504 eta:0:15:23.839800
+2023-11-24 23:35:34,984 - pe_classification.py - line:135 - INFO - epoch:50 cur_iter:107/197 total_iters:9760 lr:5.946652e-05 loss:0.306471 eta:0:15:21.974760
+2023-11-24 23:35:37,477 - pe_classification.py - line:135 - INFO - epoch:50 cur_iter:127/197 total_iters:9780 lr:5.929247e-05 loss:0.273484 eta:0:15:20.109760
+2023-11-24 23:35:42,286 - pe_classification.py - line:135 - INFO - epoch:50 cur_iter:147/197 total_iters:9800 lr:5.911831e-05 loss:0.256277 eta:0:15:18.264600
+2023-11-24 23:35:46,390 - pe_classification.py - line:135 - INFO - epoch:50 cur_iter:167/197 total_iters:9820 lr:5.894403e-05 loss:0.339691 eta:0:15:16.399640
+2023-11-24 23:35:50,871 - pe_classification.py - line:135 - INFO - epoch:50 cur_iter:187/197 total_iters:9840 lr:5.876964e-05 loss:0.359142 eta:0:15:14.534720
+2023-11-24 23:35:57,113 - pe_classification.py - line:135 - INFO - epoch:51 cur_iter:10/197 total_iters:9860 lr:5.859515e-05 loss:0.247359 eta:0:15:12.679680
+2023-11-24 23:36:00,947 - pe_classification.py - line:135 - INFO - epoch:51 cur_iter:30/197 total_iters:9880 lr:5.842054e-05 loss:0.270569 eta:0:15:10.824640
+2023-11-24 23:36:05,806 - pe_classification.py - line:135 - INFO - epoch:51 cur_iter:50/197 total_iters:9900 lr:5.824583e-05 loss:0.283811 eta:0:15:08.959800
+2023-11-24 23:36:09,610 - pe_classification.py - line:135 - INFO - epoch:51 cur_iter:70/197 total_iters:9920 lr:5.807101e-05 loss:0.252619 eta:0:15:07.095000
+2023-11-24 23:36:14,439 - pe_classification.py - line:135 - INFO - epoch:51 cur_iter:90/197 total_iters:9940 lr:5.789609e-05 loss:0.283367 eta:0:15:05.240000
+2023-11-24 23:36:18,300 - pe_classification.py - line:135 - INFO - epoch:51 cur_iter:110/197 total_iters:9960 lr:5.772108e-05 loss:0.391271 eta:0:15:03.385000
+2023-11-24 23:36:23,100 - pe_classification.py - line:135 - INFO - epoch:51 cur_iter:130/197 total_iters:9980 lr:5.754596e-05 loss:0.262511 eta:0:15:01.520280
+2023-11-24 23:36:27,056 - pe_classification.py - line:135 - INFO - epoch:51 cur_iter:150/197 total_iters:10000 lr:5.737075e-05 loss:0.272563 eta:0:14:59.655600
+2023-11-24 23:36:31,850 - pe_classification.py - line:135 - INFO - epoch:51 cur_iter:170/197 total_iters:10020 lr:5.719545e-05 loss:0.313476 eta:0:14:57.800640
+2023-11-24 23:36:35,729 - pe_classification.py - line:135 - INFO - epoch:51 cur_iter:190/197 total_iters:10040 lr:5.702006e-05 loss:0.274498 eta:0:14:55.945680
+2023-11-24 23:36:41,756 - pe_classification.py - line:135 - INFO - epoch:52 cur_iter:13/197 total_iters:10060 lr:5.684458e-05 loss:0.216157 eta:0:14:54.081080
+2023-11-24 23:36:46,589 - pe_classification.py - line:135 - INFO - epoch:52 cur_iter:33/197 total_iters:10080 lr:5.666902e-05 loss:0.252956 eta:0:14:52.216520
+2023-11-24 23:36:50,515 - pe_classification.py - line:135 - INFO - epoch:52 cur_iter:53/197 total_iters:10100 lr:5.649337e-05 loss:0.274326 eta:0:14:50.352000
+2023-11-24 23:36:55,304 - pe_classification.py - line:135 - INFO - epoch:52 cur_iter:73/197 total_iters:10120 lr:5.631764e-05 loss:0.368810 eta:0:14:48.487520
+2023-11-24 23:36:59,176 - pe_classification.py - line:135 - INFO - epoch:52 cur_iter:93/197 total_iters:10140 lr:5.614183e-05 loss:0.256453 eta:0:14:46.632640
+2023-11-24 23:37:04,016 - pe_classification.py - line:135 - INFO - epoch:52 cur_iter:113/197 total_iters:10160 lr:5.596594e-05 loss:0.269135 eta:0:14:44.768220
+2023-11-24 23:37:07,896 - pe_classification.py - line:135 - INFO - epoch:52 cur_iter:133/197 total_iters:10180 lr:5.578998e-05 loss:0.241195 eta:0:14:42.913360
+2023-11-24 23:37:12,614 - pe_classification.py - line:135 - INFO - epoch:52 cur_iter:153/197 total_iters:10200 lr:5.561394e-05 loss:0.312142 eta:0:14:41.049000
+2023-11-24 23:37:16,538 - pe_classification.py - line:135 - INFO - epoch:52 cur_iter:173/197 total_iters:10220 lr:5.543784e-05 loss:0.242042 eta:0:14:39.194160
+2023-11-24 23:37:21,065 - pe_classification.py - line:135 - INFO - epoch:52 cur_iter:193/197 total_iters:10240 lr:5.526167e-05 loss:0.194076 eta:0:14:37.329860
+2023-11-24 23:37:26,510 - pe_classification.py - line:135 - INFO - epoch:53 cur_iter:16/197 total_iters:10260 lr:5.508543e-05 loss:0.250140 eta:0:14:35.475040
+2023-11-24 23:37:31,351 - pe_classification.py - line:135 - INFO - epoch:53 cur_iter:36/197 total_iters:10280 lr:5.490912e-05 loss:0.286930 eta:0:14:33.610800
+2023-11-24 23:37:35,285 - pe_classification.py - line:135 - INFO - epoch:53 cur_iter:56/197 total_iters:10300 lr:5.473276e-05 loss:0.304119 eta:0:14:31.756000
+2023-11-24 23:37:40,078 - pe_classification.py - line:135 - INFO - epoch:53 cur_iter:76/197 total_iters:10320 lr:5.455633e-05 loss:0.224334 eta:0:14:29.891820
+2023-11-24 23:37:43,929 - pe_classification.py - line:135 - INFO - epoch:53 cur_iter:96/197 total_iters:10340 lr:5.437985e-05 loss:0.244264 eta:0:14:28.027680
+2023-11-24 23:37:48,779 - pe_classification.py - line:135 - INFO - epoch:53 cur_iter:116/197 total_iters:10360 lr:5.420331e-05 loss:0.214533 eta:0:14:26.163580
+2023-11-24 23:37:52,683 - pe_classification.py - line:135 - INFO - epoch:53 cur_iter:136/197 total_iters:10380 lr:5.402672e-05 loss:0.240436 eta:0:14:24.308840
+2023-11-24 23:37:57,475 - pe_classification.py - line:135 - INFO - epoch:53 cur_iter:156/197 total_iters:10400 lr:5.385008e-05 loss:0.348928 eta:0:14:22.444800
+2023-11-24 23:38:01,339 - pe_classification.py - line:135 - INFO - epoch:53 cur_iter:176/197 total_iters:10420 lr:5.367340e-05 loss:0.233672 eta:0:14:20.590080
+2023-11-24 23:38:05,876 - pe_classification.py - line:135 - INFO - epoch:53 cur_iter:196/197 total_iters:10440 lr:5.349666e-05 loss:0.247990 eta:0:14:18.726100
+2023-11-24 23:38:12,303 - pe_classification.py - line:135 - INFO - epoch:54 cur_iter:19/197 total_iters:10460 lr:5.331988e-05 loss:0.173888 eta:0:14:16.862160
+2023-11-24 23:38:16,137 - pe_classification.py - line:135 - INFO - epoch:54 cur_iter:39/197 total_iters:10480 lr:5.314306e-05 loss:0.191272 eta:0:14:14.998260
+2023-11-24 23:38:20,999 - pe_classification.py - line:135 - INFO - epoch:54 cur_iter:59/197 total_iters:10500 lr:5.296620e-05 loss:0.187267 eta:0:14:13.143600
+2023-11-24 23:38:24,914 - pe_classification.py - line:135 - INFO - epoch:54 cur_iter:79/197 total_iters:10520 lr:5.278931e-05 loss:0.160978 eta:0:14:11.298120
+2023-11-24 23:38:29,549 - pe_classification.py - line:135 - INFO - epoch:54 cur_iter:99/197 total_iters:10540 lr:5.261237e-05 loss:0.235898 eta:0:14:09.443440
+2023-11-24 23:38:32,443 - pe_classification.py - line:135 - INFO - epoch:54 cur_iter:119/197 total_iters:10560 lr:5.243541e-05 loss:0.234890 eta:0:14:07.579620
+2023-11-24 23:38:36,143 - pe_classification.py - line:135 - INFO - epoch:54 cur_iter:139/197 total_iters:10580 lr:5.225841e-05 loss:0.294213 eta:0:14:05.724960
+2023-11-24 23:38:40,094 - pe_classification.py - line:135 - INFO - epoch:54 cur_iter:159/197 total_iters:10600 lr:5.208139e-05 loss:0.205328 eta:0:14:03.870300
+2023-11-24 23:38:45,097 - pe_classification.py - line:135 - INFO - epoch:54 cur_iter:179/197 total_iters:10620 lr:5.190434e-05 loss:0.230396 eta:0:14:02.006560
+2023-11-24 23:38:50,983 - pe_classification.py - line:135 - INFO - epoch:55 cur_iter:2/197 total_iters:10640 lr:5.172727e-05 loss:0.253346 eta:0:14:00.151920
+2023-11-24 23:38:54,808 - pe_classification.py - line:135 - INFO - epoch:55 cur_iter:22/197 total_iters:10660 lr:5.155017e-05 loss:0.257623 eta:0:13:58.297280
+2023-11-24 23:38:59,568 - pe_classification.py - line:135 - INFO - epoch:55 cur_iter:42/197 total_iters:10680 lr:5.137306e-05 loss:0.223200 eta:0:13:56.433620
+2023-11-24 23:39:03,405 - pe_classification.py - line:135 - INFO - epoch:55 cur_iter:62/197 total_iters:10700 lr:5.119592e-05 loss:0.235295 eta:0:13:54.570000
+2023-11-24 23:39:08,193 - pe_classification.py - line:135 - INFO - epoch:55 cur_iter:82/197 total_iters:10720 lr:5.101878e-05 loss:0.196402 eta:0:13:52.715400
+2023-11-24 23:39:12,137 - pe_classification.py - line:135 - INFO - epoch:55 cur_iter:102/197 total_iters:10740 lr:5.084162e-05 loss:0.256637 eta:0:13:50.851840
+2023-11-24 23:39:16,896 - pe_classification.py - line:135 - INFO - epoch:55 cur_iter:122/197 total_iters:10760 lr:5.066445e-05 loss:0.236634 eta:0:13:48.997260
+2023-11-24 23:39:20,797 - pe_classification.py - line:135 - INFO - epoch:55 cur_iter:142/197 total_iters:10780 lr:5.048727e-05 loss:0.241291 eta:0:13:47.151600
+2023-11-24 23:39:25,521 - pe_classification.py - line:135 - INFO - epoch:55 cur_iter:162/197 total_iters:10800 lr:5.031008e-05 loss:0.247900 eta:0:13:45.288100
+2023-11-24 23:39:29,504 - pe_classification.py - line:135 - INFO - epoch:55 cur_iter:182/197 total_iters:10820 lr:5.013289e-05 loss:0.192659 eta:0:13:43.424640
+2023-11-24 23:39:35,553 - pe_classification.py - line:135 - INFO - epoch:56 cur_iter:5/197 total_iters:10840 lr:4.995570e-05 loss:0.207519 eta:0:13:41.561220
+2023-11-24 23:39:40,331 - pe_classification.py - line:135 - INFO - epoch:56 cur_iter:25/197 total_iters:10860 lr:4.977851e-05 loss:0.199645 eta:0:13:39.706680
+2023-11-24 23:39:44,260 - pe_classification.py - line:135 - INFO - epoch:56 cur_iter:45/197 total_iters:10880 lr:4.960132e-05 loss:0.183008 eta:0:13:37.852140
+2023-11-24 23:39:48,990 - pe_classification.py - line:135 - INFO - epoch:56 cur_iter:65/197 total_iters:10900 lr:4.942414e-05 loss:0.213376 eta:0:13:35.988800
+2023-11-24 23:39:52,874 - pe_classification.py - line:135 - INFO - epoch:56 cur_iter:85/197 total_iters:10920 lr:4.924697e-05 loss:0.190184 eta:0:13:34.134280
+2023-11-24 23:39:57,728 - pe_classification.py - line:135 - INFO - epoch:56 cur_iter:105/197 total_iters:10940 lr:4.906980e-05 loss:0.213769 eta:0:13:32.271000
+2023-11-24 23:40:01,563 - pe_classification.py - line:135 - INFO - epoch:56 cur_iter:125/197 total_iters:10960 lr:4.889265e-05 loss:0.291966 eta:0:13:30.416500
+2023-11-24 23:40:06,618 - pe_classification.py - line:135 - INFO - epoch:56 cur_iter:145/197 total_iters:10980 lr:4.871551e-05 loss:0.192073 eta:0:13:28.553280
+2023-11-24 23:40:10,550 - pe_classification.py - line:135 - INFO - epoch:56 cur_iter:165/197 total_iters:11000 lr:4.853838e-05 loss:0.213687 eta:0:13:26.690100
+2023-11-24 23:40:15,345 - pe_classification.py - line:135 - INFO - epoch:56 cur_iter:185/197 total_iters:11020 lr:4.836128e-05 loss:0.239104 eta:0:13:24.835640
+2023-11-24 23:40:20,292 - pe_classification.py - line:135 - INFO - epoch:57 cur_iter:8/197 total_iters:11040 lr:4.818419e-05 loss:0.194438 eta:0:13:22.981180
+2023-11-24 23:40:25,097 - pe_classification.py - line:135 - INFO - epoch:57 cur_iter:28/197 total_iters:11060 lr:4.800713e-05 loss:0.192624 eta:0:13:21.109440
+2023-11-24 23:40:29,019 - pe_classification.py - line:135 - INFO - epoch:57 cur_iter:48/197 total_iters:11080 lr:4.783009e-05 loss:0.210216 eta:0:13:19.255020
+2023-11-24 23:40:33,832 - pe_classification.py - line:135 - INFO - epoch:57 cur_iter:68/197 total_iters:11100 lr:4.765308e-05 loss:0.207363 eta:0:13:17.392000
+2023-11-24 23:40:37,737 - pe_classification.py - line:135 - INFO - epoch:57 cur_iter:88/197 total_iters:11120 lr:4.747610e-05 loss:0.184806 eta:0:13:15.537600
+2023-11-24 23:40:42,544 - pe_classification.py - line:135 - INFO - epoch:57 cur_iter:108/197 total_iters:11140 lr:4.729916e-05 loss:0.171453 eta:0:13:13.666080
+2023-11-24 23:40:46,381 - pe_classification.py - line:135 - INFO - epoch:57 cur_iter:128/197 total_iters:11160 lr:4.712224e-05 loss:0.186778 eta:0:13:11.811720
+2023-11-24 23:40:51,139 - pe_classification.py - line:135 - INFO - epoch:57 cur_iter:148/197 total_iters:11180 lr:4.694536e-05 loss:0.179028 eta:0:13:09.957360
+2023-11-24 23:40:55,052 - pe_classification.py - line:135 - INFO - epoch:57 cur_iter:168/197 total_iters:11200 lr:4.676852e-05 loss:0.227895 eta:0:13:08.094500
+2023-11-24 23:40:59,822 - pe_classification.py - line:135 - INFO - epoch:57 cur_iter:188/197 total_iters:11220 lr:4.659172e-05 loss:0.234551 eta:0:13:06.231680
+2023-11-24 23:41:05,896 - pe_classification.py - line:135 - INFO - epoch:58 cur_iter:11/197 total_iters:11240 lr:4.641497e-05 loss:0.235960 eta:0:13:04.377360
+2023-11-24 23:41:09,746 - pe_classification.py - line:135 - INFO - epoch:58 cur_iter:31/197 total_iters:11260 lr:4.623825e-05 loss:0.257024 eta:0:13:02.514600
+2023-11-24 23:41:14,692 - pe_classification.py - line:135 - INFO - epoch:58 cur_iter:51/197 total_iters:11280 lr:4.606159e-05 loss:0.172688 eta:0:13:00.668720
+2023-11-24 23:41:18,570 - pe_classification.py - line:135 - INFO - epoch:58 cur_iter:71/197 total_iters:11300 lr:4.588497e-05 loss:0.210816 eta:0:12:58.814400
+2023-11-24 23:41:23,401 - pe_classification.py - line:135 - INFO - epoch:58 cur_iter:91/197 total_iters:11320 lr:4.570841e-05 loss:0.201764 eta:0:12:56.951700
+2023-11-24 23:41:26,801 - pe_classification.py - line:135 - INFO - epoch:58 cur_iter:111/197 total_iters:11340 lr:4.553190e-05 loss:0.221435 eta:0:12:55.089040
+2023-11-24 23:41:29,673 - pe_classification.py - line:135 - INFO - epoch:58 cur_iter:131/197 total_iters:11360 lr:4.535545e-05 loss:0.218222 eta:0:12:53.234760
+2023-11-24 23:41:33,865 - pe_classification.py - line:135 - INFO - epoch:58 cur_iter:151/197 total_iters:11380 lr:4.517905e-05 loss:0.210024 eta:0:12:51.380480
+2023-11-24 23:41:38,661 - pe_classification.py - line:135 - INFO - epoch:58 cur_iter:171/197 total_iters:11400 lr:4.500272e-05 loss:0.194982 eta:0:12:49.517900
+2023-11-24 23:41:42,530 - pe_classification.py - line:135 - INFO - epoch:58 cur_iter:191/197 total_iters:11420 lr:4.482645e-05 loss:0.192725 eta:0:12:47.663640
+2023-11-24 23:41:48,602 - pe_classification.py - line:135 - INFO - epoch:59 cur_iter:14/197 total_iters:11440 lr:4.465024e-05 loss:0.131610 eta:0:12:45.809380
+2023-11-24 23:41:53,439 - pe_classification.py - line:135 - INFO - epoch:59 cur_iter:34/197 total_iters:11460 lr:4.447410e-05 loss:0.213474 eta:0:12:43.946880
+2023-11-24 23:41:57,302 - pe_classification.py - line:135 - INFO - epoch:59 cur_iter:54/197 total_iters:11480 lr:4.429803e-05 loss:0.147445 eta:0:12:42.084420
+2023-11-24 23:42:02,044 - pe_classification.py - line:135 - INFO - epoch:59 cur_iter:74/197 total_iters:11500 lr:4.412203e-05 loss:0.125971 eta:0:12:40.230200
+2023-11-24 23:42:05,950 - pe_classification.py - line:135 - INFO - epoch:59 cur_iter:94/197 total_iters:11520 lr:4.394611e-05 loss:0.165282 eta:0:12:38.367800
+2023-11-24 23:42:10,700 - pe_classification.py - line:135 - INFO - epoch:59 cur_iter:114/197 total_iters:11540 lr:4.377026e-05 loss:0.221598 eta:0:12:36.521760
+2023-11-24 23:42:14,568 - pe_classification.py - line:135 - INFO - epoch:59 cur_iter:134/197 total_iters:11560 lr:4.359449e-05 loss:0.225193 eta:0:12:34.659400
+2023-11-24 23:42:19,424 - pe_classification.py - line:135 - INFO - epoch:59 cur_iter:154/197 total_iters:11580 lr:4.341880e-05 loss:0.178375 eta:0:12:32.805200
+2023-11-24 23:42:23,557 - pe_classification.py - line:135 - INFO - epoch:59 cur_iter:174/197 total_iters:11600 lr:4.324319e-05 loss:0.183075 eta:0:12:30.959100
+2023-11-24 23:42:27,799 - pe_classification.py - line:135 - INFO - epoch:59 cur_iter:194/197 total_iters:11620 lr:4.306767e-05 loss:0.206444 eta:0:12:29.096800
+2023-11-24 23:42:34,311 - pe_classification.py - line:135 - INFO - epoch:60 cur_iter:17/197 total_iters:11640 lr:4.289223e-05 loss:0.169192 eta:0:12:27.234540
+2023-11-24 23:42:38,146 - pe_classification.py - line:135 - INFO - epoch:60 cur_iter:37/197 total_iters:11660 lr:4.271688e-05 loss:0.152945 eta:0:12:25.388400
+2023-11-24 23:42:42,943 - pe_classification.py - line:135 - INFO - epoch:60 cur_iter:57/197 total_iters:11680 lr:4.254163e-05 loss:0.190498 eta:0:12:23.526180
+2023-11-24 23:42:46,804 - pe_classification.py - line:135 - INFO - epoch:60 cur_iter:77/197 total_iters:11700 lr:4.236647e-05 loss:0.157743 eta:0:12:21.664000
+2023-11-24 23:42:51,645 - pe_classification.py - line:135 - INFO - epoch:60 cur_iter:97/197 total_iters:11720 lr:4.219140e-05 loss:0.155467 eta:0:12:19.801860
+2023-11-24 23:42:55,503 - pe_classification.py - line:135 - INFO - epoch:60 cur_iter:117/197 total_iters:11740 lr:4.201644e-05 loss:0.234507 eta:0:12:17.947720
+2023-11-24 23:43:00,568 - pe_classification.py - line:135 - INFO - epoch:60 cur_iter:137/197 total_iters:11760 lr:4.184157e-05 loss:0.218220 eta:0:12:16.093580
+2023-11-24 23:43:04,610 - pe_classification.py - line:135 - INFO - epoch:60 cur_iter:157/197 total_iters:11780 lr:4.166680e-05 loss:0.193106 eta:0:12:14.231520
+2023-11-24 23:43:09,489 - pe_classification.py - line:135 - INFO - epoch:60 cur_iter:177/197 total_iters:11800 lr:4.149214e-05 loss:0.181595 eta:0:12:12.377400
+2023-11-24 23:43:12,736 - pe_classification.py - line:135 - INFO - epoch:60 cur_iter:197/197 total_iters:11820 lr:4.131759e-05 loss:0.168139 eta:0:12:10.515400
+2023-11-24 23:43:15,529 - pe_classification.py - line:164 - INFO - [val] cur_iters:0/788 eta:0:01:01.020832
+2023-11-24 23:43:19,433 - pe_classification.py - line:164 - INFO - [val] cur_iters:20/788 eta:0:01:00.394347
+2023-11-24 23:43:24,514 - pe_classification.py - line:164 - INFO - [val] cur_iters:40/788 eta:0:00:59.100399
+2023-11-24 23:43:28,554 - pe_classification.py - line:164 - INFO - [val] cur_iters:60/788 eta:0:00:57.512970
+2023-11-24 23:43:33,648 - pe_classification.py - line:164 - INFO - [val] cur_iters:80/788 eta:0:00:55.848758
+2023-11-24 23:43:37,582 - pe_classification.py - line:164 - INFO - [val] cur_iters:100/788 eta:0:00:54.257199
+2023-11-24 23:43:42,750 - pe_classification.py - line:164 - INFO - [val] cur_iters:120/788 eta:0:00:52.708341
+2023-11-24 23:43:46,799 - pe_classification.py - line:164 - INFO - [val] cur_iters:140/788 eta:0:00:51.113647
+2023-11-24 23:43:51,822 - pe_classification.py - line:164 - INFO - [val] cur_iters:160/788 eta:0:00:49.501650
+2023-11-24 23:43:55,828 - pe_classification.py - line:164 - INFO - [val] cur_iters:180/788 eta:0:00:47.965140
+2023-11-24 23:44:01,088 - pe_classification.py - line:164 - INFO - [val] cur_iters:200/788 eta:0:00:46.387088
+2023-11-24 23:44:05,103 - pe_classification.py - line:164 - INFO - [val] cur_iters:220/788 eta:0:00:44.808876
+2023-11-24 23:44:10,174 - pe_classification.py - line:164 - INFO - [val] cur_iters:240/788 eta:0:00:43.217376
+2023-11-24 23:44:14,138 - pe_classification.py - line:164 - INFO - [val] cur_iters:260/788 eta:0:00:41.655661
+2023-11-24 23:44:19,319 - pe_classification.py - line:164 - INFO - [val] cur_iters:280/788 eta:0:00:40.096095
+2023-11-24 23:44:22,921 - pe_classification.py - line:164 - INFO - [val] cur_iters:300/788 eta:0:00:38.518778
+2023-11-24 23:44:26,018 - pe_classification.py - line:164 - INFO - [val] cur_iters:320/788 eta:0:00:36.935030
+2023-11-24 23:44:29,880 - pe_classification.py - line:164 - INFO - [val] cur_iters:340/788 eta:0:00:35.366193
+2023-11-24 23:44:34,850 - pe_classification.py - line:164 - INFO - [val] cur_iters:360/788 eta:0:00:33.782105
+2023-11-24 23:44:38,825 - pe_classification.py - line:164 - INFO - [val] cur_iters:380/788 eta:0:00:32.191258
+2023-11-24 23:44:43,853 - pe_classification.py - line:164 - INFO - [val] cur_iters:400/788 eta:0:00:30.603573
+2023-11-24 23:44:47,983 - pe_classification.py - line:164 - INFO - [val] cur_iters:420/788 eta:0:00:29.017222
+2023-11-24 23:44:53,064 - pe_classification.py - line:164 - INFO - [val] cur_iters:440/788 eta:0:00:27.433820
+2023-11-24 23:44:57,055 - pe_classification.py - line:164 - INFO - [val] cur_iters:460/788 eta:0:00:25.856871
+2023-11-24 23:45:02,184 - pe_classification.py - line:164 - INFO - [val] cur_iters:480/788 eta:0:00:24.280016
+2023-11-24 23:45:06,261 - pe_classification.py - line:164 - INFO - [val] cur_iters:500/788 eta:0:00:22.698830
+2023-11-24 23:45:11,396 - pe_classification.py - line:164 - INFO - [val] cur_iters:520/788 eta:0:00:21.114093
+2023-11-24 23:45:15,507 - pe_classification.py - line:164 - INFO - [val] cur_iters:540/788 eta:0:00:19.525103
+2023-11-24 23:45:20,512 - pe_classification.py - line:164 - INFO - [val] cur_iters:560/788 eta:0:00:17.942534
+2023-11-24 23:45:24,420 - pe_classification.py - line:164 - INFO - [val] cur_iters:580/788 eta:0:00:16.361280
+2023-11-24 23:45:29,490 - pe_classification.py - line:164 - INFO - [val] cur_iters:600/788 eta:0:00:14.780106
+2023-11-24 23:45:33,443 - pe_classification.py - line:164 - INFO - [val] cur_iters:620/788 eta:0:00:13.196674
+2023-11-24 23:45:38,418 - pe_classification.py - line:164 - INFO - [val] cur_iters:640/788 eta:0:00:11.615499
+2023-11-24 23:45:42,519 - pe_classification.py - line:164 - INFO - [val] cur_iters:660/788 eta:0:00:10.034270
+2023-11-24 23:45:47,655 - pe_classification.py - line:164 - INFO - [val] cur_iters:680/788 eta:0:00:08.454284
+2023-11-24 23:45:51,706 - pe_classification.py - line:164 - INFO - [val] cur_iters:700/788 eta:0:00:06.873870
+2023-11-24 23:45:56,841 - pe_classification.py - line:164 - INFO - [val] cur_iters:720/788 eta:0:00:05.293804
+2023-11-24 23:46:00,958 - pe_classification.py - line:164 - INFO - [val] cur_iters:740/788 eta:0:00:03.713611
+2023-11-24 23:46:05,941 - pe_classification.py - line:164 - INFO - [val] cur_iters:760/788 eta:0:00:02.133270
+2023-11-24 23:46:09,960 - pe_classification.py - line:164 - INFO - [val] cur_iters:780/788 eta:0:00:00.552979
+2023-11-24 23:46:11,357 - pe_classification.py - line:167 - INFO - ----------------------------------------
+2023-11-24 23:46:11,357 - pe_classification.py - line:169 - INFO - ### top1: 66.72222222222223
+2023-11-24 23:46:11,357 - pe_classification.py - line:169 - INFO - ### top5: 89.72222222222223
+2023-11-24 23:46:11,357 - pe_classification.py - line:170 - INFO - ----------------------------------------
+2023-11-24 23:46:17,561 - pe_classification.py - line:135 - INFO - epoch:61 cur_iter:20/197 total_iters:11840 lr:4.114315e-05 loss:0.148661 eta:0:12:08.661300
+2023-11-24 23:46:21,480 - pe_classification.py - line:135 - INFO - epoch:61 cur_iter:40/197 total_iters:11860 lr:4.096881e-05 loss:0.209612 eta:0:12:06.799360
+2023-11-24 23:46:26,232 - pe_classification.py - line:135 - INFO - epoch:61 cur_iter:60/197 total_iters:11880 lr:4.079460e-05 loss:0.165645 eta:0:12:04.945280
+2023-11-24 23:46:30,184 - pe_classification.py - line:135 - INFO - epoch:61 cur_iter:80/197 total_iters:11900 lr:4.062049e-05 loss:0.199139 eta:0:12:03.083400
+2023-11-24 23:46:34,957 - pe_classification.py - line:135 - INFO - epoch:61 cur_iter:100/197 total_iters:11920 lr:4.044651e-05 loss:0.160892 eta:0:12:01.221560
+2023-11-24 23:46:38,761 - pe_classification.py - line:135 - INFO - epoch:61 cur_iter:120/197 total_iters:11940 lr:4.027264e-05 loss:0.252825 eta:0:11:59.367520
+2023-11-24 23:46:43,631 - pe_classification.py - line:135 - INFO - epoch:61 cur_iter:140/197 total_iters:11960 lr:4.009890e-05 loss:0.227656 eta:0:11:57.505740
+2023-11-24 23:46:47,654 - pe_classification.py - line:135 - INFO - epoch:61 cur_iter:160/197 total_iters:11980 lr:3.992528e-05 loss:0.168702 eta:0:11:55.651720
+2023-11-24 23:46:52,798 - pe_classification.py - line:135 - INFO - epoch:61 cur_iter:180/197 total_iters:12000 lr:3.975178e-05 loss:0.191492 eta:0:11:53.790000
+2023-11-24 23:46:58,849 - pe_classification.py - line:135 - INFO - epoch:62 cur_iter:3/197 total_iters:12020 lr:3.957842e-05 loss:0.200619 eta:0:11:51.936000
+2023-11-24 23:47:02,678 - pe_classification.py - line:135 - INFO - epoch:62 cur_iter:23/197 total_iters:12040 lr:3.940519e-05 loss:0.197988 eta:0:11:50.082000
+2023-11-24 23:47:07,506 - pe_classification.py - line:135 - INFO - epoch:62 cur_iter:43/197 total_iters:12060 lr:3.923209e-05 loss:0.177497 eta:0:11:48.220360
+2023-11-24 23:47:11,411 - pe_classification.py - line:135 - INFO - epoch:62 cur_iter:63/197 total_iters:12080 lr:3.905912e-05 loss:0.192794 eta:0:11:46.358760
+2023-11-24 23:47:16,307 - pe_classification.py - line:135 - INFO - epoch:62 cur_iter:83/197 total_iters:12100 lr:3.888629e-05 loss:0.136923 eta:0:11:44.504800
+2023-11-24 23:47:19,827 - pe_classification.py - line:135 - INFO - epoch:62 cur_iter:103/197 total_iters:12120 lr:3.871360e-05 loss:0.105528 eta:0:11:42.643260
+2023-11-24 23:47:23,115 - pe_classification.py - line:135 - INFO - epoch:62 cur_iter:123/197 total_iters:12140 lr:3.854106e-05 loss:0.156633 eta:0:11:40.789320
+2023-11-24 23:47:26,772 - pe_classification.py - line:135 - INFO - epoch:62 cur_iter:143/197 total_iters:12160 lr:3.836866e-05 loss:0.204296 eta:0:11:38.935380
+2023-11-24 23:47:31,933 - pe_classification.py - line:135 - INFO - epoch:62 cur_iter:163/197 total_iters:12180 lr:3.819640e-05 loss:0.132648 eta:0:11:37.081440
+2023-11-24 23:47:35,918 - pe_classification.py - line:135 - INFO - epoch:62 cur_iter:183/197 total_iters:12200 lr:3.802429e-05 loss:0.170457 eta:0:11:35.220000
+2023-11-24 23:47:41,783 - pe_classification.py - line:135 - INFO - epoch:63 cur_iter:6/197 total_iters:12220 lr:3.785233e-05 loss:0.129745 eta:0:11:33.366080
+2023-11-24 23:47:46,585 - pe_classification.py - line:135 - INFO - epoch:63 cur_iter:26/197 total_iters:12240 lr:3.768053e-05 loss:0.145764 eta:0:11:31.512160
+2023-11-24 23:47:50,503 - pe_classification.py - line:135 - INFO - epoch:63 cur_iter:46/197 total_iters:12260 lr:3.750888e-05 loss:0.163249 eta:0:11:29.658240
+2023-11-24 23:47:55,281 - pe_classification.py - line:135 - INFO - epoch:63 cur_iter:66/197 total_iters:12280 lr:3.733738e-05 loss:0.132324 eta:0:11:27.796900
+2023-11-24 23:47:59,181 - pe_classification.py - line:135 - INFO - epoch:63 cur_iter:86/197 total_iters:12300 lr:3.716605e-05 loss:0.156389 eta:0:11:25.950400
+2023-11-24 23:48:04,061 - pe_classification.py - line:135 - INFO - epoch:63 cur_iter:106/197 total_iters:12320 lr:3.699488e-05 loss:0.166508 eta:0:11:24.089100
+2023-11-24 23:48:07,909 - pe_classification.py - line:135 - INFO - epoch:63 cur_iter:126/197 total_iters:12340 lr:3.682387e-05 loss:0.160054 eta:0:11:22.235200
+2023-11-24 23:48:12,755 - pe_classification.py - line:135 - INFO - epoch:63 cur_iter:146/197 total_iters:12360 lr:3.665302e-05 loss:0.206472 eta:0:11:20.381300
+2023-11-24 23:48:16,673 - pe_classification.py - line:135 - INFO - epoch:63 cur_iter:166/197 total_iters:12380 lr:3.648235e-05 loss:0.136951 eta:0:11:18.520080
+2023-11-24 23:48:21,459 - pe_classification.py - line:135 - INFO - epoch:63 cur_iter:186/197 total_iters:12400 lr:3.631184e-05 loss:0.169920 eta:0:11:16.666200
+2023-11-24 23:48:27,623 - pe_classification.py - line:135 - INFO - epoch:64 cur_iter:9/197 total_iters:12420 lr:3.614150e-05 loss:0.182523 eta:0:11:14.812320
+2023-11-24 23:48:31,555 - pe_classification.py - line:135 - INFO - epoch:64 cur_iter:29/197 total_iters:12440 lr:3.597134e-05 loss:0.169081 eta:0:11:12.951180
+2023-11-24 23:48:36,537 - pe_classification.py - line:135 - INFO - epoch:64 cur_iter:49/197 total_iters:12460 lr:3.580136e-05 loss:0.144650 eta:0:11:11.097320
+2023-11-24 23:48:40,441 - pe_classification.py - line:135 - INFO - epoch:64 cur_iter:69/197 total_iters:12480 lr:3.563155e-05 loss:0.145447 eta:0:11:09.236240
+2023-11-24 23:48:45,306 - pe_classification.py - line:135 - INFO - epoch:64 cur_iter:89/197 total_iters:12500 lr:3.546192e-05 loss:0.152329 eta:0:11:07.382400
+2023-11-24 23:48:49,263 - pe_classification.py - line:135 - INFO - epoch:64 cur_iter:109/197 total_iters:12520 lr:3.529248e-05 loss:0.178887 eta:0:11:05.528560
+2023-11-24 23:48:54,128 - pe_classification.py - line:135 - INFO - epoch:64 cur_iter:129/197 total_iters:12540 lr:3.512322e-05 loss:0.199995 eta:0:11:03.674720
+2023-11-24 23:48:58,017 - pe_classification.py - line:135 - INFO - epoch:64 cur_iter:149/197 total_iters:12560 lr:3.495415e-05 loss:0.188998 eta:0:11:01.820880
+2023-11-24 23:49:02,878 - pe_classification.py - line:135 - INFO - epoch:64 cur_iter:169/197 total_iters:12580 lr:3.478527e-05 loss:0.167861 eta:0:10:59.959920
+2023-11-24 23:49:06,755 - pe_classification.py - line:135 - INFO - epoch:64 cur_iter:189/197 total_iters:12600 lr:3.461657e-05 loss:0.146237 eta:0:10:58.106100
+2023-11-24 23:49:12,849 - pe_classification.py - line:135 - INFO - epoch:65 cur_iter:12/197 total_iters:12620 lr:3.444807e-05 loss:0.214100 eta:0:10:56.252280
+2023-11-24 23:49:16,775 - pe_classification.py - line:135 - INFO - epoch:65 cur_iter:32/197 total_iters:12640 lr:3.427977e-05 loss:0.122954 eta:0:10:54.391400
+2023-11-24 23:49:21,602 - pe_classification.py - line:135 - INFO - epoch:65 cur_iter:52/197 total_iters:12660 lr:3.411166e-05 loss:0.183247 eta:0:10:52.537600
+2023-11-24 23:49:25,487 - pe_classification.py - line:135 - INFO - epoch:65 cur_iter:72/197 total_iters:12680 lr:3.394376e-05 loss:0.191242 eta:0:10:50.676780
+2023-11-24 23:49:30,302 - pe_classification.py - line:135 - INFO - epoch:65 cur_iter:92/197 total_iters:12700 lr:3.377605e-05 loss:0.136670 eta:0:10:48.823000
+2023-11-24 23:49:34,184 - pe_classification.py - line:135 - INFO - epoch:65 cur_iter:112/197 total_iters:12720 lr:3.360855e-05 loss:0.168261 eta:0:10:46.969220
+2023-11-24 23:49:39,042 - pe_classification.py - line:135 - INFO - epoch:65 cur_iter:132/197 total_iters:12740 lr:3.344126e-05 loss:0.172506 eta:0:10:45.115440
+2023-11-24 23:49:42,846 - pe_classification.py - line:135 - INFO - epoch:65 cur_iter:152/197 total_iters:12760 lr:3.327417e-05 loss:0.105147 eta:0:10:43.261660
+2023-11-24 23:49:47,693 - pe_classification.py - line:135 - INFO - epoch:65 cur_iter:172/197 total_iters:12780 lr:3.310729e-05 loss:0.151693 eta:0:10:41.400960
+2023-11-24 23:49:51,492 - pe_classification.py - line:135 - INFO - epoch:65 cur_iter:192/197 total_iters:12800 lr:3.294063e-05 loss:0.179383 eta:0:10:39.540300
+2023-11-24 23:49:57,467 - pe_classification.py - line:135 - INFO - epoch:66 cur_iter:15/197 total_iters:12820 lr:3.277417e-05 loss:0.144046 eta:0:10:37.686560
+2023-11-24 23:50:02,212 - pe_classification.py - line:135 - INFO - epoch:66 cur_iter:35/197 total_iters:12840 lr:3.260794e-05 loss:0.147875 eta:0:10:35.832820
+2023-11-24 23:50:06,076 - pe_classification.py - line:135 - INFO - epoch:66 cur_iter:55/197 total_iters:12860 lr:3.244192e-05 loss:0.146862 eta:0:10:33.979080
+2023-11-24 23:50:10,933 - pe_classification.py - line:135 - INFO - epoch:66 cur_iter:75/197 total_iters:12880 lr:3.227613e-05 loss:0.160568 eta:0:10:32.125340
+2023-11-24 23:50:14,790 - pe_classification.py - line:135 - INFO - epoch:66 cur_iter:95/197 total_iters:12900 lr:3.211055e-05 loss:0.098982 eta:0:10:30.271600
+2023-11-24 23:50:18,503 - pe_classification.py - line:135 - INFO - epoch:66 cur_iter:115/197 total_iters:12920 lr:3.194521e-05 loss:0.143335 eta:0:10:28.411080
+2023-11-24 23:50:21,481 - pe_classification.py - line:135 - INFO - epoch:66 cur_iter:135/197 total_iters:12940 lr:3.178008e-05 loss:0.195457 eta:0:10:26.557360
+2023-11-24 23:50:26,485 - pe_classification.py - line:135 - INFO - epoch:66 cur_iter:155/197 total_iters:12960 lr:3.161519e-05 loss:0.137013 eta:0:10:24.703640
+2023-11-24 23:50:30,628 - pe_classification.py - line:135 - INFO - epoch:66 cur_iter:175/197 total_iters:12980 lr:3.145053e-05 loss:0.132540 eta:0:10:22.849920
+2023-11-24 23:50:35,004 - pe_classification.py - line:135 - INFO - epoch:66 cur_iter:195/197 total_iters:13000 lr:3.128610e-05 loss:0.131148 eta:0:10:20.989500
+2023-11-24 23:50:41,436 - pe_classification.py - line:135 - INFO - epoch:67 cur_iter:18/197 total_iters:13020 lr:3.112191e-05 loss:0.099066 eta:0:10:19.142480
+2023-11-24 23:50:45,260 - pe_classification.py - line:135 - INFO - epoch:67 cur_iter:38/197 total_iters:13040 lr:3.095795e-05 loss:0.134454 eta:0:10:17.288760
+2023-11-24 23:50:50,101 - pe_classification.py - line:135 - INFO - epoch:67 cur_iter:58/197 total_iters:13060 lr:3.079423e-05 loss:0.117043 eta:0:10:15.428400
+2023-11-24 23:50:53,901 - pe_classification.py - line:135 - INFO - epoch:67 cur_iter:78/197 total_iters:13080 lr:3.063075e-05 loss:0.165196 eta:0:10:13.574700
+2023-11-24 23:50:58,697 - pe_classification.py - line:135 - INFO - epoch:67 cur_iter:98/197 total_iters:13100 lr:3.046752e-05 loss:0.134836 eta:0:10:11.721000
+2023-11-24 23:51:02,641 - pe_classification.py - line:135 - INFO - epoch:67 cur_iter:118/197 total_iters:13120 lr:3.030453e-05 loss:0.183497 eta:0:10:09.867300
+2023-11-24 23:51:07,449 - pe_classification.py - line:135 - INFO - epoch:67 cur_iter:138/197 total_iters:13140 lr:3.014179e-05 loss:0.147954 eta:0:10:08.007040
+2023-11-24 23:51:11,427 - pe_classification.py - line:135 - INFO - epoch:67 cur_iter:158/197 total_iters:13160 lr:2.997930e-05 loss:0.131929 eta:0:10:06.153360
+2023-11-24 23:51:16,479 - pe_classification.py - line:135 - INFO - epoch:67 cur_iter:178/197 total_iters:13180 lr:2.981706e-05 loss:0.140525 eta:0:10:04.299680
+2023-11-24 23:51:22,495 - pe_classification.py - line:135 - INFO - epoch:68 cur_iter:1/197 total_iters:13200 lr:2.965507e-05 loss:0.136184 eta:0:10:02.446000
+2023-11-24 23:51:26,325 - pe_classification.py - line:135 - INFO - epoch:68 cur_iter:21/197 total_iters:13220 lr:2.949334e-05 loss:0.154585 eta:0:10:00.585840
+2023-11-24 23:51:31,146 - pe_classification.py - line:135 - INFO - epoch:68 cur_iter:41/197 total_iters:13240 lr:2.933187e-05 loss:0.167897 eta:0:09:58.732180
+2023-11-24 23:51:35,136 - pe_classification.py - line:135 - INFO - epoch:68 cur_iter:61/197 total_iters:13260 lr:2.917066e-05 loss:0.107090 eta:0:09:56.872080
+2023-11-24 23:51:39,810 - pe_classification.py - line:135 - INFO - epoch:68 cur_iter:81/197 total_iters:13280 lr:2.900970e-05 loss:0.145239 eta:0:09:55.018440
+2023-11-24 23:51:43,745 - pe_classification.py - line:135 - INFO - epoch:68 cur_iter:101/197 total_iters:13300 lr:2.884902e-05 loss:0.149687 eta:0:09:53.158400
+2023-11-24 23:51:48,546 - pe_classification.py - line:135 - INFO - epoch:68 cur_iter:121/197 total_iters:13320 lr:2.868859e-05 loss:0.149244 eta:0:09:51.304780
+2023-11-24 23:51:52,392 - pe_classification.py - line:135 - INFO - epoch:68 cur_iter:141/197 total_iters:13340 lr:2.852844e-05 loss:0.147105 eta:0:09:49.444800
+2023-11-24 23:51:57,140 - pe_classification.py - line:135 - INFO - epoch:68 cur_iter:161/197 total_iters:13360 lr:2.836855e-05 loss:0.133849 eta:0:09:47.591200
+2023-11-24 23:52:01,042 - pe_classification.py - line:135 - INFO - epoch:68 cur_iter:181/197 total_iters:13380 lr:2.820894e-05 loss:0.120511 eta:0:09:45.731280
+2023-11-24 23:52:07,192 - pe_classification.py - line:135 - INFO - epoch:69 cur_iter:4/197 total_iters:13400 lr:2.804960e-05 loss:0.161265 eta:0:09:43.877700
+2023-11-24 23:52:11,062 - pe_classification.py - line:135 - INFO - epoch:69 cur_iter:24/197 total_iters:13420 lr:2.789053e-05 loss:0.138501 eta:0:09:42.017840
+2023-11-24 23:52:15,951 - pe_classification.py - line:135 - INFO - epoch:69 cur_iter:44/197 total_iters:13440 lr:2.773174e-05 loss:0.095341 eta:0:09:40.164280
+2023-11-24 23:52:19,782 - pe_classification.py - line:135 - INFO - epoch:69 cur_iter:64/197 total_iters:13460 lr:2.757324e-05 loss:0.152956 eta:0:09:38.310720
+2023-11-24 23:52:24,569 - pe_classification.py - line:135 - INFO - epoch:69 cur_iter:84/197 total_iters:13480 lr:2.741501e-05 loss:0.152647 eta:0:09:36.450940
+2023-11-24 23:52:28,410 - pe_classification.py - line:135 - INFO - epoch:69 cur_iter:104/197 total_iters:13500 lr:2.725707e-05 loss:0.146068 eta:0:09:34.597400
+2023-11-24 23:52:33,227 - pe_classification.py - line:135 - INFO - epoch:69 cur_iter:124/197 total_iters:13520 lr:2.709941e-05 loss:0.120624 eta:0:09:32.743860
+2023-11-24 23:52:37,058 - pe_classification.py - line:135 - INFO - epoch:69 cur_iter:144/197 total_iters:13540 lr:2.694204e-05 loss:0.091891 eta:0:09:30.890320
+2023-11-24 23:52:41,827 - pe_classification.py - line:135 - INFO - epoch:69 cur_iter:164/197 total_iters:13560 lr:2.678496e-05 loss:0.140614 eta:0:09:29.030640
+2023-11-24 23:52:45,700 - pe_classification.py - line:135 - INFO - epoch:69 cur_iter:184/197 total_iters:13580 lr:2.662818e-05 loss:0.103407 eta:0:09:27.177120
+2023-11-24 23:52:51,713 - pe_classification.py - line:135 - INFO - epoch:70 cur_iter:7/197 total_iters:13600 lr:2.647168e-05 loss:0.127737 eta:0:09:25.323600
+2023-11-24 23:52:56,483 - pe_classification.py - line:135 - INFO - epoch:70 cur_iter:27/197 total_iters:13620 lr:2.631548e-05 loss:0.101885 eta:0:09:23.464000
+2023-11-24 23:53:00,348 - pe_classification.py - line:135 - INFO - epoch:70 cur_iter:47/197 total_iters:13640 lr:2.615958e-05 loss:0.151242 eta:0:09:21.610500
+2023-11-24 23:53:05,127 - pe_classification.py - line:135 - INFO - epoch:70 cur_iter:67/197 total_iters:13660 lr:2.600398e-05 loss:0.146195 eta:0:09:19.750960
+2023-11-24 23:53:08,991 - pe_classification.py - line:135 - INFO - epoch:70 cur_iter:87/197 total_iters:13680 lr:2.584868e-05 loss:0.143862 eta:0:09:17.897480
+2023-11-24 23:53:12,952 - pe_classification.py - line:135 - INFO - epoch:70 cur_iter:107/197 total_iters:13700 lr:2.569368e-05 loss:0.143958 eta:0:09:16.038000
+2023-11-24 23:53:15,492 - pe_classification.py - line:135 - INFO - epoch:70 cur_iter:127/197 total_iters:13720 lr:2.553899e-05 loss:0.092747 eta:0:09:14.184540
+2023-11-24 23:53:20,629 - pe_classification.py - line:135 - INFO - epoch:70 cur_iter:147/197 total_iters:13740 lr:2.538461e-05 loss:0.123265 eta:0:09:12.331080
+2023-11-24 23:53:24,647 - pe_classification.py - line:135 - INFO - epoch:70 cur_iter:167/197 total_iters:13760 lr:2.523053e-05 loss:0.129948 eta:0:09:10.483560
+2023-11-24 23:53:29,566 - pe_classification.py - line:135 - INFO - epoch:70 cur_iter:187/197 total_iters:13780 lr:2.507677e-05 loss:0.106532 eta:0:09:08.624160
+2023-11-24 23:53:35,386 - pe_classification.py - line:135 - INFO - epoch:71 cur_iter:10/197 total_iters:13800 lr:2.492331e-05 loss:0.187319 eta:0:09:06.770700
+2023-11-24 23:53:39,330 - pe_classification.py - line:135 - INFO - epoch:71 cur_iter:30/197 total_iters:13820 lr:2.477018e-05 loss:0.131738 eta:0:09:04.911360
+2023-11-24 23:53:44,073 - pe_classification.py - line:135 - INFO - epoch:71 cur_iter:50/197 total_iters:13840 lr:2.461736e-05 loss:0.137913 eta:0:09:03.052060
+2023-11-24 23:53:47,979 - pe_classification.py - line:135 - INFO - epoch:71 cur_iter:70/197 total_iters:13860 lr:2.446486e-05 loss:0.094061 eta:0:09:01.198640
+2023-11-24 23:53:52,822 - pe_classification.py - line:135 - INFO - epoch:71 cur_iter:90/197 total_iters:13880 lr:2.431268e-05 loss:0.134457 eta:0:08:59.345220
+2023-11-24 23:53:56,674 - pe_classification.py - line:135 - INFO - epoch:71 cur_iter:110/197 total_iters:13900 lr:2.416082e-05 loss:0.104224 eta:0:08:57.486000
+2023-11-24 23:54:01,448 - pe_classification.py - line:135 - INFO - epoch:71 cur_iter:130/197 total_iters:13920 lr:2.400928e-05 loss:0.149715 eta:0:08:55.632600
+2023-11-24 23:54:05,418 - pe_classification.py - line:135 - INFO - epoch:71 cur_iter:150/197 total_iters:13940 lr:2.385808e-05 loss:0.141561 eta:0:08:53.779200
+2023-11-24 23:54:10,123 - pe_classification.py - line:135 - INFO - epoch:71 cur_iter:170/197 total_iters:13960 lr:2.370720e-05 loss:0.101536 eta:0:08:51.920060
+2023-11-24 23:54:14,195 - pe_classification.py - line:135 - INFO - epoch:71 cur_iter:190/197 total_iters:13980 lr:2.355665e-05 loss:0.161353 eta:0:08:50.060960
+2023-11-24 23:54:20,138 - pe_classification.py - line:135 - INFO - epoch:72 cur_iter:13/197 total_iters:14000 lr:2.340643e-05 loss:0.146707 eta:0:08:48.201900
+2023-11-24 23:54:24,905 - pe_classification.py - line:135 - INFO - epoch:72 cur_iter:33/197 total_iters:14020 lr:2.325655e-05 loss:0.121059 eta:0:08:46.348560
+2023-11-24 23:54:28,799 - pe_classification.py - line:135 - INFO - epoch:72 cur_iter:53/197 total_iters:14040 lr:2.310701e-05 loss:0.131042 eta:0:08:44.495220
+2023-11-24 23:54:33,526 - pe_classification.py - line:135 - INFO - epoch:72 cur_iter:73/197 total_iters:14060 lr:2.295780e-05 loss:0.087408 eta:0:08:42.636240
+2023-11-24 23:54:37,058 - pe_classification.py - line:135 - INFO - epoch:72 cur_iter:93/197 total_iters:14080 lr:2.280893e-05 loss:0.084879 eta:0:08:40.777300
+2023-11-24 23:54:41,206 - pe_classification.py - line:135 - INFO - epoch:72 cur_iter:113/197 total_iters:14100 lr:2.266040e-05 loss:0.085600 eta:0:08:38.924000
+2023-11-24 23:54:44,215 - pe_classification.py - line:135 - INFO - epoch:72 cur_iter:133/197 total_iters:14120 lr:2.251222e-05 loss:0.134897 eta:0:08:37.065120
+2023-11-24 23:54:49,399 - pe_classification.py - line:135 - INFO - epoch:72 cur_iter:153/197 total_iters:14140 lr:2.236438e-05 loss:0.145747 eta:0:08:35.211840
+2023-11-24 23:54:53,537 - pe_classification.py - line:135 - INFO - epoch:72 cur_iter:173/197 total_iters:14160 lr:2.221688e-05 loss:0.137412 eta:0:08:33.353020
+2023-11-24 23:54:57,885 - pe_classification.py - line:135 - INFO - epoch:72 cur_iter:193/197 total_iters:14180 lr:2.206974e-05 loss:0.089577 eta:0:08:31.499760
+2023-11-24 23:55:03,283 - pe_classification.py - line:135 - INFO - epoch:73 cur_iter:16/197 total_iters:14200 lr:2.192295e-05 loss:0.110911 eta:0:08:29.641000
+2023-11-24 23:55:08,210 - pe_classification.py - line:135 - INFO - epoch:73 cur_iter:36/197 total_iters:14220 lr:2.177651e-05 loss:0.128800 eta:0:08:27.787760
+2023-11-24 23:55:12,195 - pe_classification.py - line:135 - INFO - epoch:73 cur_iter:56/197 total_iters:14240 lr:2.163042e-05 loss:0.156038 eta:0:08:25.929060
+2023-11-24 23:55:17,084 - pe_classification.py - line:135 - INFO - epoch:73 cur_iter:76/197 total_iters:14260 lr:2.148470e-05 loss:0.145464 eta:0:08:24.070400
+2023-11-24 23:55:20,882 - pe_classification.py - line:135 - INFO - epoch:73 cur_iter:96/197 total_iters:14280 lr:2.133932e-05 loss:0.115740 eta:0:08:22.217200
+2023-11-24 23:55:25,765 - pe_classification.py - line:135 - INFO - epoch:73 cur_iter:116/197 total_iters:14300 lr:2.119431e-05 loss:0.118634 eta:0:08:20.358600
+2023-11-24 23:55:29,633 - pe_classification.py - line:135 - INFO - epoch:73 cur_iter:136/197 total_iters:14320 lr:2.104966e-05 loss:0.095867 eta:0:08:18.505420
+2023-11-24 23:55:34,441 - pe_classification.py - line:135 - INFO - epoch:73 cur_iter:156/197 total_iters:14340 lr:2.090538e-05 loss:0.076527 eta:0:08:16.646880
+2023-11-24 23:55:38,299 - pe_classification.py - line:135 - INFO - epoch:73 cur_iter:176/197 total_iters:14360 lr:2.076146e-05 loss:0.093275 eta:0:08:14.788380
+2023-11-24 23:55:42,638 - pe_classification.py - line:135 - INFO - epoch:73 cur_iter:196/197 total_iters:14380 lr:2.061791e-05 loss:0.132676 eta:0:08:12.935240
+2023-11-24 23:55:49,021 - pe_classification.py - line:135 - INFO - epoch:74 cur_iter:19/197 total_iters:14400 lr:2.047472e-05 loss:0.148595 eta:0:08:11.076800
+2023-11-24 23:55:52,844 - pe_classification.py - line:135 - INFO - epoch:74 cur_iter:39/197 total_iters:14420 lr:2.033191e-05 loss:0.143767 eta:0:08:09.223680
+2023-11-24 23:55:57,677 - pe_classification.py - line:135 - INFO - epoch:74 cur_iter:59/197 total_iters:14440 lr:2.018947e-05 loss:0.124452 eta:0:08:07.370560
+2023-11-24 23:56:01,534 - pe_classification.py - line:135 - INFO - epoch:74 cur_iter:79/197 total_iters:14460 lr:2.004740e-05 loss:0.132563 eta:0:08:05.512200
+2023-11-24 23:56:06,394 - pe_classification.py - line:135 - INFO - epoch:74 cur_iter:99/197 total_iters:14480 lr:1.990571e-05 loss:0.092092 eta:0:08:03.653880
+2023-11-24 23:56:10,188 - pe_classification.py - line:135 - INFO - epoch:74 cur_iter:119/197 total_iters:14500 lr:1.976440e-05 loss:0.102706 eta:0:08:01.800800
+2023-11-24 23:56:15,138 - pe_classification.py - line:135 - INFO - epoch:74 cur_iter:139/197 total_iters:14520 lr:1.962347e-05 loss:0.113267 eta:0:07:59.942540
+2023-11-24 23:56:19,165 - pe_classification.py - line:135 - INFO - epoch:74 cur_iter:159/197 total_iters:14540 lr:1.948292e-05 loss:0.111236 eta:0:07:58.089480
+2023-11-24 23:56:24,221 - pe_classification.py - line:135 - INFO - epoch:74 cur_iter:179/197 total_iters:14560 lr:1.934275e-05 loss:0.120423 eta:0:07:56.231280
+2023-11-24 23:56:30,185 - pe_classification.py - line:135 - INFO - epoch:75 cur_iter:2/197 total_iters:14580 lr:1.920297e-05 loss:0.098295 eta:0:07:54.378240
+2023-11-24 23:56:34,105 - pe_classification.py - line:135 - INFO - epoch:75 cur_iter:22/197 total_iters:14600 lr:1.906357e-05 loss:0.143353 eta:0:07:52.525200
+2023-11-24 23:56:38,865 - pe_classification.py - line:135 - INFO - epoch:75 cur_iter:42/197 total_iters:14620 lr:1.892456e-05 loss:0.132990 eta:0:07:50.667080
+2023-11-24 23:56:42,695 - pe_classification.py - line:135 - INFO - epoch:75 cur_iter:62/197 total_iters:14640 lr:1.878594e-05 loss:0.103480 eta:0:07:48.814060
+2023-11-24 23:56:47,487 - pe_classification.py - line:135 - INFO - epoch:75 cur_iter:82/197 total_iters:14660 lr:1.864772e-05 loss:0.072099 eta:0:07:46.956000
+2023-11-24 23:56:51,347 - pe_classification.py - line:135 - INFO - epoch:75 cur_iter:102/197 total_iters:14680 lr:1.850989e-05 loss:0.124731 eta:0:07:45.103000
+2023-11-24 23:56:56,202 - pe_classification.py - line:135 - INFO - epoch:75 cur_iter:122/197 total_iters:14700 lr:1.837245e-05 loss:0.086622 eta:0:07:43.250000
+2023-11-24 23:57:00,118 - pe_classification.py - line:135 - INFO - epoch:75 cur_iter:142/197 total_iters:14720 lr:1.823541e-05 loss:0.110306 eta:0:07:41.397000
+2023-11-24 23:57:05,059 - pe_classification.py - line:135 - INFO - epoch:75 cur_iter:162/197 total_iters:14740 lr:1.809877e-05 loss:0.074464 eta:0:07:39.539040
+2023-11-24 23:57:09,032 - pe_classification.py - line:135 - INFO - epoch:75 cur_iter:182/197 total_iters:14760 lr:1.796253e-05 loss:0.082229 eta:0:07:37.686060
+2023-11-24 23:57:14,994 - pe_classification.py - line:135 - INFO - epoch:76 cur_iter:5/197 total_iters:14780 lr:1.782670e-05 loss:0.094105 eta:0:07:35.833080
+2023-11-24 23:57:19,666 - pe_classification.py - line:135 - INFO - epoch:76 cur_iter:25/197 total_iters:14800 lr:1.769127e-05 loss:0.116267 eta:0:07:33.975200
+2023-11-24 23:57:23,584 - pe_classification.py - line:135 - INFO - epoch:76 cur_iter:45/197 total_iters:14820 lr:1.755624e-05 loss:0.094045 eta:0:07:32.122240
+2023-11-24 23:57:28,365 - pe_classification.py - line:135 - INFO - epoch:76 cur_iter:65/197 total_iters:14840 lr:1.742162e-05 loss:0.085582 eta:0:07:30.269280
+2023-11-24 23:57:32,206 - pe_classification.py - line:135 - INFO - epoch:76 cur_iter:85/197 total_iters:14860 lr:1.728741e-05 loss:0.103899 eta:0:07:28.411480
+2023-11-24 23:57:35,863 - pe_classification.py - line:135 - INFO - epoch:76 cur_iter:105/197 total_iters:14880 lr:1.715361e-05 loss:0.086699 eta:0:07:26.558540
+2023-11-24 23:57:38,531 - pe_classification.py - line:135 - INFO - epoch:76 cur_iter:125/197 total_iters:14900 lr:1.702022e-05 loss:0.113252 eta:0:07:24.705600
+2023-11-24 23:57:43,323 - pe_classification.py - line:135 - INFO - epoch:76 cur_iter:145/197 total_iters:14920 lr:1.688725e-05 loss:0.105669 eta:0:07:22.847880
+2023-11-24 23:57:47,223 - pe_classification.py - line:135 - INFO - epoch:76 cur_iter:165/197 total_iters:14940 lr:1.675469e-05 loss:0.089837 eta:0:07:20.994960
+2023-11-24 23:57:52,030 - pe_classification.py - line:135 - INFO - epoch:76 cur_iter:185/197 total_iters:14960 lr:1.662255e-05 loss:0.120672 eta:0:07:19.142040
+2023-11-24 23:57:57,199 - pe_classification.py - line:135 - INFO - epoch:77 cur_iter:8/197 total_iters:14980 lr:1.649083e-05 loss:0.109448 eta:0:07:17.289120
+2023-11-24 23:58:01,933 - pe_classification.py - line:135 - INFO - epoch:77 cur_iter:28/197 total_iters:15000 lr:1.635953e-05 loss:0.103879 eta:0:07:15.436200
+2023-11-24 23:58:05,865 - pe_classification.py - line:135 - INFO - epoch:77 cur_iter:48/197 total_iters:15020 lr:1.622866e-05 loss:0.108298 eta:0:07:13.583280
+2023-11-24 23:58:10,637 - pe_classification.py - line:135 - INFO - epoch:77 cur_iter:68/197 total_iters:15040 lr:1.609820e-05 loss:0.126071 eta:0:07:11.725700
+2023-11-24 23:58:14,581 - pe_classification.py - line:135 - INFO - epoch:77 cur_iter:88/197 total_iters:15060 lr:1.596818e-05 loss:0.127402 eta:0:07:09.872800
+2023-11-24 23:58:19,466 - pe_classification.py - line:135 - INFO - epoch:77 cur_iter:108/197 total_iters:15080 lr:1.583858e-05 loss:0.103499 eta:0:07:08.019900
+2023-11-24 23:58:23,294 - pe_classification.py - line:135 - INFO - epoch:77 cur_iter:128/197 total_iters:15100 lr:1.570940e-05 loss:0.090402 eta:0:07:06.162400
+2023-11-24 23:58:28,103 - pe_classification.py - line:135 - INFO - epoch:77 cur_iter:148/197 total_iters:15120 lr:1.558066e-05 loss:0.089262 eta:0:07:04.309520
+2023-11-24 23:58:31,967 - pe_classification.py - line:135 - INFO - epoch:77 cur_iter:168/197 total_iters:15140 lr:1.545236e-05 loss:0.050938 eta:0:07:02.452080
+2023-11-24 23:58:36,773 - pe_classification.py - line:135 - INFO - epoch:77 cur_iter:188/197 total_iters:15160 lr:1.532448e-05 loss:0.097495 eta:0:07:00.599220
+2023-11-24 23:58:42,864 - pe_classification.py - line:135 - INFO - epoch:78 cur_iter:11/197 total_iters:15180 lr:1.519704e-05 loss:0.095968 eta:0:06:58.746360
+2023-11-24 23:58:46,718 - pe_classification.py - line:135 - INFO - epoch:78 cur_iter:31/197 total_iters:15200 lr:1.507004e-05 loss:0.122784 eta:0:06:56.889000
+2023-11-24 23:58:51,527 - pe_classification.py - line:135 - INFO - epoch:78 cur_iter:51/197 total_iters:15220 lr:1.494348e-05 loss:0.077589 eta:0:06:55.031680
+2023-11-24 23:58:55,368 - pe_classification.py - line:135 - INFO - epoch:78 cur_iter:71/197 total_iters:15240 lr:1.481736e-05 loss:0.073584 eta:0:06:53.178860
+2023-11-24 23:59:00,128 - pe_classification.py - line:135 - INFO - epoch:78 cur_iter:91/197 total_iters:15260 lr:1.469168e-05 loss:0.085359 eta:0:06:51.326040
+2023-11-24 23:59:04,006 - pe_classification.py - line:135 - INFO - epoch:78 cur_iter:111/197 total_iters:15280 lr:1.456644e-05 loss:0.101803 eta:0:06:49.468800
+2023-11-24 23:59:08,875 - pe_classification.py - line:135 - INFO - epoch:78 cur_iter:131/197 total_iters:15300 lr:1.444165e-05 loss:0.064731 eta:0:06:47.616000
+2023-11-24 23:59:12,904 - pe_classification.py - line:135 - INFO - epoch:78 cur_iter:151/197 total_iters:15320 lr:1.431730e-05 loss:0.071027 eta:0:06:45.763200
+2023-11-24 23:59:18,128 - pe_classification.py - line:135 - INFO - epoch:78 cur_iter:171/197 total_iters:15340 lr:1.419340e-05 loss:0.077911 eta:0:06:43.906040
+2023-11-24 23:59:22,122 - pe_classification.py - line:135 - INFO - epoch:78 cur_iter:191/197 total_iters:15360 lr:1.406996e-05 loss:0.084066 eta:0:06:42.053260
+2023-11-24 23:59:28,004 - pe_classification.py - line:135 - INFO - epoch:79 cur_iter:14/197 total_iters:15380 lr:1.394696e-05 loss:0.082818 eta:0:06:40.196160
+2023-11-24 23:59:32,919 - pe_classification.py - line:135 - INFO - epoch:79 cur_iter:34/197 total_iters:15400 lr:1.382442e-05 loss:0.063761 eta:0:06:38.343400
+2023-11-24 23:59:36,871 - pe_classification.py - line:135 - INFO - epoch:79 cur_iter:54/197 total_iters:15420 lr:1.370233e-05 loss:0.124637 eta:0:06:36.486360
+2023-11-24 23:59:41,616 - pe_classification.py - line:135 - INFO - epoch:79 cur_iter:74/197 total_iters:15440 lr:1.358069e-05 loss:0.083087 eta:0:06:34.633620
+2023-11-24 23:59:45,405 - pe_classification.py - line:135 - INFO - epoch:79 cur_iter:94/197 total_iters:15460 lr:1.345952e-05 loss:0.078845 eta:0:06:32.776640
+2023-11-24 23:59:50,251 - pe_classification.py - line:135 - INFO - epoch:79 cur_iter:114/197 total_iters:15480 lr:1.333880e-05 loss:0.079100 eta:0:06:30.923920
+2023-11-24 23:59:54,188 - pe_classification.py - line:135 - INFO - epoch:79 cur_iter:134/197 total_iters:15500 lr:1.321854e-05 loss:0.078665 eta:0:06:29.067000
+2023-11-24 23:59:59,113 - pe_classification.py - line:135 - INFO - epoch:79 cur_iter:154/197 total_iters:15520 lr:1.309875e-05 loss:0.066303 eta:0:06:27.214300
+2023-11-25 00:00:03,009 - pe_classification.py - line:135 - INFO - epoch:79 cur_iter:174/197 total_iters:15540 lr:1.297942e-05 loss:0.133596 eta:0:06:25.361600
+2023-11-25 00:00:07,555 - pe_classification.py - line:135 - INFO - epoch:79 cur_iter:194/197 total_iters:15560 lr:1.286055e-05 loss:0.094275 eta:0:06:23.508900
+2023-11-25 00:00:14,054 - pe_classification.py - line:135 - INFO - epoch:80 cur_iter:17/197 total_iters:15580 lr:1.274215e-05 loss:0.082326 eta:0:06:21.656200
+2023-11-25 00:00:17,862 - pe_classification.py - line:135 - INFO - epoch:80 cur_iter:37/197 total_iters:15600 lr:1.262422e-05 loss:0.126380 eta:0:06:19.803500
+2023-11-25 00:00:22,639 - pe_classification.py - line:135 - INFO - epoch:80 cur_iter:57/197 total_iters:15620 lr:1.250675e-05 loss:0.090096 eta:0:06:17.946720
+2023-11-25 00:00:26,585 - pe_classification.py - line:135 - INFO - epoch:80 cur_iter:77/197 total_iters:15640 lr:1.238976e-05 loss:0.079479 eta:0:06:16.094040
+2023-11-25 00:00:30,716 - pe_classification.py - line:135 - INFO - epoch:80 cur_iter:97/197 total_iters:15660 lr:1.227324e-05 loss:0.111032 eta:0:06:14.241360
+2023-11-25 00:00:33,426 - pe_classification.py - line:135 - INFO - epoch:80 cur_iter:117/197 total_iters:15680 lr:1.215719e-05 loss:0.070662 eta:0:06:12.388680
+2023-11-25 00:00:36,809 - pe_classification.py - line:135 - INFO - epoch:80 cur_iter:137/197 total_iters:15700 lr:1.204162e-05 loss:0.068160 eta:0:06:10.536000
+2023-11-25 00:00:40,663 - pe_classification.py - line:135 - INFO - epoch:80 cur_iter:157/197 total_iters:15720 lr:1.192653e-05 loss:0.091842 eta:0:06:08.683320
+2023-11-25 00:00:45,545 - pe_classification.py - line:135 - INFO - epoch:80 cur_iter:177/197 total_iters:15740 lr:1.181191e-05 loss:0.055929 eta:0:06:06.830640
+2023-11-25 00:00:49,119 - pe_classification.py - line:135 - INFO - epoch:80 cur_iter:197/197 total_iters:15760 lr:1.169778e-05 loss:0.069710 eta:0:06:04.974020
+2023-11-25 00:00:51,891 - pe_classification.py - line:164 - INFO - [val] cur_iters:0/788 eta:0:01:01.829081
+2023-11-25 00:00:55,768 - pe_classification.py - line:164 - INFO - [val] cur_iters:20/788 eta:0:01:00.331453
+2023-11-25 00:01:00,802 - pe_classification.py - line:164 - INFO - [val] cur_iters:40/788 eta:0:00:58.753044
+2023-11-25 00:01:04,833 - pe_classification.py - line:164 - INFO - [val] cur_iters:60/788 eta:0:00:57.219262
+2023-11-25 00:01:09,899 - pe_classification.py - line:164 - INFO - [val] cur_iters:80/788 eta:0:00:55.659989
+2023-11-25 00:01:13,817 - pe_classification.py - line:164 - INFO - [val] cur_iters:100/788 eta:0:00:54.089571
+2023-11-25 00:01:19,073 - pe_classification.py - line:164 - INFO - [val] cur_iters:120/788 eta:0:00:52.511576
+2023-11-25 00:01:23,135 - pe_classification.py - line:164 - INFO - [val] cur_iters:140/788 eta:0:00:50.913077
+2023-11-25 00:01:28,193 - pe_classification.py - line:164 - INFO - [val] cur_iters:160/788 eta:0:00:49.321701
+2023-11-25 00:01:32,234 - pe_classification.py - line:164 - INFO - [val] cur_iters:180/788 eta:0:00:47.746013
+2023-11-25 00:01:37,330 - pe_classification.py - line:164 - INFO - [val] cur_iters:200/788 eta:0:00:46.180464
+2023-11-25 00:01:41,431 - pe_classification.py - line:164 - INFO - [val] cur_iters:220/788 eta:0:00:44.596251
+2023-11-25 00:01:46,458 - pe_classification.py - line:164 - INFO - [val] cur_iters:240/788 eta:0:00:42.996388
+2023-11-25 00:01:50,556 - pe_classification.py - line:164 - INFO - [val] cur_iters:260/788 eta:0:00:41.423781
+2023-11-25 00:01:55,577 - pe_classification.py - line:164 - INFO - [val] cur_iters:280/788 eta:0:00:39.859833
+2023-11-25 00:01:59,659 - pe_classification.py - line:164 - INFO - [val] cur_iters:300/788 eta:0:00:38.286479
+2023-11-25 00:02:04,716 - pe_classification.py - line:164 - INFO - [val] cur_iters:320/788 eta:0:00:36.720677
+2023-11-25 00:02:08,767 - pe_classification.py - line:164 - INFO - [val] cur_iters:340/788 eta:0:00:35.145822
+2023-11-25 00:02:13,740 - pe_classification.py - line:164 - INFO - [val] cur_iters:360/788 eta:0:00:33.567751
+2023-11-25 00:02:17,679 - pe_classification.py - line:164 - INFO - [val] cur_iters:380/788 eta:0:00:31.993456
+2023-11-25 00:02:22,723 - pe_classification.py - line:164 - INFO - [val] cur_iters:400/788 eta:0:00:30.421296
+2023-11-25 00:02:26,922 - pe_classification.py - line:164 - INFO - [val] cur_iters:420/788 eta:0:00:28.845099
+2023-11-25 00:02:31,896 - pe_classification.py - line:164 - INFO - [val] cur_iters:440/788 eta:0:00:27.273853
+2023-11-25 00:02:36,073 - pe_classification.py - line:164 - INFO - [val] cur_iters:460/788 eta:0:00:25.695333
+2023-11-25 00:02:41,040 - pe_classification.py - line:164 - INFO - [val] cur_iters:480/788 eta:0:00:24.128972
+2023-11-25 00:02:45,292 - pe_classification.py - line:164 - INFO - [val] cur_iters:500/788 eta:0:00:22.548442
+2023-11-25 00:02:50,187 - pe_classification.py - line:164 - INFO - [val] cur_iters:520/788 eta:0:00:20.975787
+2023-11-25 00:02:54,506 - pe_classification.py - line:164 - INFO - [val] cur_iters:540/788 eta:0:00:19.405555
+2023-11-25 00:02:59,223 - pe_classification.py - line:164 - INFO - [val] cur_iters:560/788 eta:0:00:17.832212
+2023-11-25 00:03:03,537 - pe_classification.py - line:164 - INFO - [val] cur_iters:580/788 eta:0:00:16.258815
+2023-11-25 00:03:08,260 - pe_classification.py - line:164 - INFO - [val] cur_iters:600/788 eta:0:00:14.688289
+2023-11-25 00:03:12,648 - pe_classification.py - line:164 - INFO - [val] cur_iters:620/788 eta:0:00:13.114677
+2023-11-25 00:03:17,235 - pe_classification.py - line:164 - INFO - [val] cur_iters:640/788 eta:0:00:11.544057
+2023-11-25 00:03:21,627 - pe_classification.py - line:164 - INFO - [val] cur_iters:660/788 eta:0:00:09.972294
+2023-11-25 00:03:26,431 - pe_classification.py - line:164 - INFO - [val] cur_iters:680/788 eta:0:00:08.402924
+2023-11-25 00:03:30,221 - pe_classification.py - line:164 - INFO - [val] cur_iters:700/788 eta:0:00:06.832893
+2023-11-25 00:03:33,111 - pe_classification.py - line:164 - INFO - [val] cur_iters:720/788 eta:0:00:05.262582
+2023-11-25 00:03:37,562 - pe_classification.py - line:164 - INFO - [val] cur_iters:740/788 eta:0:00:03.691850
+2023-11-25 00:03:42,372 - pe_classification.py - line:164 - INFO - [val] cur_iters:760/788 eta:0:00:02.120904
+2023-11-25 00:03:46,628 - pe_classification.py - line:164 - INFO - [val] cur_iters:780/788 eta:0:00:00.549899
+2023-11-25 00:03:47,936 - pe_classification.py - line:167 - INFO - ----------------------------------------
+2023-11-25 00:03:47,936 - pe_classification.py - line:169 - INFO - ### top1: 69.52380952380952
+2023-11-25 00:03:47,936 - pe_classification.py - line:169 - INFO - ### top5: 91.14682539682539
+2023-11-25 00:03:47,936 - pe_classification.py - line:170 - INFO - ----------------------------------------
+2023-11-25 00:03:54,200 - pe_classification.py - line:135 - INFO - epoch:81 cur_iter:20/197 total_iters:15780 lr:1.158412e-05 loss:0.107149 eta:0:06:03.121360
+2023-11-25 00:03:58,041 - pe_classification.py - line:135 - INFO - epoch:81 cur_iter:40/197 total_iters:15800 lr:1.147095e-05 loss:0.104736 eta:0:06:01.268700
+2023-11-25 00:04:02,868 - pe_classification.py - line:135 - INFO - epoch:81 cur_iter:60/197 total_iters:15820 lr:1.135826e-05 loss:0.096456 eta:0:05:59.412160
+2023-11-25 00:04:06,757 - pe_classification.py - line:135 - INFO - epoch:81 cur_iter:80/197 total_iters:15840 lr:1.124606e-05 loss:0.087954 eta:0:05:57.559520
+2023-11-25 00:04:11,549 - pe_classification.py - line:135 - INFO - epoch:81 cur_iter:100/197 total_iters:15860 lr:1.113434e-05 loss:0.076869 eta:0:05:55.703040
+2023-11-25 00:04:15,456 - pe_classification.py - line:135 - INFO - epoch:81 cur_iter:120/197 total_iters:15880 lr:1.102311e-05 loss:0.096101 eta:0:05:53.850420
+2023-11-25 00:04:20,390 - pe_classification.py - line:135 - INFO - epoch:81 cur_iter:140/197 total_iters:15900 lr:1.091237e-05 loss:0.073676 eta:0:05:51.994000
+2023-11-25 00:04:24,233 - pe_classification.py - line:135 - INFO - epoch:81 cur_iter:160/197 total_iters:15920 lr:1.080212e-05 loss:0.084909 eta:0:05:50.141400
+2023-11-25 00:04:29,119 - pe_classification.py - line:135 - INFO - epoch:81 cur_iter:180/197 total_iters:15940 lr:1.069237e-05 loss:0.093318 eta:0:05:48.288800
+2023-11-25 00:04:35,174 - pe_classification.py - line:135 - INFO - epoch:82 cur_iter:3/197 total_iters:15960 lr:1.058310e-05 loss:0.098199 eta:0:05:46.436200
+2023-11-25 00:04:39,033 - pe_classification.py - line:135 - INFO - epoch:82 cur_iter:23/197 total_iters:15980 lr:1.047434e-05 loss:0.102064 eta:0:05:44.579880
+2023-11-25 00:04:43,782 - pe_classification.py - line:135 - INFO - epoch:82 cur_iter:43/197 total_iters:16000 lr:1.036607e-05 loss:0.114920 eta:0:05:42.727300
+2023-11-25 00:04:47,683 - pe_classification.py - line:135 - INFO - epoch:82 cur_iter:63/197 total_iters:16020 lr:1.025829e-05 loss:0.102964 eta:0:05:40.871040
+2023-11-25 00:04:52,469 - pe_classification.py - line:135 - INFO - epoch:82 cur_iter:83/197 total_iters:16040 lr:1.015102e-05 loss:0.058432 eta:0:05:39.018480
+2023-11-25 00:04:56,397 - pe_classification.py - line:135 - INFO - epoch:82 cur_iter:103/197 total_iters:16060 lr:1.004424e-05 loss:0.054768 eta:0:05:37.165920
+2023-11-25 00:05:01,077 - pe_classification.py - line:135 - INFO - epoch:82 cur_iter:123/197 total_iters:16080 lr:9.937972e-06 loss:0.078272 eta:0:05:35.309740
+2023-11-25 00:05:05,010 - pe_classification.py - line:135 - INFO - epoch:82 cur_iter:143/197 total_iters:16100 lr:9.832203e-06 loss:0.088823 eta:0:05:33.457200
+2023-11-25 00:05:09,706 - pe_classification.py - line:135 - INFO - epoch:82 cur_iter:163/197 total_iters:16120 lr:9.726939e-06 loss:0.077999 eta:0:05:31.604660
+2023-11-25 00:05:13,630 - pe_classification.py - line:135 - INFO - epoch:82 cur_iter:183/197 total_iters:16140 lr:9.622180e-06 loss:0.082333 eta:0:05:29.752120
+2023-11-25 00:05:19,911 - pe_classification.py - line:135 - INFO - epoch:83 cur_iter:6/197 total_iters:16160 lr:9.517928e-06 loss:0.121216 eta:0:05:27.899580
+2023-11-25 00:05:24,648 - pe_classification.py - line:135 - INFO - epoch:83 cur_iter:26/197 total_iters:16180 lr:9.414185e-06 loss:0.075142 eta:0:05:26.043520
+2023-11-25 00:05:28,552 - pe_classification.py - line:135 - INFO - epoch:83 cur_iter:46/197 total_iters:16200 lr:9.310951e-06 loss:0.078944 eta:0:05:24.191000
+2023-11-25 00:05:33,301 - pe_classification.py - line:135 - INFO - epoch:83 cur_iter:66/197 total_iters:16220 lr:9.208229e-06 loss:0.064067 eta:0:05:22.338480
+2023-11-25 00:05:37,239 - pe_classification.py - line:135 - INFO - epoch:83 cur_iter:86/197 total_iters:16240 lr:9.106018e-06 loss:0.115495 eta:0:05:20.485960
+2023-11-25 00:05:42,015 - pe_classification.py - line:135 - INFO - epoch:83 cur_iter:106/197 total_iters:16260 lr:9.004322e-06 loss:0.110524 eta:0:05:18.630000
+2023-11-25 00:05:45,897 - pe_classification.py - line:135 - INFO - epoch:83 cur_iter:126/197 total_iters:16280 lr:8.903140e-06 loss:0.076727 eta:0:05:16.777500
+2023-11-25 00:05:51,023 - pe_classification.py - line:135 - INFO - epoch:83 cur_iter:146/197 total_iters:16300 lr:8.802474e-06 loss:0.101049 eta:0:05:14.921600
+2023-11-25 00:05:55,108 - pe_classification.py - line:135 - INFO - epoch:83 cur_iter:166/197 total_iters:16320 lr:8.702326e-06 loss:0.056930 eta:0:05:13.069120
+2023-11-25 00:06:00,177 - pe_classification.py - line:135 - INFO - epoch:83 cur_iter:186/197 total_iters:16340 lr:8.602696e-06 loss:0.078357 eta:0:05:11.216640
+2023-11-25 00:06:06,049 - pe_classification.py - line:135 - INFO - epoch:84 cur_iter:9/197 total_iters:16360 lr:8.503586e-06 loss:0.110144 eta:0:05:09.364160
+2023-11-25 00:06:09,952 - pe_classification.py - line:135 - INFO - epoch:84 cur_iter:29/197 total_iters:16380 lr:8.404998e-06 loss:0.069960 eta:0:05:07.508360
+2023-11-25 00:06:14,827 - pe_classification.py - line:135 - INFO - epoch:84 cur_iter:49/197 total_iters:16400 lr:8.306931e-06 loss:0.074054 eta:0:05:05.655900
+2023-11-25 00:06:18,716 - pe_classification.py - line:135 - INFO - epoch:84 cur_iter:69/197 total_iters:16420 lr:8.209389e-06 loss:0.074293 eta:0:05:03.800160
+2023-11-25 00:06:23,565 - pe_classification.py - line:135 - INFO - epoch:84 cur_iter:89/197 total_iters:16440 lr:8.112371e-06 loss:0.113049 eta:0:05:01.947720
+2023-11-25 00:06:26,744 - pe_classification.py - line:135 - INFO - epoch:84 cur_iter:109/197 total_iters:16460 lr:8.015879e-06 loss:0.087665 eta:0:05:00.095280
+2023-11-25 00:06:29,758 - pe_classification.py - line:135 - INFO - epoch:84 cur_iter:129/197 total_iters:16480 lr:7.919915e-06 loss:0.085874 eta:0:04:58.242840
+2023-11-25 00:06:33,363 - pe_classification.py - line:135 - INFO - epoch:84 cur_iter:149/197 total_iters:16500 lr:7.824478e-06 loss:0.084768 eta:0:04:56.390400
+2023-11-25 00:06:38,311 - pe_classification.py - line:135 - INFO - epoch:84 cur_iter:169/197 total_iters:16520 lr:7.729572e-06 loss:0.051077 eta:0:04:54.534780
+2023-11-25 00:06:42,201 - pe_classification.py - line:135 - INFO - epoch:84 cur_iter:189/197 total_iters:16540 lr:7.635197e-06 loss:0.069311 eta:0:04:52.682360
+2023-11-25 00:06:48,156 - pe_classification.py - line:135 - INFO - epoch:85 cur_iter:12/197 total_iters:16560 lr:7.541353e-06 loss:0.096665 eta:0:04:50.829940
+2023-11-25 00:06:52,113 - pe_classification.py - line:135 - INFO - epoch:85 cur_iter:32/197 total_iters:16580 lr:7.448043e-06 loss:0.047582 eta:0:04:48.977520
+2023-11-25 00:06:56,851 - pe_classification.py - line:135 - INFO - epoch:85 cur_iter:52/197 total_iters:16600 lr:7.355267e-06 loss:0.065037 eta:0:04:47.125100
+2023-11-25 00:07:00,721 - pe_classification.py - line:135 - INFO - epoch:85 cur_iter:72/197 total_iters:16620 lr:7.263026e-06 loss:0.098478 eta:0:04:45.272680
+2023-11-25 00:07:05,562 - pe_classification.py - line:135 - INFO - epoch:85 cur_iter:92/197 total_iters:16640 lr:7.171323e-06 loss:0.067999 eta:0:04:43.417200
+2023-11-25 00:07:09,438 - pe_classification.py - line:135 - INFO - epoch:85 cur_iter:112/197 total_iters:16660 lr:7.080157e-06 loss:0.079295 eta:0:04:41.564800
+2023-11-25 00:07:14,244 - pe_classification.py - line:135 - INFO - epoch:85 cur_iter:132/197 total_iters:16680 lr:6.989530e-06 loss:0.075517 eta:0:04:39.712400
+2023-11-25 00:07:18,121 - pe_classification.py - line:135 - INFO - epoch:85 cur_iter:152/197 total_iters:16700 lr:6.899444e-06 loss:0.094908 eta:0:04:37.857000
+2023-11-25 00:07:22,926 - pe_classification.py - line:135 - INFO - epoch:85 cur_iter:172/197 total_iters:16720 lr:6.809899e-06 loss:0.110766 eta:0:04:36.004620
+2023-11-25 00:07:26,719 - pe_classification.py - line:135 - INFO - epoch:85 cur_iter:192/197 total_iters:16740 lr:6.720896e-06 loss:0.080686 eta:0:04:34.152240
+2023-11-25 00:07:32,719 - pe_classification.py - line:135 - INFO - epoch:86 cur_iter:15/197 total_iters:16760 lr:6.632436e-06 loss:0.069068 eta:0:04:32.296920
+2023-11-25 00:07:37,559 - pe_classification.py - line:135 - INFO - epoch:86 cur_iter:35/197 total_iters:16780 lr:6.544522e-06 loss:0.053094 eta:0:04:30.441640
+2023-11-25 00:07:41,424 - pe_classification.py - line:135 - INFO - epoch:86 cur_iter:55/197 total_iters:16800 lr:6.457153e-06 loss:0.054580 eta:0:04:28.589300
+2023-11-25 00:07:46,237 - pe_classification.py - line:135 - INFO - epoch:86 cur_iter:75/197 total_iters:16820 lr:6.370330e-06 loss:0.092323 eta:0:04:26.736960
+2023-11-25 00:07:50,158 - pe_classification.py - line:135 - INFO - epoch:86 cur_iter:95/197 total_iters:16840 lr:6.284056e-06 loss:0.063767 eta:0:04:24.881760
+2023-11-25 00:07:55,001 - pe_classification.py - line:135 - INFO - epoch:86 cur_iter:115/197 total_iters:16860 lr:6.198331e-06 loss:0.099429 eta:0:04:23.029440
+2023-11-25 00:07:58,855 - pe_classification.py - line:135 - INFO - epoch:86 cur_iter:135/197 total_iters:16880 lr:6.113156e-06 loss:0.100009 eta:0:04:21.177120
+2023-11-25 00:08:03,637 - pe_classification.py - line:135 - INFO - epoch:86 cur_iter:155/197 total_iters:16900 lr:6.028532e-06 loss:0.093909 eta:0:04:19.322000
+2023-11-25 00:08:07,484 - pe_classification.py - line:135 - INFO - epoch:86 cur_iter:175/197 total_iters:16920 lr:5.944460e-06 loss:0.103633 eta:0:04:17.469700
+2023-11-25 00:08:11,925 - pe_classification.py - line:135 - INFO - epoch:86 cur_iter:195/197 total_iters:16940 lr:5.860942e-06 loss:0.062773 eta:0:04:15.614640
+2023-11-25 00:08:18,335 - pe_classification.py - line:135 - INFO - epoch:87 cur_iter:18/197 total_iters:16960 lr:5.777978e-06 loss:0.081883 eta:0:04:13.762360
+2023-11-25 00:08:22,228 - pe_classification.py - line:135 - INFO - epoch:87 cur_iter:38/197 total_iters:16980 lr:5.695569e-06 loss:0.069208 eta:0:04:11.910080
+2023-11-25 00:08:27,038 - pe_classification.py - line:135 - INFO - epoch:87 cur_iter:58/197 total_iters:17000 lr:5.613716e-06 loss:0.093707 eta:0:04:10.057800
+2023-11-25 00:08:30,920 - pe_classification.py - line:135 - INFO - epoch:87 cur_iter:78/197 total_iters:17020 lr:5.532422e-06 loss:0.068693 eta:0:04:08.202840
+2023-11-25 00:08:35,745 - pe_classification.py - line:135 - INFO - epoch:87 cur_iter:98/197 total_iters:17040 lr:5.451685e-06 loss:0.086506 eta:0:04:06.350580
+2023-11-25 00:08:39,659 - pe_classification.py - line:135 - INFO - epoch:87 cur_iter:118/197 total_iters:17060 lr:5.371508e-06 loss:0.027350 eta:0:04:04.495680
+2023-11-25 00:08:44,467 - pe_classification.py - line:135 - INFO - epoch:87 cur_iter:138/197 total_iters:17080 lr:5.291891e-06 loss:0.062038 eta:0:04:02.643440
+2023-11-25 00:08:48,385 - pe_classification.py - line:135 - INFO - epoch:87 cur_iter:158/197 total_iters:17100 lr:5.212836e-06 loss:0.055373 eta:0:04:00.788600
+2023-11-25 00:08:53,102 - pe_classification.py - line:135 - INFO - epoch:87 cur_iter:178/197 total_iters:17120 lr:5.134344e-06 loss:0.042078 eta:0:03:58.936380
+2023-11-25 00:08:59,098 - pe_classification.py - line:135 - INFO - epoch:88 cur_iter:1/197 total_iters:17140 lr:5.056415e-06 loss:0.112966 eta:0:03:57.084160
+2023-11-25 00:09:02,885 - pe_classification.py - line:135 - INFO - epoch:88 cur_iter:21/197 total_iters:17160 lr:4.979050e-06 loss:0.103852 eta:0:03:55.231940
+2023-11-25 00:09:07,747 - pe_classification.py - line:135 - INFO - epoch:88 cur_iter:41/197 total_iters:17180 lr:4.902251e-06 loss:0.057913 eta:0:03:53.377200
+2023-11-25 00:09:11,589 - pe_classification.py - line:135 - INFO - epoch:88 cur_iter:61/197 total_iters:17200 lr:4.826018e-06 loss:0.081282 eta:0:03:51.525000
+2023-11-25 00:09:16,350 - pe_classification.py - line:135 - INFO - epoch:88 cur_iter:81/197 total_iters:17220 lr:4.750352e-06 loss:0.108597 eta:0:03:49.670320
+2023-11-25 00:09:20,256 - pe_classification.py - line:135 - INFO - epoch:88 cur_iter:101/197 total_iters:17240 lr:4.675255e-06 loss:0.063933 eta:0:03:47.818140
+2023-11-25 00:09:23,787 - pe_classification.py - line:135 - INFO - epoch:88 cur_iter:121/197 total_iters:17260 lr:4.600726e-06 loss:0.049075 eta:0:03:45.963520
+2023-11-25 00:09:26,334 - pe_classification.py - line:135 - INFO - epoch:88 cur_iter:141/197 total_iters:17280 lr:4.526768e-06 loss:0.051998 eta:0:03:44.111360
+2023-11-25 00:09:29,933 - pe_classification.py - line:135 - INFO - epoch:88 cur_iter:161/197 total_iters:17300 lr:4.453382e-06 loss:0.068679 eta:0:03:42.259200
+2023-11-25 00:09:33,750 - pe_classification.py - line:135 - INFO - epoch:88 cur_iter:181/197 total_iters:17320 lr:4.380567e-06 loss:0.060636 eta:0:03:40.407040
+2023-11-25 00:09:39,994 - pe_classification.py - line:135 - INFO - epoch:89 cur_iter:4/197 total_iters:17340 lr:4.308325e-06 loss:0.079066 eta:0:03:38.554880
+2023-11-25 00:09:43,743 - pe_classification.py - line:135 - INFO - epoch:89 cur_iter:24/197 total_iters:17360 lr:4.236656e-06 loss:0.061150 eta:0:03:36.702720
+2023-11-25 00:09:48,647 - pe_classification.py - line:135 - INFO - epoch:89 cur_iter:44/197 total_iters:17380 lr:4.165563e-06 loss:0.065556 eta:0:03:34.848240
+2023-11-25 00:09:52,474 - pe_classification.py - line:135 - INFO - epoch:89 cur_iter:64/197 total_iters:17400 lr:4.095045e-06 loss:0.104832 eta:0:03:32.996100
+2023-11-25 00:09:57,295 - pe_classification.py - line:135 - INFO - epoch:89 cur_iter:84/197 total_iters:17420 lr:4.025104e-06 loss:0.072698 eta:0:03:31.143960
+2023-11-25 00:10:01,168 - pe_classification.py - line:135 - INFO - epoch:89 cur_iter:104/197 total_iters:17440 lr:3.955740e-06 loss:0.065692 eta:0:03:29.289560
+2023-11-25 00:10:06,007 - pe_classification.py - line:135 - INFO - epoch:89 cur_iter:124/197 total_iters:17460 lr:3.886954e-06 loss:0.082734 eta:0:03:27.437440
+2023-11-25 00:10:09,927 - pe_classification.py - line:135 - INFO - epoch:89 cur_iter:144/197 total_iters:17480 lr:3.818748e-06 loss:0.075076 eta:0:03:25.583100
+2023-11-25 00:10:14,682 - pe_classification.py - line:135 - INFO - epoch:89 cur_iter:164/197 total_iters:17500 lr:3.751121e-06 loss:0.067543 eta:0:03:23.731000
+2023-11-25 00:10:18,578 - pe_classification.py - line:135 - INFO - epoch:89 cur_iter:184/197 total_iters:17520 lr:3.684075e-06 loss:0.069845 eta:0:03:21.878900
+2023-11-25 00:10:24,704 - pe_classification.py - line:135 - INFO - epoch:90 cur_iter:7/197 total_iters:17540 lr:3.617611e-06 loss:0.057350 eta:0:03:20.026800
+2023-11-25 00:10:29,487 - pe_classification.py - line:135 - INFO - epoch:90 cur_iter:27/197 total_iters:17560 lr:3.551729e-06 loss:0.072194 eta:0:03:18.174700
+2023-11-25 00:10:33,395 - pe_classification.py - line:135 - INFO - epoch:90 cur_iter:47/197 total_iters:17580 lr:3.486431e-06 loss:0.053120 eta:0:03:16.320480
+2023-11-25 00:10:38,135 - pe_classification.py - line:135 - INFO - epoch:90 cur_iter:67/197 total_iters:17600 lr:3.421717e-06 loss:0.108713 eta:0:03:14.468400
+2023-11-25 00:10:42,001 - pe_classification.py - line:135 - INFO - epoch:90 cur_iter:87/197 total_iters:17620 lr:3.357588e-06 loss:0.058358 eta:0:03:12.616320
+2023-11-25 00:10:46,878 - pe_classification.py - line:135 - INFO - epoch:90 cur_iter:107/197 total_iters:17640 lr:3.294044e-06 loss:0.091730 eta:0:03:10.762180
+2023-11-25 00:10:50,760 - pe_classification.py - line:135 - INFO - epoch:90 cur_iter:127/197 total_iters:17660 lr:3.231087e-06 loss:0.057870 eta:0:03:08.910120
+2023-11-25 00:10:55,537 - pe_classification.py - line:135 - INFO - epoch:90 cur_iter:147/197 total_iters:17680 lr:3.168718e-06 loss:0.066996 eta:0:03:07.056040
+2023-11-25 00:10:59,421 - pe_classification.py - line:135 - INFO - epoch:90 cur_iter:167/197 total_iters:17700 lr:3.106937e-06 loss:0.062297 eta:0:03:05.204000
+2023-11-25 00:11:04,200 - pe_classification.py - line:135 - INFO - epoch:90 cur_iter:187/197 total_iters:17720 lr:3.045744e-06 loss:0.068576 eta:0:03:03.351960
+2023-11-25 00:11:10,235 - pe_classification.py - line:135 - INFO - epoch:91 cur_iter:10/197 total_iters:17740 lr:2.985141e-06 loss:0.051449 eta:0:03:01.497960
+2023-11-25 00:11:14,106 - pe_classification.py - line:135 - INFO - epoch:91 cur_iter:30/197 total_iters:17760 lr:2.925129e-06 loss:0.071652 eta:0:02:59.645940
+2023-11-25 00:11:18,939 - pe_classification.py - line:135 - INFO - epoch:91 cur_iter:50/197 total_iters:17780 lr:2.865708e-06 loss:0.077341 eta:0:02:57.793920
+2023-11-25 00:11:22,808 - pe_classification.py - line:135 - INFO - epoch:91 cur_iter:70/197 total_iters:17800 lr:2.806879e-06 loss:0.064424 eta:0:02:55.940000
+2023-11-25 00:11:27,675 - pe_classification.py - line:135 - INFO - epoch:91 cur_iter:90/197 total_iters:17820 lr:2.748642e-06 loss:0.069660 eta:0:02:54.088000
+2023-11-25 00:11:31,578 - pe_classification.py - line:135 - INFO - epoch:91 cur_iter:110/197 total_iters:17840 lr:2.690999e-06 loss:0.064593 eta:0:02:52.234140
+2023-11-25 00:11:36,406 - pe_classification.py - line:135 - INFO - epoch:91 cur_iter:130/197 total_iters:17860 lr:2.633950e-06 loss:0.052706 eta:0:02:50.382160
+2023-11-25 00:11:40,295 - pe_classification.py - line:135 - INFO - epoch:91 cur_iter:150/197 total_iters:17880 lr:2.577496e-06 loss:0.063306 eta:0:02:48.530180
+2023-11-25 00:11:45,060 - pe_classification.py - line:135 - INFO - epoch:91 cur_iter:170/197 total_iters:17900 lr:2.521637e-06 loss:0.063859 eta:0:02:46.678200
+2023-11-25 00:11:48,925 - pe_classification.py - line:135 - INFO - epoch:91 cur_iter:190/197 total_iters:17920 lr:2.466375e-06 loss:0.086149 eta:0:02:44.826220
+2023-11-25 00:11:54,891 - pe_classification.py - line:135 - INFO - epoch:92 cur_iter:13/197 total_iters:17940 lr:2.411710e-06 loss:0.064428 eta:0:02:42.972480
+2023-11-25 00:11:59,777 - pe_classification.py - line:135 - INFO - epoch:92 cur_iter:33/197 total_iters:17960 lr:2.357642e-06 loss:0.079979 eta:0:02:41.120520
+2023-11-25 00:12:03,693 - pe_classification.py - line:135 - INFO - epoch:92 cur_iter:53/197 total_iters:17980 lr:2.304173e-06 loss:0.042909 eta:0:02:39.266840
+2023-11-25 00:12:08,510 - pe_classification.py - line:135 - INFO - epoch:92 cur_iter:73/197 total_iters:18000 lr:2.251302e-06 loss:0.051073 eta:0:02:37.414900
+2023-11-25 00:12:12,410 - pe_classification.py - line:135 - INFO - epoch:92 cur_iter:93/197 total_iters:18020 lr:2.199031e-06 loss:0.048961 eta:0:02:35.561280
+2023-11-25 00:12:17,208 - pe_classification.py - line:135 - INFO - epoch:92 cur_iter:113/197 total_iters:18040 lr:2.147361e-06 loss:0.039510 eta:0:02:33.709360
+2023-11-25 00:12:20,729 - pe_classification.py - line:135 - INFO - epoch:92 cur_iter:133/197 total_iters:18060 lr:2.096292e-06 loss:0.069919 eta:0:02:31.857440
+2023-11-25 00:12:23,696 - pe_classification.py - line:135 - INFO - epoch:92 cur_iter:153/197 total_iters:18080 lr:2.045824e-06 loss:0.065439 eta:0:02:30.005520
+2023-11-25 00:12:27,316 - pe_classification.py - line:135 - INFO - epoch:92 cur_iter:173/197 total_iters:18100 lr:1.995958e-06 loss:0.075749 eta:0:02:28.153600
+2023-11-25 00:12:31,761 - pe_classification.py - line:135 - INFO - epoch:92 cur_iter:193/197 total_iters:18120 lr:1.946695e-06 loss:0.053451 eta:0:02:26.300100
+2023-11-25 00:12:37,159 - pe_classification.py - line:135 - INFO - epoch:93 cur_iter:16/197 total_iters:18140 lr:1.898036e-06 loss:0.047492 eta:0:02:24.448200
+2023-11-25 00:12:42,014 - pe_classification.py - line:135 - INFO - epoch:93 cur_iter:36/197 total_iters:18160 lr:1.849981e-06 loss:0.068631 eta:0:02:22.594760
+2023-11-25 00:12:45,870 - pe_classification.py - line:135 - INFO - epoch:93 cur_iter:56/197 total_iters:18180 lr:1.802530e-06 loss:0.045861 eta:0:02:20.742880
+2023-11-25 00:12:50,588 - pe_classification.py - line:135 - INFO - epoch:93 cur_iter:76/197 total_iters:18200 lr:1.755685e-06 loss:0.106944 eta:0:02:18.891000
+2023-11-25 00:12:54,467 - pe_classification.py - line:135 - INFO - epoch:93 cur_iter:96/197 total_iters:18220 lr:1.709446e-06 loss:0.062228 eta:0:02:17.037640
+2023-11-25 00:12:59,298 - pe_classification.py - line:135 - INFO - epoch:93 cur_iter:116/197 total_iters:18240 lr:1.663813e-06 loss:0.046491 eta:0:02:15.184320
+2023-11-25 00:13:03,095 - pe_classification.py - line:135 - INFO - epoch:93 cur_iter:136/197 total_iters:18260 lr:1.618787e-06 loss:0.082435 eta:0:02:13.332480
+2023-11-25 00:13:07,931 - pe_classification.py - line:135 - INFO - epoch:93 cur_iter:156/197 total_iters:18280 lr:1.574369e-06 loss:0.083673 eta:0:02:11.480640
+2023-11-25 00:13:11,788 - pe_classification.py - line:135 - INFO - epoch:93 cur_iter:176/197 total_iters:18300 lr:1.530559e-06 loss:0.100767 eta:0:02:09.627400
+2023-11-25 00:13:16,230 - pe_classification.py - line:135 - INFO - epoch:93 cur_iter:196/197 total_iters:18320 lr:1.487358e-06 loss:0.067794 eta:0:02:07.775580
+2023-11-25 00:13:22,584 - pe_classification.py - line:135 - INFO - epoch:94 cur_iter:19/197 total_iters:18340 lr:1.444766e-06 loss:0.082949 eta:0:02:05.922400
+2023-11-25 00:13:26,473 - pe_classification.py - line:135 - INFO - epoch:94 cur_iter:39/197 total_iters:18360 lr:1.402783e-06 loss:0.097136 eta:0:02:04.070600
+2023-11-25 00:13:31,268 - pe_classification.py - line:135 - INFO - epoch:94 cur_iter:59/197 total_iters:18380 lr:1.361411e-06 loss:0.063782 eta:0:02:02.217480
+2023-11-25 00:13:35,142 - pe_classification.py - line:135 - INFO - epoch:94 cur_iter:79/197 total_iters:18400 lr:1.320650e-06 loss:0.084577 eta:0:02:00.365700
+2023-11-25 00:13:39,930 - pe_classification.py - line:135 - INFO - epoch:94 cur_iter:99/197 total_iters:18420 lr:1.280500e-06 loss:0.086201 eta:0:01:58.513920
+2023-11-25 00:13:43,875 - pe_classification.py - line:135 - INFO - epoch:94 cur_iter:119/197 total_iters:18440 lr:1.240963e-06 loss:0.087107 eta:0:01:56.662140
+2023-11-25 00:13:48,674 - pe_classification.py - line:135 - INFO - epoch:94 cur_iter:139/197 total_iters:18460 lr:1.202037e-06 loss:0.063209 eta:0:01:54.810360
+2023-11-25 00:13:52,520 - pe_classification.py - line:135 - INFO - epoch:94 cur_iter:159/197 total_iters:18480 lr:1.163724e-06 loss:0.078171 eta:0:01:52.957360
+2023-11-25 00:13:57,333 - pe_classification.py - line:135 - INFO - epoch:94 cur_iter:179/197 total_iters:18500 lr:1.126025e-06 loss:0.088284 eta:0:01:51.105600
+2023-11-25 00:14:03,286 - pe_classification.py - line:135 - INFO - epoch:95 cur_iter:2/197 total_iters:18520 lr:1.088939e-06 loss:0.100672 eta:0:01:49.253840
+2023-11-25 00:14:07,071 - pe_classification.py - line:135 - INFO - epoch:95 cur_iter:22/197 total_iters:18540 lr:1.052468e-06 loss:0.055424 eta:0:01:47.402080
+2023-11-25 00:14:11,770 - pe_classification.py - line:135 - INFO - epoch:95 cur_iter:42/197 total_iters:18560 lr:1.016611e-06 loss:0.082717 eta:0:01:45.549180
+2023-11-25 00:14:15,671 - pe_classification.py - line:135 - INFO - epoch:95 cur_iter:62/197 total_iters:18580 lr:9.813694e-07 loss:0.065181 eta:0:01:43.697440
+2023-11-25 00:14:20,457 - pe_classification.py - line:135 - INFO - epoch:95 cur_iter:82/197 total_iters:18600 lr:9.467435e-07 loss:0.078745 eta:0:01:41.845700
+2023-11-25 00:14:24,292 - pe_classification.py - line:135 - INFO - epoch:95 cur_iter:102/197 total_iters:18620 lr:9.127336e-07 loss:0.074849 eta:0:01:39.993960
+2023-11-25 00:14:29,090 - pe_classification.py - line:135 - INFO - epoch:95 cur_iter:122/197 total_iters:18640 lr:8.793402e-07 loss:0.058318 eta:0:01:38.142220
+2023-11-25 00:14:32,939 - pe_classification.py - line:135 - INFO - epoch:95 cur_iter:142/197 total_iters:18660 lr:8.465636e-07 loss:0.073978 eta:0:01:36.289440
+2023-11-25 00:14:37,686 - pe_classification.py - line:135 - INFO - epoch:95 cur_iter:162/197 total_iters:18680 lr:8.144044e-07 loss:0.085149 eta:0:01:34.437720
+2023-11-25 00:14:41,592 - pe_classification.py - line:135 - INFO - epoch:95 cur_iter:182/197 total_iters:18700 lr:7.828629e-07 loss:0.094880 eta:0:01:32.585000
+2023-11-25 00:14:47,678 - pe_classification.py - line:135 - INFO - epoch:96 cur_iter:5/197 total_iters:18720 lr:7.519395e-07 loss:0.077643 eta:0:01:30.733300
+2023-11-25 00:14:52,395 - pe_classification.py - line:135 - INFO - epoch:96 cur_iter:25/197 total_iters:18740 lr:7.216345e-07 loss:0.052636 eta:0:01:28.881600
+2023-11-25 00:14:56,930 - pe_classification.py - line:135 - INFO - epoch:96 cur_iter:45/197 total_iters:18760 lr:6.919485e-07 loss:0.059977 eta:0:01:27.030840
+2023-11-25 00:15:02,888 - pe_classification.py - line:135 - INFO - epoch:96 cur_iter:65/197 total_iters:18780 lr:6.628816e-07 loss:0.075192 eta:0:01:25.179120
+2023-11-25 00:15:07,392 - pe_classification.py - line:135 - INFO - epoch:96 cur_iter:85/197 total_iters:18800 lr:6.344344e-07 loss:0.083350 eta:0:01:23.328300
+2023-11-25 00:15:13,036 - pe_classification.py - line:135 - INFO - epoch:96 cur_iter:105/197 total_iters:18820 lr:6.066071e-07 loss:0.077420 eta:0:01:21.477440
+2023-11-25 00:15:17,536 - pe_classification.py - line:135 - INFO - epoch:96 cur_iter:125/197 total_iters:18840 lr:5.794002e-07 loss:0.075203 eta:0:01:19.627400
+2023-11-25 00:15:22,137 - pe_classification.py - line:135 - INFO - epoch:96 cur_iter:145/197 total_iters:18860 lr:5.528139e-07 loss:0.051838 eta:0:01:17.776440
+2023-11-25 00:15:25,470 - pe_classification.py - line:135 - INFO - epoch:96 cur_iter:165/197 total_iters:18880 lr:5.268486e-07 loss:0.053116 eta:0:01:15.925440
+2023-11-25 00:15:31,234 - pe_classification.py - line:135 - INFO - epoch:96 cur_iter:185/197 total_iters:18900 lr:5.015046e-07 loss:0.060305 eta:0:01:14.074400
+2023-11-25 00:15:37,502 - pe_classification.py - line:135 - INFO - epoch:97 cur_iter:8/197 total_iters:18920 lr:4.767822e-07 loss:0.059103 eta:0:01:12.224880
+2023-11-25 00:15:43,413 - pe_classification.py - line:135 - INFO - epoch:97 cur_iter:28/197 total_iters:18940 lr:4.526818e-07 loss:0.069469 eta:0:01:10.374480
+2023-11-25 00:15:48,034 - pe_classification.py - line:135 - INFO - epoch:97 cur_iter:48/197 total_iters:18960 lr:4.292036e-07 loss:0.057637 eta:0:01:08.523260
+2023-11-25 00:15:53,983 - pe_classification.py - line:135 - INFO - epoch:97 cur_iter:68/197 total_iters:18980 lr:4.063480e-07 loss:0.058288 eta:0:01:06.674160
+2023-11-25 00:15:58,488 - pe_classification.py - line:135 - INFO - epoch:97 cur_iter:88/197 total_iters:19000 lr:3.841152e-07 loss:0.057701 eta:0:01:04.822800
+2023-11-25 00:16:04,273 - pe_classification.py - line:135 - INFO - epoch:97 cur_iter:108/197 total_iters:19020 lr:3.625055e-07 loss:0.064340 eta:0:01:02.972760
+2023-11-25 00:16:08,836 - pe_classification.py - line:135 - INFO - epoch:97 cur_iter:128/197 total_iters:19040 lr:3.415192e-07 loss:0.070945 eta:0:01:01.122600
+2023-11-25 00:16:14,520 - pe_classification.py - line:135 - INFO - epoch:97 cur_iter:148/197 total_iters:19060 lr:3.211565e-07 loss:0.063179 eta:0:00:59.271680
+2023-11-25 00:16:19,087 - pe_classification.py - line:135 - INFO - epoch:97 cur_iter:168/197 total_iters:19080 lr:3.014178e-07 loss:0.053221 eta:0:00:57.420680
+2023-11-25 00:16:23,967 - pe_classification.py - line:135 - INFO - epoch:97 cur_iter:188/197 total_iters:19100 lr:2.823031e-07 loss:0.049870 eta:0:00:55.567800
+2023-11-25 00:16:29,836 - pe_classification.py - line:135 - INFO - epoch:98 cur_iter:11/197 total_iters:19120 lr:2.638129e-07 loss:0.043529 eta:0:00:53.715540
+2023-11-25 00:16:33,811 - pe_classification.py - line:135 - INFO - epoch:98 cur_iter:31/197 total_iters:19140 lr:2.459472e-07 loss:0.078723 eta:0:00:51.863280
+2023-11-25 00:16:38,629 - pe_classification.py - line:135 - INFO - epoch:98 cur_iter:51/197 total_iters:19160 lr:2.287065e-07 loss:0.072683 eta:0:00:50.010480
+2023-11-25 00:16:42,553 - pe_classification.py - line:135 - INFO - epoch:98 cur_iter:71/197 total_iters:19180 lr:2.120907e-07 loss:0.033465 eta:0:00:48.158240
+2023-11-25 00:16:47,392 - pe_classification.py - line:135 - INFO - epoch:98 cur_iter:91/197 total_iters:19200 lr:1.961003e-07 loss:0.076171 eta:0:00:46.305500
+2023-11-25 00:16:51,269 - pe_classification.py - line:135 - INFO - epoch:98 cur_iter:111/197 total_iters:19220 lr:1.807353e-07 loss:0.076637 eta:0:00:44.453280
+2023-11-25 00:16:56,079 - pe_classification.py - line:135 - INFO - epoch:98 cur_iter:131/197 total_iters:19240 lr:1.659960e-07 loss:0.104836 eta:0:00:42.600600
+2023-11-25 00:16:59,905 - pe_classification.py - line:135 - INFO - epoch:98 cur_iter:151/197 total_iters:19260 lr:1.518825e-07 loss:0.054680 eta:0:00:40.748400
+2023-11-25 00:17:04,725 - pe_classification.py - line:135 - INFO - epoch:98 cur_iter:171/197 total_iters:19280 lr:1.383950e-07 loss:0.050339 eta:0:00:38.896200
+2023-11-25 00:17:08,610 - pe_classification.py - line:135 - INFO - epoch:98 cur_iter:191/197 total_iters:19300 lr:1.255337e-07 loss:0.085156 eta:0:00:37.043600
+2023-11-25 00:17:14,596 - pe_classification.py - line:135 - INFO - epoch:99 cur_iter:14/197 total_iters:19320 lr:1.132988e-07 loss:0.062098 eta:0:00:35.191420
+2023-11-25 00:17:19,359 - pe_classification.py - line:135 - INFO - epoch:99 cur_iter:34/197 total_iters:19340 lr:1.016904e-07 loss:0.065188 eta:0:00:33.339240
+2023-11-25 00:17:23,275 - pe_classification.py - line:135 - INFO - epoch:99 cur_iter:54/197 total_iters:19360 lr:9.070866e-08 loss:0.061514 eta:0:00:31.486720
+2023-11-25 00:17:28,115 - pe_classification.py - line:135 - INFO - epoch:99 cur_iter:74/197 total_iters:19380 lr:8.035370e-08 loss:0.050094 eta:0:00:29.634240
+2023-11-25 00:17:31,950 - pe_classification.py - line:135 - INFO - epoch:99 cur_iter:94/197 total_iters:19400 lr:7.062566e-08 loss:0.078342 eta:0:00:27.782100
+2023-11-25 00:17:36,783 - pe_classification.py - line:135 - INFO - epoch:99 cur_iter:114/197 total_iters:19420 lr:6.152467e-08 loss:0.045612 eta:0:00:25.929960
+2023-11-25 00:17:40,686 - pe_classification.py - line:135 - INFO - epoch:99 cur_iter:134/197 total_iters:19440 lr:5.305083e-08 loss:0.066351 eta:0:00:24.077560
+2023-11-25 00:17:45,538 - pe_classification.py - line:135 - INFO - epoch:99 cur_iter:154/197 total_iters:19460 lr:4.520425e-08 loss:0.048040 eta:0:00:22.225440
+2023-11-25 00:17:49,328 - pe_classification.py - line:135 - INFO - epoch:99 cur_iter:174/197 total_iters:19480 lr:3.798505e-08 loss:0.074983 eta:0:00:20.373100
+2023-11-25 00:17:53,759 - pe_classification.py - line:135 - INFO - epoch:99 cur_iter:194/197 total_iters:19500 lr:3.139329e-08 loss:0.065970 eta:0:00:18.521000
+2023-11-25 00:18:00,261 - pe_classification.py - line:135 - INFO - epoch:100 cur_iter:17/197 total_iters:19520 lr:2.542907e-08 loss:0.058148 eta:0:00:16.668900
+2023-11-25 00:18:04,125 - pe_classification.py - line:135 - INFO - epoch:100 cur_iter:37/197 total_iters:19540 lr:2.009246e-08 loss:0.066613 eta:0:00:14.816640
+2023-11-25 00:18:09,002 - pe_classification.py - line:135 - INFO - epoch:100 cur_iter:57/197 total_iters:19560 lr:1.538353e-08 loss:0.061738 eta:0:00:12.964560
+2023-11-25 00:18:12,858 - pe_classification.py - line:135 - INFO - epoch:100 cur_iter:77/197 total_iters:19580 lr:1.130234e-08 loss:0.044133 eta:0:00:11.112480
+2023-11-25 00:18:17,756 - pe_classification.py - line:135 - INFO - epoch:100 cur_iter:97/197 total_iters:19600 lr:7.848938e-09 loss:0.064216 eta:0:00:09.260400
+2023-11-25 00:18:21,648 - pe_classification.py - line:135 - INFO - epoch:100 cur_iter:117/197 total_iters:19620 lr:5.023368e-09 loss:0.046258 eta:0:00:07.408240
+2023-11-25 00:18:26,503 - pe_classification.py - line:135 - INFO - epoch:100 cur_iter:137/197 total_iters:19640 lr:2.825665e-09 loss:0.079379 eta:0:00:05.556180
+2023-11-25 00:18:29,468 - pe_classification.py - line:135 - INFO - epoch:100 cur_iter:157/197 total_iters:19660 lr:1.255858e-09 loss:0.079644 eta:0:00:03.704120
+2023-11-25 00:18:32,115 - pe_classification.py - line:135 - INFO - epoch:100 cur_iter:177/197 total_iters:19680 lr:3.139654e-10 loss:0.038426 eta:0:00:01.852060
+2023-11-25 00:18:35,407 - pe_classification.py - line:135 - INFO - epoch:100 cur_iter:197/197 total_iters:19700 lr:0.000000e+00 loss:0.066255 eta:0:00:00
+2023-11-25 00:18:38,206 - pe_classification.py - line:164 - INFO - [val] cur_iters:0/788 eta:0:01:00.816212
+2023-11-25 00:18:42,102 - pe_classification.py - line:164 - INFO - [val] cur_iters:20/788 eta:0:01:00.356764
+2023-11-25 00:18:47,171 - pe_classification.py - line:164 - INFO - [val] cur_iters:40/788 eta:0:00:58.917384
+2023-11-25 00:18:51,207 - pe_classification.py - line:164 - INFO - [val] cur_iters:60/788 eta:0:00:57.318861
+2023-11-25 00:18:56,211 - pe_classification.py - line:164 - INFO - [val] cur_iters:80/788 eta:0:00:55.789370
+2023-11-25 00:19:00,231 - pe_classification.py - line:164 - INFO - [val] cur_iters:100/788 eta:0:00:54.158958
+2023-11-25 00:19:05,235 - pe_classification.py - line:164 - INFO - [val] cur_iters:120/788 eta:0:00:52.540924
+2023-11-25 00:19:09,397 - pe_classification.py - line:164 - INFO - [val] cur_iters:140/788 eta:0:00:50.938310
+2023-11-25 00:19:14,305 - pe_classification.py - line:164 - INFO - [val] cur_iters:160/788 eta:0:00:49.381893
+2023-11-25 00:19:18,516 - pe_classification.py - line:164 - INFO - [val] cur_iters:180/788 eta:0:00:47.789110
+2023-11-25 00:19:23,542 - pe_classification.py - line:164 - INFO - [val] cur_iters:200/788 eta:0:00:46.216858
+2023-11-25 00:19:27,718 - pe_classification.py - line:164 - INFO - [val] cur_iters:220/788 eta:0:00:44.622900
+2023-11-25 00:19:32,721 - pe_classification.py - line:164 - INFO - [val] cur_iters:240/788 eta:0:00:43.045618
+2023-11-25 00:19:36,847 - pe_classification.py - line:164 - INFO - [val] cur_iters:260/788 eta:0:00:41.459617
+2023-11-25 00:19:41,709 - pe_classification.py - line:164 - INFO - [val] cur_iters:280/788 eta:0:00:39.866424
+2023-11-25 00:19:46,085 - pe_classification.py - line:164 - INFO - [val] cur_iters:300/788 eta:0:00:38.280635
+2023-11-25 00:19:50,907 - pe_classification.py - line:164 - INFO - [val] cur_iters:320/788 eta:0:00:36.701997
+2023-11-25 00:19:55,264 - pe_classification.py - line:164 - INFO - [val] cur_iters:340/788 eta:0:00:35.109615
+2023-11-25 00:19:59,812 - pe_classification.py - line:164 - INFO - [val] cur_iters:360/788 eta:0:00:33.532310
+2023-11-25 00:20:04,269 - pe_classification.py - line:164 - INFO - [val] cur_iters:380/788 eta:0:00:31.946244
+2023-11-25 00:20:08,776 - pe_classification.py - line:164 - INFO - [val] cur_iters:400/788 eta:0:00:30.367890
+2023-11-25 00:20:13,382 - pe_classification.py - line:164 - INFO - [val] cur_iters:420/788 eta:0:00:28.792618
+2023-11-25 00:20:17,980 - pe_classification.py - line:164 - INFO - [val] cur_iters:440/788 eta:0:00:27.223885
+2023-11-25 00:20:22,595 - pe_classification.py - line:164 - INFO - [val] cur_iters:460/788 eta:0:00:25.649226
+2023-11-25 00:20:27,060 - pe_classification.py - line:164 - INFO - [val] cur_iters:480/788 eta:0:00:24.081694
+2023-11-25 00:20:31,828 - pe_classification.py - line:164 - INFO - [val] cur_iters:500/788 eta:0:00:22.510845
+2023-11-25 00:20:36,315 - pe_classification.py - line:164 - INFO - [val] cur_iters:520/788 eta:0:00:20.937606
+2023-11-25 00:20:41,057 - pe_classification.py - line:164 - INFO - [val] cur_iters:540/788 eta:0:00:19.363565
+2023-11-25 00:20:45,432 - pe_classification.py - line:164 - INFO - [val] cur_iters:560/788 eta:0:00:17.793395
+2023-11-25 00:20:50,174 - pe_classification.py - line:164 - INFO - [val] cur_iters:580/788 eta:0:00:16.223004
+2023-11-25 00:20:54,491 - pe_classification.py - line:164 - INFO - [val] cur_iters:600/788 eta:0:00:14.655938
+2023-11-25 00:20:59,071 - pe_classification.py - line:164 - INFO - [val] cur_iters:620/788 eta:0:00:13.088124
+2023-11-25 00:21:03,402 - pe_classification.py - line:164 - INFO - [val] cur_iters:640/788 eta:0:00:11.520684
+2023-11-25 00:21:08,209 - pe_classification.py - line:164 - INFO - [val] cur_iters:660/788 eta:0:00:09.952355
+2023-11-25 00:21:12,634 - pe_classification.py - line:164 - INFO - [val] cur_iters:680/788 eta:0:00:08.384092
+2023-11-25 00:21:17,376 - pe_classification.py - line:164 - INFO - [val] cur_iters:700/788 eta:0:00:06.815667
+2023-11-25 00:21:21,850 - pe_classification.py - line:164 - INFO - [val] cur_iters:720/788 eta:0:00:05.249517
+2023-11-25 00:21:26,442 - pe_classification.py - line:164 - INFO - [val] cur_iters:740/788 eta:0:00:03.682168
+2023-11-25 00:21:29,483 - pe_classification.py - line:164 - INFO - [val] cur_iters:760/788 eta:0:00:02.115396
+2023-11-25 00:21:33,339 - pe_classification.py - line:164 - INFO - [val] cur_iters:780/788 eta:0:00:00.548415
+2023-11-25 00:21:34,599 - pe_classification.py - line:167 - INFO - ----------------------------------------
+2023-11-25 00:21:34,600 - pe_classification.py - line:169 - INFO - ### top1: 70.3015873015873
+2023-11-25 00:21:34,600 - pe_classification.py - line:169 - INFO - ### top5: 91.28571428571429
+2023-11-25 00:21:34,600 - pe_classification.py - line:170 - INFO - ----------------------------------------

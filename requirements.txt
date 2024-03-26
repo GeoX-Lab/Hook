@@ -1,0 +1,7 @@
+timm==0.9.16
+terminaltables
+einops
+einops_exts
+matplotlib
+opencv-python
+pandas==2.0.3

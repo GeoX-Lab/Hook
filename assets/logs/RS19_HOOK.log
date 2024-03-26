@@ -1,0 +1,257 @@
+2024-01-17 10:06:24,076 - main_classification.py - line:50 - INFO - Namespace(backbone_depth=12, batch_size=32, dataset='WHURS19', downsample_dim=512, eval_epochs=20, exp_name='RS19_Token6_DownConv4_dim512_semanticLG_cross1dim256_backbone12_vis', lr=0.0001, max_epochs=100, num_workers=8, output_dir='./workdirs/RS19_Token6_DownConv4_dim512_semanticLG_cross1dim256_backbone12_vis/2024-01-17 10:06:24', print_freq=20, seed=0, token_num=6, vis=True, warmup_epochs=10)
+2024-01-17 10:06:24,077 - main_classification.py - line:53 - INFO - set seed: 0
+2024-01-17 10:06:32,803 - main_classification.py - line:116 - INFO - ----------------------------------------
+2024-01-17 10:06:32,803 - main_classification.py - line:117 - INFO - ### Total Params: 98.84M
+2024-01-17 10:06:32,803 - main_classification.py - line:118 - INFO - ### Freeze Params: 0.00M
+2024-01-17 10:06:32,803 - main_classification.py - line:119 - INFO - ### Trainable Params: 98.84M
+2024-01-17 10:06:32,803 - main_classification.py - line:120 - INFO - ----------------------------------------
+2024-01-17 10:06:37,192 - main_classification.py - line:194 - INFO - [val] cur_iters:0/10 eta:0:00:08.984961
+2024-01-17 10:06:39,826 - main_classification.py - line:197 - INFO - ----------------------------------------
+2024-01-17 10:06:39,827 - main_classification.py - line:199 - INFO - ### top1: 1.9607843137254901
+2024-01-17 10:06:39,827 - main_classification.py - line:199 - INFO - ### top5: 20.58823529411765
+2024-01-17 10:06:39,827 - main_classification.py - line:200 - INFO - ----------------------------------------
+2024-01-17 10:06:49,538 - main_classification.py - line:159 - INFO - epoch:1 cur_iter:20/22 total_iters:20 lr:9.090909e-06 loss:2.784637 eta:0:11:03.280260
+2024-01-17 10:06:49,539 - main_classification.py - line:161 - INFO - cos_loss:0.0005442301626317203
+2024-01-17 10:06:58,552 - main_classification.py - line:159 - INFO - epoch:2 cur_iter:18/22 total_iters:40 lr:1.818182e-05 loss:2.037639 eta:0:10:33.197520
+2024-01-17 10:06:58,553 - main_classification.py - line:161 - INFO - cos_loss:0.0005406273994594812
+2024-01-17 10:07:05,699 - main_classification.py - line:159 - INFO - epoch:3 cur_iter:16/22 total_iters:60 lr:2.727273e-05 loss:1.778112 eta:0:09:49.604240
+2024-01-17 10:07:05,699 - main_classification.py - line:161 - INFO - cos_loss:0.0005319383344613016
+2024-01-17 10:07:13,649 - main_classification.py - line:159 - INFO - epoch:4 cur_iter:14/22 total_iters:80 lr:3.636364e-05 loss:1.656532 eta:0:09:25.217440
+2024-01-17 10:07:13,649 - main_classification.py - line:161 - INFO - cos_loss:0.0005162556772120297
+2024-01-17 10:07:21,769 - main_classification.py - line:159 - INFO - epoch:5 cur_iter:12/22 total_iters:100 lr:4.545455e-05 loss:1.737995 eta:0:09:08.732100
+2024-01-17 10:07:21,770 - main_classification.py - line:161 - INFO - cos_loss:0.00048277113819494843
+2024-01-17 10:07:29,693 - main_classification.py - line:159 - INFO - epoch:6 cur_iter:10/22 total_iters:120 lr:5.454545e-05 loss:1.685788 eta:0:08:56.153280
+2024-01-17 10:07:29,694 - main_classification.py - line:161 - INFO - cos_loss:0.00045988295460119843
+2024-01-17 10:07:37,519 - main_classification.py - line:159 - INFO - epoch:7 cur_iter:8/22 total_iters:140 lr:6.363636e-05 loss:1.628710 eta:0:08:45.903580
+2024-01-17 10:07:37,520 - main_classification.py - line:161 - INFO - cos_loss:0.0004283057351130992
+2024-01-17 10:07:45,685 - main_classification.py - line:159 - INFO - epoch:8 cur_iter:6/22 total_iters:160 lr:7.272727e-05 loss:1.547502 eta:0:08:36.876840
+2024-01-17 10:07:45,686 - main_classification.py - line:161 - INFO - cos_loss:0.00040414597606286407
+2024-01-17 10:07:53,571 - main_classification.py - line:159 - INFO - epoch:9 cur_iter:4/22 total_iters:180 lr:8.181818e-05 loss:1.569321 eta:0:08:28.688520
+2024-01-17 10:07:53,572 - main_classification.py - line:161 - INFO - cos_loss:0.00037553574657067657
+2024-01-17 10:08:01,497 - main_classification.py - line:159 - INFO - epoch:10 cur_iter:2/22 total_iters:200 lr:9.090909e-05 loss:1.430180 eta:0:08:21.504000
+2024-01-17 10:08:01,498 - main_classification.py - line:161 - INFO - cos_loss:0.0003577338356990367
+2024-01-17 10:08:06,431 - main_classification.py - line:159 - INFO - epoch:10 cur_iter:22/22 total_iters:220 lr:1.000000e-04 loss:1.425799 eta:0:08:14.552520
+2024-01-17 10:08:06,432 - main_classification.py - line:161 - INFO - cos_loss:0.00033738877391442657
+2024-01-17 10:08:14,573 - main_classification.py - line:159 - INFO - epoch:11 cur_iter:20/22 total_iters:240 lr:9.997483e-05 loss:1.577793 eta:0:08:08.326160
+2024-01-17 10:08:14,573 - main_classification.py - line:161 - INFO - cos_loss:0.0002856784558389336
+2024-01-17 10:08:22,430 - main_classification.py - line:159 - INFO - epoch:12 cur_iter:18/22 total_iters:260 lr:9.989933e-05 loss:1.315194 eta:0:08:02.082240
+2024-01-17 10:08:22,431 - main_classification.py - line:161 - INFO - cos_loss:0.0002547370095271617
+2024-01-17 10:08:30,430 - main_classification.py - line:159 - INFO - epoch:13 cur_iter:16/22 total_iters:280 lr:9.977360e-05 loss:1.179601 eta:0:07:56.140800
+2024-01-17 10:08:30,431 - main_classification.py - line:161 - INFO - cos_loss:0.0002488030295353383
+2024-01-17 10:08:38,509 - main_classification.py - line:159 - INFO - epoch:14 cur_iter:14/22 total_iters:300 lr:9.959774e-05 loss:1.307615 eta:0:07:50.227200
+2024-01-17 10:08:38,509 - main_classification.py - line:161 - INFO - cos_loss:0.00023481581592932343
+2024-01-17 10:08:46,177 - main_classification.py - line:159 - INFO - epoch:15 cur_iter:12/22 total_iters:320 lr:9.937194e-05 loss:1.263969 eta:0:07:44.343080
+2024-01-17 10:08:46,178 - main_classification.py - line:161 - INFO - cos_loss:0.0002079010009765625
+2024-01-17 10:08:54,433 - main_classification.py - line:159 - INFO - epoch:16 cur_iter:10/22 total_iters:340 lr:9.909643e-05 loss:1.086362 eta:0:07:38.556960
+2024-01-17 10:08:54,433 - main_classification.py - line:161 - INFO - cos_loss:0.0002040863037109375
+2024-01-17 10:09:02,559 - main_classification.py - line:159 - INFO - epoch:17 cur_iter:8/22 total_iters:360 lr:9.877149e-05 loss:1.144271 eta:0:07:33.120240
+2024-01-17 10:09:02,559 - main_classification.py - line:161 - INFO - cos_loss:0.00018903944874182343
+2024-01-17 10:09:09,959 - main_classification.py - line:159 - INFO - epoch:18 cur_iter:6/22 total_iters:380 lr:9.839744e-05 loss:0.883404 eta:0:07:27.750940
+2024-01-17 10:09:09,959 - main_classification.py - line:161 - INFO - cos_loss:0.0001735687255859375
+2024-01-17 10:09:17,981 - main_classification.py - line:159 - INFO - epoch:19 cur_iter:4/22 total_iters:400 lr:9.797465e-05 loss:1.056941 eta:0:07:22.411200
+2024-01-17 10:09:17,981 - main_classification.py - line:161 - INFO - cos_loss:0.00016466777015011758
+2024-01-17 10:09:25,932 - main_classification.py - line:159 - INFO - epoch:20 cur_iter:2/22 total_iters:420 lr:9.750356e-05 loss:0.957768 eta:0:07:17.125280
+2024-01-17 10:09:25,933 - main_classification.py - line:161 - INFO - cos_loss:0.00014601813745684922
+2024-01-17 10:09:30,848 - main_classification.py - line:159 - INFO - epoch:20 cur_iter:22/22 total_iters:440 lr:9.698463e-05 loss:0.962735 eta:0:07:11.824800
+2024-01-17 10:09:30,848 - main_classification.py - line:161 - INFO - cos_loss:0.00014008415746502578
+2024-01-17 10:09:34,671 - main_classification.py - line:194 - INFO - [val] cur_iters:0/10 eta:0:00:02.114370
+2024-01-17 10:09:37,149 - main_classification.py - line:197 - INFO - ----------------------------------------
+2024-01-17 10:09:37,149 - main_classification.py - line:199 - INFO - ### top1: 71.24183006535948
+2024-01-17 10:09:37,149 - main_classification.py - line:199 - INFO - ### top5: 97.7124183006536
+2024-01-17 10:09:37,149 - main_classification.py - line:200 - INFO - ----------------------------------------
+2024-01-17 10:09:45,454 - main_classification.py - line:159 - INFO - epoch:21 cur_iter:20/22 total_iters:460 lr:9.641840e-05 loss:0.819911 eta:0:07:06.780240
+2024-01-17 10:09:45,454 - main_classification.py - line:161 - INFO - cos_loss:0.00012821621203329414
+2024-01-17 10:09:53,559 - main_classification.py - line:159 - INFO - epoch:22 cur_iter:18/22 total_iters:480 lr:9.580542e-05 loss:0.865540 eta:0:07:01.596080
+2024-01-17 10:09:53,559 - main_classification.py - line:161 - INFO - cos_loss:0.00011973911023233086
+2024-01-17 10:10:01,809 - main_classification.py - line:159 - INFO - epoch:23 cur_iter:16/22 total_iters:500 lr:9.514633e-05 loss:0.856046 eta:0:06:56.440500
+2024-01-17 10:10:01,809 - main_classification.py - line:161 - INFO - cos_loss:9.197658800985664e-05
+2024-01-17 10:10:09,503 - main_classification.py - line:159 - INFO - epoch:24 cur_iter:14/22 total_iters:520 lr:9.444177e-05 loss:1.006875 eta:0:06:51.307680
+2024-01-17 10:10:09,503 - main_classification.py - line:161 - INFO - cos_loss:6.167093670228496e-05
+2024-01-17 10:10:17,578 - main_classification.py - line:159 - INFO - epoch:25 cur_iter:12/22 total_iters:540 lr:9.369247e-05 loss:0.730189 eta:0:06:46.119000
+2024-01-17 10:10:17,578 - main_classification.py - line:161 - INFO - cos_loss:6.145900988485664e-05
+2024-01-17 10:10:25,873 - main_classification.py - line:159 - INFO - epoch:26 cur_iter:10/22 total_iters:560 lr:9.289917e-05 loss:0.688198 eta:0:06:40.970160
+2024-01-17 10:10:25,873 - main_classification.py - line:161 - INFO - cos_loss:5.976359170745127e-05
+2024-01-17 10:10:33,823 - main_classification.py - line:159 - INFO - epoch:27 cur_iter:8/22 total_iters:580 lr:9.206268e-05 loss:0.839036 eta:0:06:35.843760
+2024-01-17 10:10:33,823 - main_classification.py - line:161 - INFO - cos_loss:2.3312039047596045e-05
+2024-01-17 10:10:41,947 - main_classification.py - line:159 - INFO - epoch:28 cur_iter:6/22 total_iters:600 lr:9.118383e-05 loss:0.733145 eta:0:06:30.876800
+2024-01-17 10:10:41,947 - main_classification.py - line:161 - INFO - cos_loss:2.6279025405528955e-05
+2024-01-17 10:10:49,519 - main_classification.py - line:159 - INFO - epoch:29 cur_iter:4/22 total_iters:620 lr:9.026351e-05 loss:0.694164 eta:0:06:25.927640
+2024-01-17 10:10:49,519 - main_classification.py - line:161 - INFO - cos_loss:1.8437704056850635e-05
+2024-01-17 10:10:57,643 - main_classification.py - line:159 - INFO - epoch:30 cur_iter:2/22 total_iters:640 lr:8.930265e-05 loss:0.602858 eta:0:06:20.877120
+2024-01-17 10:10:57,643 - main_classification.py - line:161 - INFO - cos_loss:1.9285414964542724e-05
+2024-01-17 10:11:02,702 - main_classification.py - line:159 - INFO - epoch:30 cur_iter:22/22 total_iters:660 lr:8.830222e-05 loss:0.678070 eta:0:06:15.898600
+2024-01-17 10:11:02,703 - main_classification.py - line:161 - INFO - cos_loss:1.0596381798677612e-06
+2024-01-17 10:11:10,941 - main_classification.py - line:159 - INFO - epoch:31 cur_iter:20/22 total_iters:680 lr:8.726322e-05 loss:0.608293 eta:0:06:11.015280
+2024-01-17 10:11:10,942 - main_classification.py - line:161 - INFO - cos_loss:1.0172526344831567e-05
+2024-01-17 10:11:18,589 - main_classification.py - line:159 - INFO - epoch:32 cur_iter:18/22 total_iters:700 lr:8.618670e-05 loss:0.534919 eta:0:06:06.063000
+2024-01-17 10:11:18,590 - main_classification.py - line:161 - INFO - cos_loss:9.324815437139478e-06
+2024-01-17 10:11:26,720 - main_classification.py - line:159 - INFO - epoch:33 cur_iter:16/22 total_iters:720 lr:8.507374e-05 loss:0.521089 eta:0:06:01.142200
+2024-01-17 10:11:26,721 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:11:34,916 - main_classification.py - line:159 - INFO - epoch:34 cur_iter:14/22 total_iters:740 lr:8.392547e-05 loss:0.630548 eta:0:05:56.210800
+2024-01-17 10:11:34,916 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:11:42,544 - main_classification.py - line:159 - INFO - epoch:35 cur_iter:12/22 total_iters:760 lr:8.274304e-05 loss:0.663730 eta:0:05:51.311040
+2024-01-17 10:11:42,545 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:11:50,706 - main_classification.py - line:159 - INFO - epoch:36 cur_iter:10/22 total_iters:780 lr:8.152763e-05 loss:0.515467 eta:0:05:46.380600
+2024-01-17 10:11:50,707 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:11:58,967 - main_classification.py - line:159 - INFO - epoch:37 cur_iter:8/22 total_iters:800 lr:8.028048e-05 loss:0.518435 eta:0:05:41.481000
+2024-01-17 10:11:58,967 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:12:06,679 - main_classification.py - line:159 - INFO - epoch:38 cur_iter:6/22 total_iters:820 lr:7.900285e-05 loss:0.457717 eta:0:05:36.575100
+2024-01-17 10:12:06,679 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:12:14,909 - main_classification.py - line:159 - INFO - epoch:39 cur_iter:4/22 total_iters:840 lr:7.769600e-05 loss:0.467673 eta:0:05:31.646880
+2024-01-17 10:12:14,910 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:12:23,181 - main_classification.py - line:159 - INFO - epoch:40 cur_iter:2/22 total_iters:860 lr:7.636127e-05 loss:0.492956 eta:0:05:26.773740
+2024-01-17 10:12:23,182 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:12:28,187 - main_classification.py - line:159 - INFO - epoch:40 cur_iter:22/22 total_iters:880 lr:7.500000e-05 loss:0.465491 eta:0:05:21.896520
+2024-01-17 10:12:28,187 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:12:31,500 - main_classification.py - line:194 - INFO - [val] cur_iters:0/10 eta:0:00:02.392155
+2024-01-17 10:12:34,125 - main_classification.py - line:197 - INFO - ----------------------------------------
+2024-01-17 10:12:34,125 - main_classification.py - line:199 - INFO - ### top1: 82.02614349165773
+2024-01-17 10:12:34,126 - main_classification.py - line:199 - INFO - ### top5: 98.69281045751634
+2024-01-17 10:12:34,126 - main_classification.py - line:200 - INFO - ----------------------------------------
+2024-01-17 10:12:42,371 - main_classification.py - line:159 - INFO - epoch:41 cur_iter:20/22 total_iters:900 lr:7.361355e-05 loss:0.357873 eta:0:05:17.036200
+2024-01-17 10:12:42,372 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:12:50,903 - main_classification.py - line:159 - INFO - epoch:42 cur_iter:18/22 total_iters:920 lr:7.220333e-05 loss:0.443422 eta:0:05:12.131840
+2024-01-17 10:12:50,903 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:12:58,436 - main_classification.py - line:159 - INFO - epoch:43 cur_iter:16/22 total_iters:940 lr:7.077075e-05 loss:0.358514 eta:0:05:07.233360
+2024-01-17 10:12:58,436 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:13:06,531 - main_classification.py - line:159 - INFO - epoch:44 cur_iter:14/22 total_iters:960 lr:6.931726e-05 loss:0.471048 eta:0:05:02.302080
+2024-01-17 10:13:06,532 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:13:14,644 - main_classification.py - line:159 - INFO - epoch:45 cur_iter:12/22 total_iters:980 lr:6.784431e-05 loss:0.355253 eta:0:04:57.356700
+2024-01-17 10:13:14,645 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:13:22,419 - main_classification.py - line:159 - INFO - epoch:46 cur_iter:10/22 total_iters:1000 lr:6.635340e-05 loss:0.385143 eta:0:04:52.461600
+2024-01-17 10:13:22,419 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:13:30,369 - main_classification.py - line:159 - INFO - epoch:47 cur_iter:8/22 total_iters:1020 lr:6.484602e-05 loss:0.368143 eta:0:04:47.571900
+2024-01-17 10:13:30,370 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:13:38,547 - main_classification.py - line:159 - INFO - epoch:48 cur_iter:6/22 total_iters:1040 lr:6.332369e-05 loss:0.386073 eta:0:04:42.676920
+2024-01-17 10:13:38,548 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:13:46,395 - main_classification.py - line:159 - INFO - epoch:49 cur_iter:4/22 total_iters:1060 lr:6.178795e-05 loss:0.259666 eta:0:04:37.786080
+2024-01-17 10:13:46,396 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:13:54,153 - main_classification.py - line:159 - INFO - epoch:50 cur_iter:2/22 total_iters:1080 lr:6.024033e-05 loss:0.303756 eta:0:04:32.891360
+2024-01-17 10:13:54,154 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:13:59,189 - main_classification.py - line:159 - INFO - epoch:50 cur_iter:22/22 total_iters:1100 lr:5.868241e-05 loss:0.328276 eta:0:04:27.991900
+2024-01-17 10:13:59,190 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:14:07,318 - main_classification.py - line:159 - INFO - epoch:51 cur_iter:20/22 total_iters:1120 lr:5.711574e-05 loss:0.263107 eta:0:04:23.108520
+2024-01-17 10:14:07,318 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:14:15,281 - main_classification.py - line:159 - INFO - epoch:52 cur_iter:18/22 total_iters:1140 lr:5.554191e-05 loss:0.307395 eta:0:04:18.195860
+2024-01-17 10:14:15,281 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:14:23,111 - main_classification.py - line:159 - INFO - epoch:53 cur_iter:16/22 total_iters:1160 lr:5.396250e-05 loss:0.291844 eta:0:04:13.316960
+2024-01-17 10:14:23,111 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:14:31,343 - main_classification.py - line:159 - INFO - epoch:54 cur_iter:14/22 total_iters:1180 lr:5.237910e-05 loss:0.286122 eta:0:04:08.435280
+2024-01-17 10:14:31,343 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:14:39,424 - main_classification.py - line:159 - INFO - epoch:55 cur_iter:12/22 total_iters:1200 lr:5.079330e-05 loss:0.373794 eta:0:04:03.548000
+2024-01-17 10:14:39,425 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:14:47,411 - main_classification.py - line:159 - INFO - epoch:56 cur_iter:10/22 total_iters:1220 lr:4.920670e-05 loss:0.230345 eta:0:03:58.672140
+2024-01-17 10:14:47,411 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:14:55,597 - main_classification.py - line:159 - INFO - epoch:57 cur_iter:8/22 total_iters:1240 lr:4.762090e-05 loss:0.241138 eta:0:03:53.780160
+2024-01-17 10:14:55,598 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:15:03,461 - main_classification.py - line:159 - INFO - epoch:58 cur_iter:6/22 total_iters:1260 lr:4.603750e-05 loss:0.228269 eta:0:03:48.900340
+2024-01-17 10:15:03,462 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:15:11,779 - main_classification.py - line:159 - INFO - epoch:59 cur_iter:4/22 total_iters:1280 lr:4.445809e-05 loss:0.222353 eta:0:03:44.024600
+2024-01-17 10:15:11,780 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:15:19,653 - main_classification.py - line:159 - INFO - epoch:60 cur_iter:2/22 total_iters:1300 lr:4.288426e-05 loss:0.186689 eta:0:03:39.145500
+2024-01-17 10:15:19,654 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:15:24,688 - main_classification.py - line:159 - INFO - epoch:60 cur_iter:22/22 total_iters:1320 lr:4.131759e-05 loss:0.207036 eta:0:03:34.265040
+2024-01-17 10:15:24,688 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:15:28,668 - main_classification.py - line:194 - INFO - [val] cur_iters:0/10 eta:0:00:02.221479
+2024-01-17 10:15:30,981 - main_classification.py - line:197 - INFO - ----------------------------------------
+2024-01-17 10:15:30,981 - main_classification.py - line:199 - INFO - ### top1: 84.31372519100414
+2024-01-17 10:15:30,981 - main_classification.py - line:199 - INFO - ### top5: 98.03921568627452
+2024-01-17 10:15:30,981 - main_classification.py - line:200 - INFO - ----------------------------------------
+2024-01-17 10:15:39,689 - main_classification.py - line:159 - INFO - epoch:61 cur_iter:20/22 total_iters:1340 lr:3.975967e-05 loss:0.152532 eta:0:03:29.393660
+2024-01-17 10:15:39,689 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:15:48,081 - main_classification.py - line:159 - INFO - epoch:62 cur_iter:18/22 total_iters:1360 lr:3.821205e-05 loss:0.167616 eta:0:03:24.509760
+2024-01-17 10:15:48,081 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:15:56,138 - main_classification.py - line:159 - INFO - epoch:63 cur_iter:16/22 total_iters:1380 lr:3.667631e-05 loss:0.151657 eta:0:03:19.629000
+2024-01-17 10:15:56,138 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:16:04,537 - main_classification.py - line:159 - INFO - epoch:64 cur_iter:14/22 total_iters:1400 lr:3.515398e-05 loss:0.185542 eta:0:03:14.745600
+2024-01-17 10:16:04,538 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:16:12,542 - main_classification.py - line:159 - INFO - epoch:65 cur_iter:12/22 total_iters:1420 lr:3.364660e-05 loss:0.215406 eta:0:03:09.872280
+2024-01-17 10:16:12,543 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:16:20,813 - main_classification.py - line:159 - INFO - epoch:66 cur_iter:10/22 total_iters:1440 lr:3.215569e-05 loss:0.176684 eta:0:03:04.984760
+2024-01-17 10:16:20,814 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:16:29,021 - main_classification.py - line:159 - INFO - epoch:67 cur_iter:8/22 total_iters:1460 lr:3.068274e-05 loss:0.177879 eta:0:03:00.116000
+2024-01-17 10:16:29,022 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:16:36,345 - main_classification.py - line:159 - INFO - epoch:68 cur_iter:6/22 total_iters:1480 lr:2.922925e-05 loss:0.134683 eta:0:02:55.217760
+2024-01-17 10:16:36,345 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:16:44,625 - main_classification.py - line:159 - INFO - epoch:69 cur_iter:4/22 total_iters:1500 lr:2.779667e-05 loss:0.109499 eta:0:02:50.345000
+2024-01-17 10:16:44,625 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:16:53,123 - main_classification.py - line:159 - INFO - epoch:70 cur_iter:2/22 total_iters:1520 lr:2.638645e-05 loss:0.114308 eta:0:02:45.492280
+2024-01-17 10:16:53,124 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:16:58,150 - main_classification.py - line:159 - INFO - epoch:70 cur_iter:22/22 total_iters:1540 lr:2.500000e-05 loss:0.099859 eta:0:02:40.639380
+2024-01-17 10:16:58,151 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:17:06,098 - main_classification.py - line:159 - INFO - epoch:71 cur_iter:20/22 total_iters:1560 lr:2.363873e-05 loss:0.114044 eta:0:02:35.804160
+2024-01-17 10:17:06,099 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:17:14,290 - main_classification.py - line:159 - INFO - epoch:72 cur_iter:18/22 total_iters:1580 lr:2.230400e-05 loss:0.101810 eta:0:02:30.969380
+2024-01-17 10:17:14,290 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:17:22,448 - main_classification.py - line:159 - INFO - epoch:73 cur_iter:16/22 total_iters:1600 lr:2.099715e-05 loss:0.133817 eta:0:02:26.126400
+2024-01-17 10:17:22,449 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:17:29,310 - main_classification.py - line:159 - INFO - epoch:74 cur_iter:14/22 total_iters:1620 lr:1.971952e-05 loss:0.177161 eta:0:02:21.276400
+2024-01-17 10:17:29,310 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:17:36,217 - main_classification.py - line:159 - INFO - epoch:75 cur_iter:12/22 total_iters:1640 lr:1.847237e-05 loss:0.124747 eta:0:02:16.421600
+2024-01-17 10:17:36,218 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:17:43,115 - main_classification.py - line:159 - INFO - epoch:76 cur_iter:10/22 total_iters:1660 lr:1.725696e-05 loss:0.086120 eta:0:02:11.563980
+2024-01-17 10:17:43,115 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:17:50,074 - main_classification.py - line:159 - INFO - epoch:77 cur_iter:8/22 total_iters:1680 lr:1.607453e-05 loss:0.093377 eta:0:02:06.706320
+2024-01-17 10:17:50,075 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:17:57,038 - main_classification.py - line:159 - INFO - epoch:78 cur_iter:6/22 total_iters:1700 lr:1.492626e-05 loss:0.079805 eta:0:02:01.853500
+2024-01-17 10:17:57,039 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:18:03,976 - main_classification.py - line:159 - INFO - epoch:79 cur_iter:4/22 total_iters:1720 lr:1.381330e-05 loss:0.101358 eta:0:01:56.994240
+2024-01-17 10:18:03,976 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:18:10,893 - main_classification.py - line:159 - INFO - epoch:80 cur_iter:2/22 total_iters:1740 lr:1.273678e-05 loss:0.127135 eta:0:01:52.135580
+2024-01-17 10:18:10,894 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:18:15,917 - main_classification.py - line:159 - INFO - epoch:80 cur_iter:22/22 total_iters:1760 lr:1.169778e-05 loss:0.086605 eta:0:01:47.271560
+2024-01-17 10:18:15,917 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:18:18,471 - main_classification.py - line:194 - INFO - [val] cur_iters:0/10 eta:0:00:02.597355
+2024-01-17 10:18:20,762 - main_classification.py - line:197 - INFO - ----------------------------------------
+2024-01-17 10:18:20,762 - main_classification.py - line:199 - INFO - ### top1: 83.66013041976231
+2024-01-17 10:18:20,762 - main_classification.py - line:199 - INFO - ### top5: 99.01960784313725
+2024-01-17 10:18:20,762 - main_classification.py - line:200 - INFO - ----------------------------------------
+2024-01-17 10:18:28,296 - main_classification.py - line:159 - INFO - epoch:81 cur_iter:20/22 total_iters:1780 lr:1.069735e-05 loss:0.082852 eta:0:01:42.414060
+2024-01-17 10:18:28,297 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:18:35,207 - main_classification.py - line:159 - INFO - epoch:82 cur_iter:18/22 total_iters:1800 lr:9.736487e-06 loss:0.108321 eta:0:01:37.544800
+2024-01-17 10:18:35,207 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:18:42,017 - main_classification.py - line:159 - INFO - epoch:83 cur_iter:16/22 total_iters:1820 lr:8.816171e-06 loss:0.059740 eta:0:01:32.675160
+2024-01-17 10:18:42,018 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:18:48,938 - main_classification.py - line:159 - INFO - epoch:84 cur_iter:14/22 total_iters:1840 lr:7.937323e-06 loss:0.107848 eta:0:01:27.807600
+2024-01-17 10:18:48,938 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:18:55,791 - main_classification.py - line:159 - INFO - epoch:85 cur_iter:12/22 total_iters:1860 lr:7.100829e-06 loss:0.088811 eta:0:01:22.938580
+2024-01-17 10:18:55,791 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:19:02,711 - main_classification.py - line:159 - INFO - epoch:86 cur_iter:10/22 total_iters:1880 lr:6.307531e-06 loss:0.084229 eta:0:01:18.058560
+2024-01-17 10:19:02,712 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:19:09,480 - main_classification.py - line:159 - INFO - epoch:87 cur_iter:8/22 total_iters:1900 lr:5.558228e-06 loss:0.089520 eta:0:01:13.172100
+2024-01-17 10:19:09,480 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:19:16,259 - main_classification.py - line:159 - INFO - epoch:88 cur_iter:6/22 total_iters:1920 lr:4.853673e-06 loss:0.081004 eta:0:01:08.285000
+2024-01-17 10:19:16,260 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:19:23,020 - main_classification.py - line:159 - INFO - epoch:89 cur_iter:4/22 total_iters:1940 lr:4.194577e-06 loss:0.076944 eta:0:01:03.398660
+2024-01-17 10:19:23,021 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:19:29,872 - main_classification.py - line:159 - INFO - epoch:90 cur_iter:2/22 total_iters:1960 lr:3.581603e-06 loss:0.056720 eta:0:00:58.514880
+2024-01-17 10:19:29,873 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:19:34,815 - main_classification.py - line:159 - INFO - epoch:90 cur_iter:22/22 total_iters:1980 lr:3.015369e-06 loss:0.065401 eta:0:00:53.633360
+2024-01-17 10:19:34,816 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:19:41,688 - main_classification.py - line:159 - INFO - epoch:91 cur_iter:20/22 total_iters:2000 lr:2.496444e-06 loss:0.078100 eta:0:00:48.754400
+2024-01-17 10:19:41,688 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:19:48,459 - main_classification.py - line:159 - INFO - epoch:92 cur_iter:18/22 total_iters:2020 lr:2.025351e-06 loss:0.053108 eta:0:00:43.873020
+2024-01-17 10:19:48,460 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:19:55,331 - main_classification.py - line:159 - INFO - epoch:93 cur_iter:16/22 total_iters:2040 lr:1.602565e-06 loss:0.067108 eta:0:00:38.993120
+2024-01-17 10:19:55,331 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:20:02,154 - main_classification.py - line:159 - INFO - epoch:94 cur_iter:14/22 total_iters:2060 lr:1.228511e-06 loss:0.054608 eta:0:00:34.115340
+2024-01-17 10:20:02,154 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:20:08,959 - main_classification.py - line:159 - INFO - epoch:95 cur_iter:12/22 total_iters:2080 lr:9.035651e-07 loss:0.039724 eta:0:00:29.238360
+2024-01-17 10:20:08,959 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:20:15,801 - main_classification.py - line:159 - INFO - epoch:96 cur_iter:10/22 total_iters:2100 lr:6.280556e-07 loss:0.097669 eta:0:00:24.362900
+2024-01-17 10:20:15,801 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:20:22,491 - main_classification.py - line:159 - INFO - epoch:97 cur_iter:8/22 total_iters:2120 lr:4.022594e-07 loss:0.085750 eta:0:00:19.488240
+2024-01-17 10:20:22,492 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:20:29,238 - main_classification.py - line:159 - INFO - epoch:98 cur_iter:6/22 total_iters:2140 lr:2.264039e-07 loss:0.059290 eta:0:00:14.614620
+2024-01-17 10:20:29,239 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:20:36,012 - main_classification.py - line:159 - INFO - epoch:99 cur_iter:4/22 total_iters:2160 lr:1.006662e-07 loss:0.066228 eta:0:00:09.742120
+2024-01-17 10:20:36,013 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:20:42,708 - main_classification.py - line:159 - INFO - epoch:100 cur_iter:2/22 total_iters:2180 lr:2.517288e-08 loss:0.087616 eta:0:00:04.870520
+2024-01-17 10:20:42,709 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:20:47,622 - main_classification.py - line:159 - INFO - epoch:100 cur_iter:22/22 total_iters:2200 lr:0.000000e+00 loss:0.086299 eta:0:00:00
+2024-01-17 10:20:47,623 - main_classification.py - line:161 - INFO - cos_loss:0.0
+2024-01-17 10:20:50,088 - main_classification.py - line:194 - INFO - [val] cur_iters:0/10 eta:0:00:02.276361
+2024-01-17 10:20:52,316 - main_classification.py - line:197 - INFO - ----------------------------------------
+2024-01-17 10:20:52,316 - main_classification.py - line:199 - INFO - ### top1: 87.58169924667457
+2024-01-17 10:20:52,316 - main_classification.py - line:199 - INFO - ### top5: 99.01960784313725
+2024-01-17 10:20:52,316 - main_classification.py - line:200 - INFO - ----------------------------------------
