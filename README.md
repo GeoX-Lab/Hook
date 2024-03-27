@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ## Datasets
 1. download
 
-The datasets we used are publicly available on [Baidu Cloud(code:ep6g )](https://pan.baidu.com/s/1UFkzAKLbs70Ztw_ZyFZvfA?pwd=ep6g), and Google Cloud url will be available soon!
+The datasets we used are publicly available on [Baidu Cloud(code:ep6g)](https://pan.baidu.com/s/1UFkzAKLbs70Ztw_ZyFZvfA?pwd=ep6g) and [Google Cloud](https://drive.google.com/file/d/1N-vQ9Hu6f6PhSpcGN70hJdVJrS_Cbx7v/view?usp=sharing).
 
 2. Prepare datasets
 
