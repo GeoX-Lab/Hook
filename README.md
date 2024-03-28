@@ -1,6 +1,10 @@
 # Homogeneous Tokenizer Matters: Homogeneous Visual Tokenizer for Remote Sensing Image Understanding
 
 <p align="center">
+        <a href="https://arxiv.org/abs/2403.18593">Paper</a>
+</p>
+
+<p align="center">
     <img src="assets/HOOK.webp" width="700"/>
 <p>
 
@@ -136,5 +140,12 @@ More controllable arguments are shown in the file: "pe_classification.py", "pe_s
 If you find our paper and code useful in your research, please consider giving a star and citation :)
 
 ```BibTeX
-coming soon
+@misc{shao2024homogeneous,
+      title={Homogeneous Tokenizer Matters: Homogeneous Visual Tokenizer for Remote Sensing Image Understanding}, 
+      author={Run Shao and Zhaoyang Zhang and Chao Tao and Yunsheng Zhang and Chengli Peng and Haifeng Li},
+      year={2024},
+      eprint={2403.18593},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
