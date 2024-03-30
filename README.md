@@ -140,12 +140,10 @@ More controllable arguments are shown in the file: "pe_classification.py", "pe_s
 If you find our paper and code useful in your research, please consider giving a star and citation :)
 
 ```BibTeX
-@misc{shao2024homogeneous,
-      title={Homogeneous Tokenizer Matters: Homogeneous Visual Tokenizer for Remote Sensing Image Understanding}, 
-      author={Run Shao and Zhaoyang Zhang and Chao Tao and Yunsheng Zhang and Chengli Peng and Haifeng Li},
-      year={2024},
-      eprint={2403.18593},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{shao2024homogeneous,
+  title={Homogeneous Tokenizer Matters: Homogeneous Visual Tokenizer for Remote Sensing Image Understanding},
+  author={Shao, Run and Zhang, Zhaoyang and Tao, Chao and Zhang, Yunsheng and Peng, Chengli and Li, Haifeng},
+  journal={arXiv preprint arXiv:2403.18593},
+  year={2024}
 }
 ```
