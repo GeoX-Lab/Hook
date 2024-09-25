@@ -1,7 +1,7 @@
 # Homogeneous Tokenizer Matters: Homogeneous Visual Tokenizer for Remote Sensing Image Understanding
 
 <p align="center">
-        <a href="https://arxiv.org/abs/2403.18593">Paper</a>
+        <a href="https://www.sciencedirect.com/science/article/pii/S0924271624003472">Paper</a>
 </p>
 
 <p align="center">
